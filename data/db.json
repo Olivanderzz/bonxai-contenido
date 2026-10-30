@@ -1,0 +1,869 @@
+{
+  "version": 3,
+  "actualizado": "2026-10-30T00:00:00.000Z",
+  "inicioPlan": "",
+  "guiones": [
+    {
+      "id": "g01",
+      "n": 1,
+      "titulo": "Construí mi propio ManyChat",
+      "pilar": "Construyendo BONXAI",
+      "formato": "Reel + TikTok",
+      "objetivo": "Presentar tu experiencia construyendo automatizaciones y atraer emprendedores curiosos.",
+      "duracion": "25–35 s",
+      "gancho": "Comenté una palabra y un sistema que construí yo me respondió solo.",
+      "ganchos": [
+        {
+          "tipo": "Resultado",
+          "txt": "Comenté una palabra y un sistema que construí yo me respondió solo."
+        },
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "No pagues otra herramienta de automatización hasta ver esto."
+        },
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Y si tu Instagram respondiera solo cuando alguien comenta?"
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho",
+          "digo": "Comenté una palabra y un sistema que construí yo me respondió solo.",
+          "como": "Sin saludo. Mira al lente y empieza hablando ya, con una mano señalando la pantalla.",
+          "pantalla": "Grabación de pantalla del sistema funcionando, desde el primer segundo."
+        },
+        {
+          "t": "2–7 s",
+          "nombre": "Problema",
+          "digo": "Las herramientas de automatización son buenas, pero a veces te limitan o se vuelven caras. Yo quería controlar cómo funciona todo.",
+          "como": "Tono de conversación, como si se lo contaras a un amigo. Una pequeña pausa antes de decir “caras”.",
+          "pantalla": "Tú a cámara."
+        },
+        {
+          "t": "7–20 s",
+          "nombre": "Demostración",
+          "digo": "Mira: alguien comenta la palabra, el sistema le responde por mensaje directo y el contacto queda organizado con su estado. Todo esto ya funciona en mi sistema.",
+          "como": "Mueve el cursor despacio y señala cada paso. Haz una pausa corta después de cada uno para que se entienda.",
+          "pantalla": "Flujo real: comentario de prueba, respuesta automática, contacto organizado. Solo lo que ya funcione."
+        },
+        {
+          "t": "20–28 s",
+          "nombre": "Contexto",
+          "digo": "No te digo que todo el mundo deba construirlo desde cero. Lo útil es entender el proceso y decidir qué conviene automatizar en tu negocio.",
+          "como": "Baja un poco la velocidad y mira al lente. Tono honesto, sin vender.",
+          "pantalla": "Plano de cámara distinto al anterior."
+        },
+        {
+          "t": "28–35 s",
+          "nombre": "CTA",
+          "digo": "Si quieres que te muestre cómo funciona por dentro, comenta la palabra AUTOMATIZAR.",
+          "como": "Señala hacia abajo, donde están los comentarios, y cierra con una sonrisa.",
+          "pantalla": "La palabra AUTOMATIZAR en pantalla."
+        }
+      ],
+      "textoPantalla": "Sistema funcionando · “De tarea manual a flujo automatizado” · “Prueba real, no promesa”.",
+      "edicion": "Cortes cada 2–4 s cuando cambie la idea; zoom suave en la acción importante; subtítulos grandes y legibles.",
+      "stories": "Antes de publicar: encuesta “¿Qué te gustaría automatizar: comentarios, WhatsApp o seguimiento?”. Después: comparte el Reel y pregunta qué parte quieren ver en detalle.",
+      "descripcion": "Estoy construyendo herramientas para automatizar tareas repetitivas. En este video te muestro una parte real del proceso. ¿Qué tarea te gustaría dejar de hacer manualmente?",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g02",
+      "n": 2,
+      "titulo": "Deja de pedir imágenes así a ChatGPT",
+      "pilar": "IA práctica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Atraer audiencia interesada en IA visual y generar guardados y compartidos.",
+      "duracion": "20–30 s",
+      "gancho": "Tu flyer sale feo porque se lo pides mal. Mira la diferencia.",
+      "ganchos": [
+        {
+          "tipo": "Directo",
+          "txt": "Tu flyer sale feo porque se lo pides mal. Mira la diferencia."
+        },
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "Dejé de pedirle “un flyer bonito” a la IA. Esto hago ahora."
+        },
+        {
+          "tipo": "Comparación",
+          "txt": "El mismo flyer con dos instrucciones. Una vende, la otra no."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho",
+          "digo": "Tu flyer sale feo porque se lo pides mal. Mira la diferencia.",
+          "como": "Empieza con las dos imágenes ya en pantalla. Señala la mala con cara de “ya lo viste”.",
+          "pantalla": "Resultado malo y resultado mejorado, lado a lado."
+        },
+        {
+          "t": "2–6 s",
+          "nombre": "Problema",
+          "digo": "Si le dices “hazme un flyer bonito”, le dejas demasiadas decisiones al azar. Y el azar no sabe qué vendes.",
+          "como": "Con humor suave, sin burlarte de nadie. Una media sonrisa en “el azar”.",
+          "pantalla": "Tú a cámara o la instrucción corta en pantalla."
+        },
+        {
+          "t": "6–18 s",
+          "nombre": "Método",
+          "digo": "Dale el objetivo, el público, qué se lee primero, el formato, el estilo, el texto exacto y lo que no quieres que aparezca. Así lo escribo yo.",
+          "como": "Resalta cada elemento al ritmo en que lo nombras. No leas todo: nombra y muestra.",
+          "pantalla": "Instrucción en pantalla con cada elemento resaltado, uno por uno."
+        },
+        {
+          "t": "18–25 s",
+          "nombre": "Resultado",
+          "digo": "Este es el antes y este el después. Fíjate en cómo ahora lo importante se lee primero.",
+          "como": "Acerca el cursor al cambio y quédate un segundo en silencio para que se note.",
+          "pantalla": "Antes y después, con un cambio concreto señalado."
+        },
+        {
+          "t": "25–30 s",
+          "nombre": "CTA",
+          "digo": "Guarda esta estructura para tu próximo diseño.",
+          "como": "Mira al lente y haz un gesto hacia el botón de guardar.",
+          "pantalla": "Texto: Guárdalo."
+        }
+      ],
+      "textoPantalla": "Antes / Después · “Objetivo + público + jerarquía + formato + restricciones”.",
+      "edicion": "El antes/después debe verse en el primer segundo. No ocultes el resultado hasta el final.",
+      "stories": "Publica una encuesta con dos diseños y pide votar. Después enseña el prompt o comparte el Reel.",
+      "descripcion": "La diferencia suele estar en la dirección creativa: objetivo, público, composición, formato y restricciones. Guarda la estructura y adáptala a tu próximo diseño.",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g03",
+      "n": 3,
+      "titulo": "El error que hace perder clientes por WhatsApp",
+      "pilar": "IA para negocios",
+      "formato": "Reel + TikTok",
+      "objetivo": "Conectar con pequeños negocios y abrir conversación comercial sin vender agresivamente.",
+      "duracion": "25–35 s",
+      "gancho": "Un cliente te escribe, lo ves, y se te olvida. Así se pierden las ventas.",
+      "ganchos": [
+        {
+          "tipo": "Dolor",
+          "txt": "Un cliente te escribe, lo ves, y se te olvida. Así se pierden las ventas."
+        },
+        {
+          "tipo": "Reto",
+          "txt": "Abre tu WhatsApp ahora: ¿cuántos clientes quedaron sin seguimiento?"
+        },
+        {
+          "tipo": "Directo",
+          "txt": "Si vendes por WhatsApp, esto te está haciendo perder clientes."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Un cliente te escribe, lo ves, y se te olvida. Así se pierden las ventas.",
+          "como": "Muestra la bandeja y señala los mensajes sin respuesta con el dedo. Cara de “nos pasa a todos”.",
+          "pantalla": "Bandeja de mensajes ficticia o anonimizada."
+        },
+        {
+          "t": "3–9 s",
+          "nombre": "Problema",
+          "digo": "Te escriben, respondes cuando puedes y después ya nadie hace seguimiento. No es que seas desordenado: es que no hay un sistema.",
+          "como": "Tono cercano, sin regañar. Mueve la cabeza como diciendo “tranquilo”.",
+          "pantalla": "Tú a cámara."
+        },
+        {
+          "t": "9–22 s",
+          "nombre": "Solución",
+          "digo": "Hazlo simple. Guarda el nombre y lo que necesita, ponle una etiqueta con su estado, programa cuándo le vas a escribir otra vez y anota el siguiente paso.",
+          "como": "Cuenta los pasos con los dedos mientras los dices.",
+          "pantalla": "Lista animada con los cuatro pasos."
+        },
+        {
+          "t": "22–29 s",
+          "nombre": "Ejemplo",
+          "digo": "Por ejemplo: contacto nuevo, cotización enviada, seguimiento pendiente. Con solo ver eso ya sabes a quién escribirle hoy.",
+          "como": "Señala cada estado y haz una pausa en “hoy”.",
+          "pantalla": "Los tres estados en pantalla, sin datos reales de clientes."
+        },
+        {
+          "t": "29–35 s",
+          "nombre": "CTA",
+          "digo": "Si quieres la lista de pasos para ordenar esto, comenta la palabra VENTAS.",
+          "como": "Señala hacia abajo y sonríe. Entrega la lista a quien comente.",
+          "pantalla": "La palabra VENTAS en pantalla."
+        }
+      ],
+      "textoPantalla": "Nuevo contacto → Cotización → Seguimiento → Cierre / No interesado.",
+      "edicion": "Usa una lista animada simple; evita mostrar datos reales de clientes.",
+      "stories": "Pregunta: “¿Se te ha olvidado responder o hacer seguimiento a un cliente?”. Luego comparte un tip.",
+      "descripcion": "No necesitas automatizarlo todo de golpe. Empieza por registrar quién te escribió, qué necesita y cuál es el siguiente paso. ¿Dónde se te pierden más oportunidades?",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g04",
+      "n": 4,
+      "titulo": "Claude construye esto conmigo",
+      "pilar": "IA práctica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Demostrar uso práctico de IA para programación y atraer perfiles curiosos de creación.",
+      "duracion": "25–40 s",
+      "gancho": "Construí esta función con Claude. Te muestro dónde se equivocó.",
+      "ganchos": [
+        {
+          "tipo": "Honesto",
+          "txt": "Construí esta función con Claude. Te muestro dónde se equivocó."
+        },
+        {
+          "tipo": "Proceso",
+          "txt": "Le pedí una función a una IA y esto fue lo primero que me dio."
+        },
+        {
+          "tipo": "Resultado",
+          "txt": "Esta función la hizo una IA en minutos. Falta lo que tuve que arreglar."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho",
+          "digo": "Construí esta función con Claude. Te muestro dónde se equivocó.",
+          "como": "Empieza con la función corriendo. Mira al lente y habla sin saludo.",
+          "pantalla": "La función ya funcionando."
+        },
+        {
+          "t": "2–7 s",
+          "nombre": "Contexto",
+          "digo": "Tenía un problema concreto: [cuéntalo en una frase, con tu caso real].",
+          "como": "Completa el corchete con tu caso antes de grabar. Una frase, sin rodeos.",
+          "pantalla": "Tú a cámara."
+        },
+        {
+          "t": "7–20 s",
+          "nombre": "Proceso",
+          "digo": "Le escribí esto, me dio esto, y ahí vi que faltaba algo. Se lo dije y lo corrigió.",
+          "como": "Cuenta lo que pasa en voz alta; no leas código. Acerca la pantalla a lo importante.",
+          "pantalla": "La instrucción y el cambio, con claves y datos privados tapados."
+        },
+        {
+          "t": "20–31 s",
+          "nombre": "Prueba",
+          "digo": "Lo probé así. Esto sí funcionó. Esto otro tuve que arreglarlo yo.",
+          "como": "Di el error sin drama. Que se note que probar y corregir es parte del trabajo.",
+          "pantalla": "La demostración y el error corregido."
+        },
+        {
+          "t": "31–40 s",
+          "nombre": "CTA",
+          "digo": "¿Quieres que te enseñe el proceso completo, con todos los errores? Dímelo en los comentarios.",
+          "como": "Mira al lente, invita con una mano y cierra.",
+          "pantalla": "Texto: el proceso completo."
+        }
+      ],
+      "textoPantalla": "Problema → instrucción → prueba → resultado.",
+      "edicion": "No uses grabación de pantalla ilegible. Acerca la parte importante y resume el código en palabras sencillas.",
+      "stories": "Comparte el reto antes del Reel y después muestra una captura del resultado con una lección.",
+      "descripcion": "La IA acelera partes del desarrollo, pero hay que probar y corregir. Aquí muestro una función real y el proceso detrás del resultado.",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g05",
+      "n": 5,
+      "titulo": "Chatbot vs. agente de IA",
+      "pilar": "IA práctica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Explicar un concepto complejo de manera sencilla y compartible.",
+      "duracion": "20–30 s",
+      "gancho": "Un chatbot te contesta. Un agente de IA hace el trabajo.",
+      "ganchos": [
+        {
+          "tipo": "Contraste",
+          "txt": "Un chatbot te contesta. Un agente de IA hace el trabajo."
+        },
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "Lo que tú llamas agente de IA probablemente es solo un chatbot."
+        },
+        {
+          "tipo": "Analogía",
+          "txt": "Chatbot o agente de IA: te lo explico con un pedido."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Un chatbot te contesta. Un agente de IA hace el trabajo.",
+          "como": "Una mano para el chatbot y la otra para el agente, desde la primera frase.",
+          "pantalla": "Pantalla dividida: una respuesta de chat y un flujo de tareas."
+        },
+        {
+          "t": "3–10 s",
+          "nombre": "Analogía",
+          "digo": "Imagina que preguntas por tu pedido. El chatbot te dice en qué estado va. Un agente conectado al sistema puede revisar el pedido y dejar listo el siguiente paso.",
+          "como": "Usa las dos manos para separar las ideas. Habla más lento en “siguiente paso”.",
+          "pantalla": "Dibujo simple de las dos situaciones."
+        },
+        {
+          "t": "10–21 s",
+          "nombre": "Matiz",
+          "digo": "Eso sí: depende de que tenga acceso a las herramientas, los permisos y datos bien organizados. No hace magia.",
+          "como": "Tono honesto, casi de advertencia amable. Una ceja arriba en “magia”.",
+          "pantalla": "Texto corto en pantalla con las condiciones."
+        },
+        {
+          "t": "21–30 s",
+          "nombre": "CTA",
+          "digo": "Si quieres ejemplos para un negocio pequeño, escribe la palabra AGENTE.",
+          "como": "Señala hacia abajo y cierra con una sonrisa.",
+          "pantalla": "La palabra AGENTE en pantalla."
+        }
+      ],
+      "textoPantalla": "Chatbot: conversa · Agente: planifica, usa herramientas y ejecuta pasos autorizados.",
+      "edicion": "Usa una analogía visual y una sola idea principal.",
+      "stories": "Quiz: “¿Cuál de los dos podría consultar un sistema conectado?”. Luego explica la respuesta.",
+      "descripcion": "La diferencia práctica está en las acciones y herramientas disponibles, no solo en que la conversación suene inteligente.",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g06",
+      "n": 6,
+      "titulo": "Tres tareas que automatizaría primero",
+      "pilar": "IA para negocios",
+      "formato": "Reel + TikTok",
+      "objetivo": "Atraer propietarios de negocios con necesidades concretas.",
+      "duracion": "25–35 s",
+      "gancho": "Si tuviera un negocio pequeño, automatizaría estas tres tareas primero.",
+      "ganchos": [
+        {
+          "tipo": "Directo",
+          "txt": "Si tuviera un negocio pequeño, automatizaría estas tres tareas primero."
+        },
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "No automatices todo. Empieza solo por estas tres tareas."
+        },
+        {
+          "tipo": "Beneficio",
+          "txt": "Tres tareas que te pueden quitar horas a la semana y se automatizan."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Si tuviera un negocio pequeño, automatizaría estas tres tareas primero.",
+          "como": "Levanta tres dedos mientras hablas. Sin saludo.",
+          "pantalla": "Tres etiquetas: responder, registrar, hacer seguimiento."
+        },
+        {
+          "t": "3–10 s",
+          "nombre": "Tarea 1",
+          "digo": "Uno: las preguntas que te repiten todos los días, con la opción de pasar a una persona cuando haga falta.",
+          "como": "Un dedo arriba y un gesto de “todos los días”.",
+          "pantalla": "El número 1 en grande y un ejemplo de pregunta frecuente."
+        },
+        {
+          "t": "10–17 s",
+          "nombre": "Tarea 2",
+          "digo": "Dos: el registro. Quién te escribió, qué pidió y en qué va.",
+          "como": "Dos dedos. Habla más rápido, es una idea sencilla.",
+          "pantalla": "El número 2 y una lista de contactos con su estado."
+        },
+        {
+          "t": "17–24 s",
+          "nombre": "Tarea 3",
+          "digo": "Tres: los recordatorios de seguimiento, para que ninguna conversación se enfríe.",
+          "como": "Tres dedos. Baja la voz en “se enfríe”.",
+          "pantalla": "El número 3 y un recordatorio en pantalla."
+        },
+        {
+          "t": "24–35 s",
+          "nombre": "Cierre",
+          "digo": "Empieza con una sola, mide cuánto tiempo te ahorra y recién ahí sigue con la siguiente. ¿Cuál te quita más tiempo hoy? Cuéntame.",
+          "como": "Mira al lente y haz la pregunta de verdad. Espera medio segundo antes de cortar.",
+          "pantalla": "Pregunta final en pantalla."
+        }
+      ],
+      "textoPantalla": "1. Preguntas frecuentes · 2. Registro · 3. Seguimiento.",
+      "edicion": "Número grande por tarea; cada punto debe tener un ejemplo visible.",
+      "stories": "Encuesta con las tres tareas. Usa el resultado para elegir el siguiente tutorial.",
+      "descripcion": "No automatices por moda. Elige una tarea frecuente, repetitiva y fácil de comprobar. Después mide el tiempo ahorrado y los errores.",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g07",
+      "n": 7,
+      "titulo": "Un prompt para investigar una herramienta de IA",
+      "pilar": "IA práctica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Dar una plantilla guardable sin hacer afirmaciones exageradas.",
+      "duracion": "25–35 s",
+      "gancho": "Antes de pagar otra suscripción de IA, hazle estas preguntas.",
+      "ganchos": [
+        {
+          "tipo": "Directo",
+          "txt": "Antes de pagar otra suscripción de IA, hazle estas preguntas."
+        },
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "La demo se ve increíble y aun así la herramienta puede no servirte."
+        },
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Cuántas suscripciones de IA pagas y no usas? Revisa esto primero."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Antes de pagar otra suscripción de IA, hazle estas preguntas.",
+          "como": "Mira al lente y levanta un dedo como diciendo “espera”.",
+          "pantalla": "Página de una herramienta y una lista de chequeo."
+        },
+        {
+          "t": "3–10 s",
+          "nombre": "Contexto",
+          "digo": "Una demo bonita no te dice si la herramienta sirve para tu caso.",
+          "como": "Tono tranquilo. No critiques ninguna herramienta en particular.",
+          "pantalla": "Tú a cámara."
+        },
+        {
+          "t": "10–25 s",
+          "nombre": "Método",
+          "digo": "Pregúntale qué problema resuelve, cuánto cuesta de verdad, qué límites tiene, qué hace con tus datos, con qué se conecta, si puedes exportar lo tuyo y qué alternativa gratis existe.",
+          "como": "No leas la lista entera de corrido: di cada punto y deja que aparezca el texto.",
+          "pantalla": "Cada pregunta aparece en pantalla cuando la dices."
+        },
+        {
+          "t": "25–35 s",
+          "nombre": "CTA",
+          "digo": "Guarda esta lista y úsala antes de contratar la próxima.",
+          "como": "Señala el botón de guardar y cierra.",
+          "pantalla": "Texto: Guárdalo."
+        }
+      ],
+      "textoPantalla": "Problema · Precio total · Límites · Privacidad · Integraciones · Exportación · Alternativas.",
+      "edicion": "Pon cada pregunta en pantalla; no leas una lista interminable.",
+      "stories": "Pregunta qué herramienta están pensando pagar y ofrece evaluar los criterios en un próximo video.",
+      "descripcion": "Evalúa herramientas por el trabajo que resuelven, su coste total, límites, privacidad e integraciones; no solo por la demostración.",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g08",
+      "n": 8,
+      "titulo": "Estoy construyendo BONXAI",
+      "pilar": "Construyendo BONXAI",
+      "formato": "Reel + TikTok",
+      "objetivo": "Crear una narrativa recurrente que la audiencia pueda seguir.",
+      "duracion": "25–40 s",
+      "gancho": "Hoy construyendo BONXAI se me rompió algo. Así lo arreglé.",
+      "ganchos": [
+        {
+          "tipo": "Proceso",
+          "txt": "Hoy construyendo BONXAI se me rompió algo. Así lo arreglé."
+        },
+        {
+          "tipo": "Honesto",
+          "txt": "Estoy construyendo una herramienta de ventas y hoy salió mal."
+        },
+        {
+          "tipo": "Balance",
+          "txt": "Hoy en BONXAI: esto funcionó y esto no."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Hoy construyendo BONXAI se me rompió algo. Así lo arreglé.",
+          "como": "Empieza con la pantalla del problema. Tono relajado, sin dramatismo.",
+          "pantalla": "El problema o la pantalla antes de explicar."
+        },
+        {
+          "t": "3–9 s",
+          "nombre": "Contexto",
+          "digo": "Quiero que un negocio pueda organizar mejor sus conversaciones y oportunidades. Para eso estoy construyendo BONXAI.",
+          "como": "Una sola frase de contexto. No expliques toda la herramienta.",
+          "pantalla": "Tú a cámara."
+        },
+        {
+          "t": "9–23 s",
+          "nombre": "Proceso",
+          "digo": "El problema de hoy fue este. Primero intenté esto y no funcionó. Después probé esto otro.",
+          "como": "Cuenta el proceso como una historia corta. Muestra un intento fallido sin esconderlo.",
+          "pantalla": "El reto real y dos intentos."
+        },
+        {
+          "t": "23–32 s",
+          "nombre": "Resultado",
+          "digo": "Ahora funciona así. Falta esto por resolver, y te lo digo porque todavía es un prototipo.",
+          "como": "Sé claro con lo que falta. Eso da confianza.",
+          "pantalla": "Lo que quedó funcionando."
+        },
+        {
+          "t": "32–40 s",
+          "nombre": "CTA",
+          "digo": "¿Qué función te serviría más en una herramienta de ventas? Cuéntame abajo.",
+          "como": "Haz la pregunta mirando al lente y espera la respuesta en el comentario.",
+          "pantalla": "Pregunta en pantalla."
+        }
+      ],
+      "textoPantalla": "Construcción real · reto del día · resultado · siguiente paso.",
+      "edicion": "Conserva los pequeños fallos si aportan aprendizaje; evita presentar un prototipo como producto terminado.",
+      "stories": "Di qué vas a construir hoy, comparte un avance y cierra con una encuesta sobre la siguiente función.",
+      "descripcion": "Construir un producto es resolver problemas uno a uno. Hoy avancé en [resultado real]. ¿Qué función sería más útil para un negocio como el tuyo?",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g09",
+      "n": 9,
+      "titulo": "Tres errores al usar herramientas de IA",
+      "pilar": "IA práctica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Generar compartidos con una lista útil.",
+      "duracion": "20–30 s",
+      "gancho": "Tu IA no es mala. Estos tres errores hacen que lo parezca.",
+      "ganchos": [
+        {
+          "tipo": "Directo",
+          "txt": "Tu IA no es mala. Estos tres errores hacen que lo parezca."
+        },
+        {
+          "tipo": "Dolor",
+          "txt": "Si la IA te responde cosas flojas, probablemente haces esto."
+        },
+        {
+          "tipo": "Lista",
+          "txt": "Tres errores con IA que veo todo el tiempo. El tercero es el más serio."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Tu IA no es mala. Estos tres errores hacen que lo parezca.",
+          "como": "Levanta tres dedos y habla sin saludo.",
+          "pantalla": "Texto grande: 3 errores."
+        },
+        {
+          "t": "3–9 s",
+          "nombre": "Error 1",
+          "digo": "Uno: instrucciones vagas. Sin contexto ni objetivo, te responde lo más genérico.",
+          "como": "Un dedo. Pon cara de “eso me pasa”.",
+          "pantalla": "El número 1 y un ejemplo de instrucción vaga."
+        },
+        {
+          "t": "9–15 s",
+          "nombre": "Error 2",
+          "digo": "Dos: quedarte con la primera respuesta. Casi nunca es la mejor. Pídele que la mejore.",
+          "como": "Dos dedos. Ritmo ágil.",
+          "pantalla": "El número 2 y una respuesta mejorada."
+        },
+        {
+          "t": "15–21 s",
+          "nombre": "Error 3",
+          "digo": "Tres: no verificar. Revisa los datos, los permisos y la privacidad antes de usar lo que te dé.",
+          "como": "Tres dedos. Tono serio pero amable.",
+          "pantalla": "El número 3 y una casilla de verificación."
+        },
+        {
+          "t": "21–30 s",
+          "nombre": "CTA",
+          "digo": "Mándaselo a alguien que apenas empieza con IA.",
+          "como": "Señala el botón de compartir y cierra.",
+          "pantalla": "Texto: Compártelo."
+        }
+      ],
+      "textoPantalla": "Contexto insuficiente · No iterar · No verificar.",
+      "edicion": "Cortes rápidos, pero deja tiempo suficiente para leer cada error.",
+      "stories": "Pregunta cuál de los tres errores cometen más y comparte las respuestas.",
+      "descripcion": "La IA puede ayudar mucho, pero el resultado depende del contexto, las iteraciones y la revisión humana.",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g10",
+      "n": 10,
+      "titulo": "La herramienta no te hará ganar dinero por sí sola",
+      "pilar": "IA para negocios",
+      "formato": "Reel + TikTok",
+      "objetivo": "Construir credibilidad y diferenciarse del contenido exagerado.",
+      "duracion": "25–35 s",
+      "gancho": "Ninguna herramienta de IA te va a hacer ganar dinero por sí sola.",
+      "ganchos": [
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "Ninguna herramienta de IA te va a hacer ganar dinero por sí sola."
+        },
+        {
+          "tipo": "Reto",
+          "txt": "Todos buscan la mejor IA. Casi nadie busca un problema que valga la pena resolver."
+        },
+        {
+          "tipo": "Pregunta",
+          "txt": "Antes de elegir una herramienta de IA, responde esta pregunta."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Ninguna herramienta de IA te va a hacer ganar dinero por sí sola.",
+          "como": "Dilo con calma y seguridad, sin gritar. Mira fijo al lente.",
+          "pantalla": "Varias herramientas y luego una necesidad de cliente."
+        },
+        {
+          "t": "3–10 s",
+          "nombre": "Idea",
+          "digo": "No empieces por preguntar qué IA está de moda. Empieza por qué problema tiene alguien.",
+          "como": "Baja la voz un poco. Es la idea central: dale peso.",
+          "pantalla": "Tú a cámara."
+        },
+        {
+          "t": "10–24 s",
+          "nombre": "Método",
+          "digo": "Primero, un problema concreto. Luego, una solución que puedas comprobar. Después, quién la necesita, cuánto cuesta frente a lo que ahorra y cómo se la ofrecerías.",
+          "como": "Cuenta los pasos con la mano y no te apresures.",
+          "pantalla": "Cinco pasos en pantalla, uno por uno."
+        },
+        {
+          "t": "24–35 s",
+          "nombre": "CTA",
+          "digo": "Si quieres que analicemos un negocio real con este método, cuéntame cuál.",
+          "como": "Invita con una mano y cierra.",
+          "pantalla": "Texto: cuéntame cuál."
+        }
+      ],
+      "textoPantalla": "Problema → solución → cliente → coste/beneficio → oferta.",
+      "edicion": "Usa un ejemplo simple y realista; no prometas ingresos específicos.",
+      "stories": "Caja de preguntas: “¿Qué negocio o tarea quieres mejorar con IA?”.",
+      "descripcion": "La oportunidad no está solo en conocer herramientas; está en resolver un problema por el que alguien valora pagar.",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g11",
+      "n": 11,
+      "titulo": "Cómo convertir una pregunta en una serie de contenido",
+      "pilar": "IA práctica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Mostrar el método de creación y aumentar la probabilidad de que vuelvan.",
+      "duracion": "25–35 s",
+      "gancho": "De una sola pregunta de tu audiencia salen cinco videos.",
+      "ganchos": [
+        {
+          "tipo": "Directo",
+          "txt": "De una sola pregunta de tu audiencia salen cinco videos."
+        },
+        {
+          "tipo": "Dolor",
+          "txt": "Si no sabes qué publicar, tu audiencia ya te lo dijo en los comentarios."
+        },
+        {
+          "tipo": "Método",
+          "txt": "Cinco videos, una sola pregunta. Así dejo de quedarme sin ideas."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "De una sola pregunta de tu audiencia salen cinco videos.",
+          "como": "Levanta cinco dedos y empieza sin saludo.",
+          "pantalla": "Una pregunta escrita: ¿Cómo automatizo WhatsApp?"
+        },
+        {
+          "t": "3–20 s",
+          "nombre": "Desglose",
+          "digo": "Tomemos esta: “¿Cómo automatizo WhatsApp?”. Video uno, lo básico. Dos, las herramientas. Tres, cómo se configura. Cuatro, los errores. Cinco, un caso real con sus límites.",
+          "como": "Ve señalando cada idea. Cuenta con los dedos para que se siga fácil.",
+          "pantalla": "Mapa de cinco ideas en una nota o pizarra."
+        },
+        {
+          "t": "20–28 s",
+          "nombre": "Beneficio",
+          "digo": "Así profundizas en un tema sin repetirte.",
+          "como": "Pausa corta antes de “sin repetirte”.",
+          "pantalla": "Tú a cámara."
+        },
+        {
+          "t": "28–35 s",
+          "nombre": "CTA",
+          "digo": "Escribe tu pregunta y la convierto en una serie.",
+          "como": "Señala hacia abajo y cierra.",
+          "pantalla": "Texto: tu pregunta."
+        }
+      ],
+      "textoPantalla": "Pregunta central → básico → herramientas → tutorial → errores → caso real.",
+      "edicion": "Visualiza el mapa de cinco ideas en una pizarra o nota.",
+      "stories": "Pide preguntas y utiliza una para la próxima serie.",
+      "descripcion": "Una buena pregunta puede convertirse en una serie con profundidad. La clave es que cada pieza responda una duda distinta.",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g12",
+      "n": 12,
+      "titulo": "Lo que aprendí de un video con poca retención",
+      "pilar": "Construyendo BONXAI",
+      "formato": "Reel + TikTok",
+      "objetivo": "Mostrar transparencia y construir una comunidad interesada en el proceso.",
+      "duracion": "25–40 s",
+      "gancho": "Este video lo vieron muchos, pero casi nadie lo terminó. Aquí está el error.",
+      "ganchos": [
+        {
+          "tipo": "Honesto",
+          "txt": "Este video lo vieron muchos, pero casi nadie lo terminó. Aquí está el error."
+        },
+        {
+          "tipo": "Datos",
+          "txt": "Publiqué un video que fracasó y te muestro los números."
+        },
+        {
+          "tipo": "Aprendizaje",
+          "txt": "Mi video tuvo vistas y poca retención. Esto voy a cambiar."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Este video lo vieron muchos, pero casi nadie lo terminó. Aquí está el error.",
+          "como": "Muestra los números con calma. Cara de “vamos a aprender de esto”.",
+          "pantalla": "Las estadísticas, sin datos privados."
+        },
+        {
+          "t": "3–10 s",
+          "nombre": "Diagnóstico",
+          "digo": "La retención fue baja. Eso me dice que debo revisar cómo empieza y qué tan rápido va.",
+          "como": "Señala el punto exacto donde cae la gráfica.",
+          "pantalla": "Gráfica de retención con el punto donde cae."
+        },
+        {
+          "t": "10–25 s",
+          "nombre": "Experimento",
+          "digo": "Probé dos aperturas distintas. Esta va directo al resultado; esta empieza con el problema.",
+          "como": "Muestra las dos y di cuál esperas que funcione y por qué.",
+          "pantalla": "Las dos versiones del gancho, lado a lado."
+        },
+        {
+          "t": "25–33 s",
+          "nombre": "Plan",
+          "digo": "Voy a comparar con mis videos parecidos, no solo mirar las vistas.",
+          "como": "Tono de plan, tranquilo y concreto.",
+          "pantalla": "Texto: comparar con videos parecidos."
+        },
+        {
+          "t": "33–40 s",
+          "nombre": "CTA",
+          "digo": "¿Quieres que te cuente qué pasó con el experimento? Dímelo abajo.",
+          "como": "Invita con una mano y cierra.",
+          "pantalla": "Texto: te cuento el resultado."
+        }
+      ],
+      "textoPantalla": "Dato real → hipótesis → cambio → nueva prueba.",
+      "edicion": "Usa solo métricas verdaderas de tu cuenta. No atribuyas la causa a un único factor sin probarlo.",
+      "stories": "Comparte dos ganchos y pide votar cuál verían. Publica luego el resultado.",
+      "descripcion": "Estoy aprendiendo a crear contenido con datos. Una métrica no explica todo, pero puede ayudarnos a formular mejores pruebas.",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    }
+  ],
+  "ideas": [],
+  "semana": {}
+}

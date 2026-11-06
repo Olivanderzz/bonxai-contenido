@@ -35,13 +35,24 @@ async function loadDB(){
   if (base && local && newer(base, local)) {
     // El repo trae algo más nuevo: se conserva lo de este equipo (estados, fechas, métricas, ediciones)
     // y solo se suman los guiones que aquí no existen (salvo los que se borraron aquí).
+    // Los que se borraron en el repo también salen de este equipo.
     DB = normalize(local); base = normalize(base);
+    const antes = DB.guiones.length, fueraRepo = new Set(base.borrados);
+    DB.guiones = DB.guiones.filter(g => !fueraRepo.has(g.id));
+    const quitados = antes - DB.guiones.length;
+    DB.borrados = [...new Set([...DB.borrados, ...base.borrados])];
     const ids = new Set(DB.guiones.map(g => g.id)), fuera = new Set(DB.borrados);
     const nuevos = base.guiones.filter(g => !ids.has(g.id) && !fuera.has(g.id));
     DB.guiones.push(...nuevos);
     DB.actualizado = base.actualizado;
     try { localStorage.setItem(LSK, JSON.stringify(DB)); } catch (e) {}
-    if (nuevos.length) { ghDirty = true; try { localStorage.setItem(GHK + "-dirty", "1"); } catch (e) {} toast(nuevos.length === 1 ? "Llegó 1 guion nuevo" : `Llegaron ${nuevos.length} guiones nuevos`); }
+    if (nuevos.length || quitados) {
+      ghDirty = true; try { localStorage.setItem(GHK + "-dirty", "1"); } catch (e) {}
+      const t = [];
+      if (nuevos.length) t.push(nuevos.length === 1 ? "llegó 1 guion nuevo" : `llegaron ${nuevos.length} guiones nuevos`);
+      if (quitados) t.push(quitados === 1 ? "se quitó 1 que se borró en GitHub" : `se quitaron ${quitados} que se borraron en GitHub`);
+      const s = t.join(" y "); toast(s[0].toUpperCase() + s.slice(1));
+    }
     return;
   }
   DB = normalize(local || base || {});

@@ -198,7 +198,8 @@ label.f{display:flex;flex-direction:column;gap:4px;font-weight:600;font-size:.86
 .pil .ph span{font:800 1.6rem var(--display)}
 .pil .pb{padding:12px 14px;font-size:.92rem;display:flex;flex-direction:column;gap:6px}
 ul.clean{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:3px}
-.struct{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.struct{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.chip.pol{background:#D3322A;color:#fff}
 .struct>div{border:2px solid var(--ink);border-radius:14px;padding:12px;background:var(--pc);color:var(--pk,var(--ink))}
 .struct b{font:800 1.05rem var(--display);display:block}
 .struct small{font-weight:700;opacity:.85}
@@ -233,7 +234,7 @@ details.acc>div{padding:0 14px 14px;font-size:.92rem;display:flex;flex-direction
 .rec-meta{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .rec-meta .chip{background:var(--butter);border-color:var(--butter)}
 .rec-meta span{opacity:.7;font-weight:600}
-.rec-say{font:700 var(--fs,2.6rem)/1.25 var(--display);letter-spacing:-.01em;text-wrap:pretty}
+.rec-say{font:700 var(--fs,2.6rem)/1.25 var(--display);letter-spacing:-.01em;text-wrap:pretty;-webkit-hyphens:auto;hyphens:auto}
 .rec-help{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:1rem}
 .rec-help div{border:1.5px solid rgba(255,244,224,.25);border-radius:12px;padding:10px 12px}
 .rec-help b{display:block;color:var(--butter);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:2px}

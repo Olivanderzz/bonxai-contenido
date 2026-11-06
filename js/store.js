@@ -19,6 +19,7 @@ function normalize(d){
     g.metricas = g.metricas || {}; g.estado = g.estado || "idea"; g.formato = g.formato || "Reel + TikTok";
     ["titulo","pilar","objetivo","duracion","gancho","textoPantalla","edicion","stories","descripcion","fecha","hora","notas"].forEach(k => { if (g[k] == null) g[k] = ""; });
   });
+  d.borrados = Array.isArray(d.borrados) ? d.borrados : [];
   d.inicioPlan = d.inicioPlan || "";
   d.notas = d.notas || "";
   d.checks = d.checks || {};
@@ -30,9 +31,20 @@ async function loadDB(){
   let base = null, local = null;
   try { const r = await fetch("data/db.json", {cache: "no-store"}); if (r.ok) base = await r.json(); } catch (e) {}
   try { local = JSON.parse(localStorage.getItem(LSK) || "null"); } catch (e) {}
-  DB = normalize(local && (!base || !newer(base, local)) ? local : (base || local || {}));
-  if (base && local && newer(base, local)) toast("Se cargó la versión más reciente del repositorio");
   try { ghDirty = localStorage.getItem(GHK + "-dirty") === "1"; } catch (e) {}
+  if (base && local && newer(base, local)) {
+    // El repo trae algo más nuevo: se conserva lo de este equipo (estados, fechas, métricas, ediciones)
+    // y solo se suman los guiones que aquí no existen (salvo los que se borraron aquí).
+    DB = normalize(local); base = normalize(base);
+    const ids = new Set(DB.guiones.map(g => g.id)), fuera = new Set(DB.borrados);
+    const nuevos = base.guiones.filter(g => !ids.has(g.id) && !fuera.has(g.id));
+    DB.guiones.push(...nuevos);
+    DB.actualizado = base.actualizado;
+    try { localStorage.setItem(LSK, JSON.stringify(DB)); } catch (e) {}
+    if (nuevos.length) { ghDirty = true; try { localStorage.setItem(GHK + "-dirty", "1"); } catch (e) {} toast(nuevos.length === 1 ? "Llegó 1 guion nuevo" : `Llegaron ${nuevos.length} guiones nuevos`); }
+    return;
+  }
+  DB = normalize(local || base || {});
 }
 
 let saveT = null, cloudT = null, ghT = null;

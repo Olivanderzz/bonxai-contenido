@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "actualizado": "2026-10-30T00:00:00.000Z",
+  "actualizado": "2026-11-06T01:09:46.000Z",
   "inicioPlan": "",
   "guiones": [
     {
@@ -857,6 +857,686 @@
       "fecha": "",
       "hora": "",
       "notas": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g13",
+      "n": 13,
+      "titulo": "Los cursos caros de IA te venden lo que es gratis",
+      "pilar": "IA práctica",
+      "angulo": "Polémica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Debate en comentarios (polémica) y seguidores nuevos por el regalo.",
+      "duracion": "35–45 s",
+      "gancho": "Si pagaste un curso de inteligencia artificial de 500 dólares, probablemente te vendieron algo que es gratis.",
+      "ganchos": [
+        {
+          "tipo": "Polémica",
+          "txt": "Si pagaste un curso de inteligencia artificial de 500 dólares, probablemente te vendieron algo que es gratis."
+        },
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "No compres un curso de IA hasta ver esto."
+        },
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Cuánto pagaste por aprender IA? Lo básico es gratis."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Si pagaste un curso de inteligencia artificial de 500 dólares, probablemente te vendieron algo que es gratis.",
+          "como": "Sin saludo. Serio, mirando al lente. Pausa corta después de “500 dólares”.",
+          "pantalla": "Tú a cámara. Texto: “¿Pagaste 500 USD por esto?”"
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Quédate hasta el final, porque te voy a regalar la ruta gratis que yo seguiría si empezara hoy.",
+          "como": "Sonríe un poco: es la promesa, cambia el tono de serio a cercano.",
+          "pantalla": "Texto: “Ruta GRATIS al final 🎁”."
+        },
+        {
+          "t": "7–30 s",
+          "nombre": "Desarrollo",
+          "digo": "Ojo, no digo que todos los cursos sean malos. Digo que lo básico ya está gratis: las mismas empresas de IA tienen guías y cursos oficiales, y hay tutoriales muy buenos en YouTube. Lo que casi nadie enseña, y eso sí vale, es aplicarlo a un problema tuyo. Un curso que no te pone a construir algo para tu trabajo es información, no habilidad.",
+          "como": "Ritmo conversado. Cuenta con los dedos: guías oficiales, tutoriales, aplicarlo. Énfasis en “información, no habilidad”.",
+          "pantalla": "Alterna cámara con grabación de pantalla de una guía oficial abierta en el navegador."
+        },
+        {
+          "t": "30–40 s",
+          "nombre": "Solución + regalo",
+          "digo": "La solución: aprende gratis lo básico y paga solo cuando sepas exactamente qué quieres construir. Comenta APRENDER y te mando la ruta gratis, semana por semana.",
+          "como": "Señala hacia abajo, a los comentarios. Cierra con una pregunta con la mirada: “¿estás de acuerdo?”.",
+          "pantalla": "La palabra APRENDER grande en pantalla."
+        }
+      ],
+      "textoPantalla": "“¿Pagaste 500 USD por esto?” · “Lo básico es gratis” · “Información ≠ habilidad” · APRENDER",
+      "edicion": "Corte en cada idea; subtítulos grandes. En “información, no habilidad” deja el texto solo en pantalla un segundo.",
+      "stories": "Antes: encuesta “¿Has pagado un curso de IA? Sí / No”. Después: comparte el Reel y pregunta “¿te sirvió el curso que pagaste?”.",
+      "descripcion": "¿Vale la pena pagar un curso de inteligencia artificial? Lo básico ya está gratis 👇\n\nLas guías oficiales de las empresas de IA y muchos tutoriales enseñan lo mismo que cobran algunos cursos. Lo que sí vale es aprender a aplicar la IA a un problema tuyo: tu trabajo, tu negocio, tu proyecto.\n\nComenta APRENDER y te mando la ruta gratis que seguiría si empezara hoy, semana por semana.\n\n¿Estás de acuerdo o crees que un curso pago sí vale la pena?\n\n#inteligenciaartificial #aprenderIA #ChatGPT #Claude",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "Ángulo: Polémica. Estructura: Gancho → Lo que te llevas → Desarrollo → Solución + regalo.\nRegalo: comenta APRENDER → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-regalos.md del PC, listo para su manychat.txt.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g14",
+      "n": 14,
+      "titulo": "Deja de coleccionar prompts",
+      "pilar": "IA práctica",
+      "angulo": "Polémica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Debate y guardados; sigue la línea del Reel de CONTEXTO (de los que más alcance y compartidos tuvo).",
+      "duracion": "35–45 s",
+      "gancho": "Opinión impopular: guardar 500 prompts no te va a hacer mejor usando la inteligencia artificial.",
+      "ganchos": [
+        {
+          "tipo": "Polémica",
+          "txt": "Opinión impopular: guardar 500 prompts no te va a hacer mejor usando la inteligencia artificial."
+        },
+        {
+          "tipo": "Error común",
+          "txt": "El error de los que coleccionan prompts: copian la frase, pero no el contexto."
+        },
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "Deja de buscar el prompt perfecto. No existe."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Opinión impopular: guardar 500 prompts no te va a hacer mejor usando la inteligencia artificial.",
+          "como": "Directo, casi retador. Puedes mostrar el celular con una carpeta llena de capturas.",
+          "pantalla": "Tú a cámara con el celular. Texto: “500 prompts guardados = 0”."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Al final te regalo la plantilla que uso yo en vez de copiar prompts de otros.",
+          "como": "Baja el tono, más cercano.",
+          "pantalla": "Texto: “Mi plantilla al final 🎁”."
+        },
+        {
+          "t": "7–30 s",
+          "nombre": "Desarrollo",
+          "digo": "Un prompt que le funcionó a otra persona fue escrito para su negocio, su cliente y su problema. Cuando lo copias, la IA no sabe nada de ti, y por eso te responde genérico. Lo que cambia la respuesta no es una frase mágica, es el contexto: quién eres, para quién es, qué quieres lograr, un ejemplo de lo que te gusta y lo que no quieres.",
+          "como": "Enumera los cinco puntos con la mano, despacio. Pausa antes de “es el contexto”.",
+          "pantalla": "Pantalla: el mismo pedido sin contexto y con contexto, lado a lado (dos respuestas reales tuyas)."
+        },
+        {
+          "t": "30–40 s",
+          "nombre": "Solución + regalo",
+          "digo": "La solución: deja de buscar el prompt perfecto y aprende a dar contexto. Comenta PLANTILLA y te paso la mía, la de cinco bloques, para que la llenes una vez y la uses siempre.",
+          "como": "Señala abajo. Sonrisa al final.",
+          "pantalla": "La palabra PLANTILLA en pantalla."
+        }
+      ],
+      "textoPantalla": "“500 prompts guardados = 0” · “No es la frase, es el contexto” · 5 bloques · PLANTILLA",
+      "edicion": "El lado a lado sin contexto / con contexto es la prueba: que se vea claro y con zoom en la diferencia.",
+      "stories": "Antes: pregunta “¿Cuántos prompts tienes guardados que nunca usaste?”. Después: muestra tu plantilla llena con un ejemplo.",
+      "descripcion": "Guardar prompts no te hace mejor con la inteligencia artificial. Lo que cambia la respuesta es el contexto 👇\n\nUn prompt copiado fue escrito para el negocio y el problema de otra persona. ChatGPT o Claude no saben nada de ti, y por eso te responden genérico.\n\nComenta PLANTILLA y te paso mi plantilla de 5 bloques para darle contexto a la IA una vez y usarla siempre.\n\n¿Tú guardas prompts o escribes los tuyos?\n\n#inteligenciaartificial #ChatGPT #Claude #prompts",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "Ángulo: Polémica. Estructura: Gancho → Lo que te llevas → Desarrollo → Solución + regalo.\nRegalo: comenta PLANTILLA → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-regalos.md del PC, listo para su manychat.txt.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g15",
+      "n": 15,
+      "titulo": "Tu negocio no necesita un chatbot",
+      "pilar": "IA para negocios",
+      "angulo": "Polémica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Atraer dueños de negocio, generar debate y conversaciones para BONXAI.",
+      "duracion": "35–45 s",
+      "gancho": "Tu negocio no necesita un chatbot. Y te lo dice alguien que construye automatizaciones.",
+      "ganchos": [
+        {
+          "tipo": "Polémica",
+          "txt": "Tu negocio no necesita un chatbot. Y te lo dice alguien que construye automatizaciones."
+        },
+        {
+          "tipo": "Error común",
+          "txt": "El error de poner un chatbot en WhatsApp sin arreglar esto primero."
+        },
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Le pusiste un bot a tu negocio y ahora te escriben menos?"
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Tu negocio no necesita un chatbot. Y te lo dice alguien que construye automatizaciones.",
+          "como": "Firme. Pausa después de “chatbot”.",
+          "pantalla": "Tú a cámara. Texto: “Tu negocio NO necesita un chatbot”."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Quédate, porque al final te doy cinco preguntas para saber si a ti sí te sirve, o si estarías botando la plata.",
+          "como": "Tono de ayuda, no de vendedor.",
+          "pantalla": "Texto: “5 preguntas al final 🎁”."
+        },
+        {
+          "t": "7–30 s",
+          "nombre": "Desarrollo",
+          "digo": "Muchos negocios ponen un bot porque está de moda, y el cliente termina atrapado en un menú de opciones, sin poder hablar con nadie, y se va. El problema casi nunca era que faltara un robot. Era que nadie respondía rápido, nadie hacía seguimiento y las preguntas que se repiten no tenían una respuesta lista. Primero se ordena eso. Después, lo que más se repite, se automatiza.",
+          "como": "Cuenta los tres problemas con los dedos. Más lento en “primero se ordena eso”.",
+          "pantalla": "Pantalla: ejemplo de menú de bot eterno (“marque 1, marque 2…”) creado por ti, sin marcas reales. Luego vuelve a cámara."
+        },
+        {
+          "t": "30–40 s",
+          "nombre": "Solución + regalo",
+          "digo": "La solución: antes del chatbot, arregla el proceso. Comenta CHATBOT y te mando las cinco preguntas para saber si tu negocio lo necesita de verdad.",
+          "como": "Señala abajo. Cierra serio y amable.",
+          "pantalla": "La palabra CHATBOT en pantalla."
+        }
+      ],
+      "textoPantalla": "“Tu negocio NO necesita un chatbot” · “Primero el proceso, después el robot” · CHATBOT",
+      "edicion": "El menú de bot eterno puede ir acelerado y con un sonido de error para que se entienda la frustración.",
+      "stories": "Antes: encuesta “¿Te ha pasado quedar atrapado en un bot? Sí / Todo el tiempo”. Después: pregunta “¿qué pregunta te hacen más tus clientes?”.",
+      "descripcion": "¿Tu negocio necesita un chatbot? Muchas veces no, y te lo dice alguien que construye automatizaciones 👇\n\nAntes de automatizar WhatsApp o Instagram hay que ordenar lo básico: responder rápido, hacer seguimiento y tener listas las respuestas a las preguntas que más se repiten. Un bot sobre un proceso desordenado solo espanta clientes.\n\nComenta CHATBOT y te mando 5 preguntas para saber si tu negocio lo necesita de verdad.\n\n#chatbot #automatizacion #inteligenciaartificial #negocios",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "Ángulo: Polémica. Estructura: Gancho → Lo que te llevas → Desarrollo → Solución + regalo.\nRegalo: comenta CHATBOT → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-regalos.md del PC, listo para su manychat.txt.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g16",
+      "n": 16,
+      "titulo": "No le pagues a nadie para automatizar (todavía)",
+      "pilar": "IA para negocios",
+      "angulo": "Polémica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Confianza (honestidad que va contra vender) y leads de negocios que ya saben qué pedir.",
+      "duracion": "35–45 s",
+      "gancho": "No le pagues a nadie para automatizar tu negocio hasta que hagas esto. Ni siquiera a mí.",
+      "ganchos": [
+        {
+          "tipo": "Polémica",
+          "txt": "No le pagues a nadie para automatizar tu negocio hasta que hagas esto. Ni siquiera a mí."
+        },
+        {
+          "tipo": "Error común",
+          "txt": "Si automatizas un proceso desordenado, vas a tener desorden más rápido."
+        },
+        {
+          "tipo": "Lista o tres pasos",
+          "txt": "Tres cosas que tienes que escribir antes de automatizar cualquier tarea."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "No le pagues a nadie para automatizar tu negocio hasta que hagas esto. Ni siquiera a mí.",
+          "como": "Pausa y sonrisa leve en “ni siquiera a mí”: es lo que genera confianza.",
+          "pantalla": "Tú a cámara. Texto: “Ni siquiera a mí”."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Al final te regalo el mapa que uso antes de automatizar cualquier cosa.",
+          "como": "Cercano.",
+          "pantalla": "Texto: “El mapa al final 🎁”."
+        },
+        {
+          "t": "7–30 s",
+          "nombre": "Desarrollo",
+          "digo": "Si automatizas un proceso desordenado, lo que obtienes es desorden más rápido. Antes de hablar de herramientas, escribe tres cosas de cada tarea: qué la dispara, qué pasos tiene y cuánto tiempo te quita a la semana. Con eso ves qué conviene automatizar primero. Y si contratas a alguien, sabes exactamente qué pedir y nadie te vende de más.",
+          "como": "Tres dedos para las tres cosas. Muestra una hoja escrita.",
+          "pantalla": "Pantalla: una hoja con las tres columnas llenas con una tarea de ejemplo (marcada como ejemplo)."
+        },
+        {
+          "t": "30–40 s",
+          "nombre": "Solución + regalo",
+          "digo": "La solución: primero el mapa, después la herramienta. Comenta MAPA y te mando la plantilla para hacerlo hoy en 15 minutos.",
+          "como": "Señala abajo.",
+          "pantalla": "La palabra MAPA en pantalla."
+        }
+      ],
+      "textoPantalla": "“Ni siquiera a mí” · “Desorden automatizado = desorden más rápido” · Qué la dispara / Pasos / Tiempo · MAPA",
+      "edicion": "La hoja con las tres columnas debe verse completa y legible; zoom suave a cada columna cuando la nombras.",
+      "stories": "Antes: pregunta “¿Qué tarea de tu negocio te quita más tiempo?”. Después: toma una respuesta y llénala en el mapa en una Story.",
+      "descripcion": "Antes de pagar para automatizar tu negocio, haz este mapa (ni siquiera me pagues a mí sin hacerlo) 👇\n\nAutomatizar un proceso desordenado solo te da desorden más rápido. Escribe de cada tarea qué la dispara, qué pasos tiene y cuánto tiempo te quita. Así sabes qué automatizar primero y qué pedir si contratas a alguien.\n\nComenta MAPA y te mando la plantilla para hacerlo hoy en 15 minutos.\n\n#automatizacion #inteligenciaartificial #emprendimiento #negocios",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "Ángulo: Polémica. Estructura: Gancho → Lo que te llevas → Desarrollo → Solución + regalo.\nRegalo: comenta MAPA → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-regalos.md del PC, listo para su manychat.txt.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g17",
+      "n": 17,
+      "titulo": "Usar IA para escribir no es trampa",
+      "pilar": "IA práctica",
+      "angulo": "Polémica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Debate en comentarios y guardados por el prompt.",
+      "duracion": "35–45 s",
+      "gancho": "Usar inteligencia artificial para escribir tus textos no es hacer trampa. La trampa es publicar lo que te da sin leerlo.",
+      "ganchos": [
+        {
+          "tipo": "Polémica",
+          "txt": "Usar inteligencia artificial para escribir tus textos no es hacer trampa. La trampa es publicar lo que te da sin leerlo."
+        },
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Usar ChatGPT para escribir es hacer trampa?"
+        },
+        {
+          "tipo": "Error común",
+          "txt": "Se nota cuando un texto lo escribió la IA. Esto es lo que lo delata."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Usar inteligencia artificial para escribir tus textos no es hacer trampa. La trampa es publicar lo que te da sin leerlo.",
+          "como": "Primera frase tranquila, segunda con énfasis.",
+          "pantalla": "Tú a cámara. Texto: “¿Trampa?”."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Quédate hasta el final porque te regalo el prompt para que la IA escriba con tu forma de hablar, no como un robot.",
+          "como": "Cercano.",
+          "pantalla": "Texto: “Prompt al final 🎁”."
+        },
+        {
+          "t": "7–30 s",
+          "nombre": "Desarrollo",
+          "digo": "Nadie le dice trampa a usar el corrector, o a pedirle a un amigo que lea tu texto. La IA es lo mismo si tú pones las ideas y la revisas. Lo que se nota, y hace que la gente deje de leerte, es el texto genérico: las mismas palabras de siempre y cero experiencia propia. Eso pasa cuando la IA no conoce tu voz.",
+          "como": "Gesto de “comillas” al decir “trampa”. Más lento en “cero experiencia propia”.",
+          "pantalla": "Pantalla: un texto genérico con frases típicas resaltadas en amarillo (escrito por ti como ejemplo)."
+        },
+        {
+          "t": "30–40 s",
+          "nombre": "Solución + regalo",
+          "digo": "La solución: enséñale cómo hablas antes de pedirle que escriba. Comenta VOZ y te mando el prompt que uso para eso.",
+          "como": "Señala abajo.",
+          "pantalla": "La palabra VOZ en pantalla."
+        }
+      ],
+      "textoPantalla": "“¿Trampa?” · “La trampa es no leerlo” · “Enséñale tu voz” · VOZ",
+      "edicion": "Las frases resaltadas en amarillo son el momento visual: que aparezcan una por una.",
+      "stories": "Antes: encuesta “¿Usar IA para escribir es trampa? Sí / No / Depende”. Después: comparte el resultado de la encuesta y el Reel.",
+      "descripcion": "¿Usar inteligencia artificial para escribir es hacer trampa? Para mí no. La trampa es publicar lo que te da sin leerlo 👇\n\nEl texto de ChatGPT o Claude se nota genérico cuando la IA no conoce tu forma de hablar. Si le enseñas tu voz y tú pones las ideas, el texto sigue siendo tuyo.\n\nComenta VOZ y te mando el prompt para que la IA escriba como tú.\n\n¿Trampa o herramienta? Te leo.\n\n#inteligenciaartificial #ChatGPT #copywriting #Claude",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "Ángulo: Polémica. Estructura: Gancho → Lo que te llevas → Desarrollo → Solución + regalo.\nRegalo: comenta VOZ → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-regalos.md del PC, listo para su manychat.txt.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g18",
+      "n": 18,
+      "titulo": "La IA te puede estar volviendo flojo para pensar",
+      "pilar": "IA práctica",
+      "angulo": "Polémica",
+      "formato": "Reel + TikTok",
+      "objetivo": "Debate y guardados; posiciona a Felipe como alguien que enseña a usar la IA bien.",
+      "duracion": "35–45 s",
+      "gancho": "La inteligencia artificial te puede estar volviendo flojo para pensar. Y no es culpa de la IA.",
+      "ganchos": [
+        {
+          "tipo": "Polémica",
+          "txt": "La inteligencia artificial te puede estar volviendo flojo para pensar. Y no es culpa de la IA."
+        },
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Te pasa que sin ChatGPT ya no sabes por dónde empezar?"
+        },
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "Deja de pedirle respuestas a la IA. Pídele esto."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "La inteligencia artificial te puede estar volviendo flojo para pensar. Y no es culpa de la IA.",
+          "como": "Serio. Pausa antes de “y no es culpa de la IA”.",
+          "pantalla": "Tú a cámara. Texto: “¿La IA te vuelve flojo?”."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Al final te regalo el prompt de modo profesor, para que aprendas en vez de solo copiar.",
+          "como": "Cambio a tono amable.",
+          "pantalla": "Texto: “Modo profesor al final 🎁”."
+        },
+        {
+          "t": "7–30 s",
+          "nombre": "Desarrollo",
+          "digo": "Si cada vez que tienes un problema le pides la respuesta completa y la copias, no aprendes nada: la próxima vez vuelves a depender. Pasa con el código, con los textos, con las decisiones. La diferencia está en cómo le pides. No “hazlo por mí”, sino “guíame para que yo lo haga”. Te toma un poco más, pero la segunda vez ya no la necesitas.",
+          "como": "Contraste con las manos: “hazlo por mí” / “guíame”.",
+          "pantalla": "Pantalla: el mismo pedido en dos versiones (“hazlo por mí” vs. “guíame”) y cómo cambia la respuesta."
+        },
+        {
+          "t": "30–40 s",
+          "nombre": "Solución + regalo",
+          "digo": "Usa la IA como profesor, no como copia. Comenta PROFESOR y te mando el prompt.",
+          "como": "Señala abajo.",
+          "pantalla": "La palabra PROFESOR en pantalla."
+        }
+      ],
+      "textoPantalla": "“¿La IA te vuelve flojo?” · “Hazlo por mí ❌ / Guíame ✅” · PROFESOR",
+      "edicion": "Corte limpio entre las dos versiones del pedido; marca con ❌ y ✅.",
+      "stories": "Antes: encuesta “¿Copias lo que te da la IA sin entenderlo? A veces / Nunca / Siempre”. Después: muestra el modo profesor con un tema tuyo.",
+      "descripcion": "La inteligencia artificial te puede volver flojo para pensar… si la usas solo para copiar respuestas 👇\n\nCon ChatGPT o Claude puedes aprender de verdad: en vez de “hazlo por mí”, pídele “guíame para que yo lo haga”. Te toma un poco más y la próxima vez ya no dependes.\n\nComenta PROFESOR y te mando el prompt de modo profesor.\n\n¿Estás de acuerdo o crees que da igual?\n\n#inteligenciaartificial #ChatGPT #aprenderIA #Claude",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "Ángulo: Polémica. Estructura: Gancho → Lo que te llevas → Desarrollo → Solución + regalo.\nRegalo: comenta PROFESOR → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-regalos.md del PC, listo para su manychat.txt.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g19",
+      "n": 19,
+      "titulo": "¿Cuántas IAs pagas? Con una basta",
+      "pilar": "IA práctica",
+      "angulo": "Comparación",
+      "formato": "Reel + TikTok",
+      "objetivo": "Guardados y compartidos; ayuda a ahorrar plata.",
+      "duracion": "30–40 s",
+      "gancho": "¿Cuántas suscripciones de inteligencia artificial pagas? Probablemente te sobran.",
+      "ganchos": [
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Cuántas suscripciones de inteligencia artificial pagas? Probablemente te sobran."
+        },
+        {
+          "tipo": "Comparación",
+          "txt": "ChatGPT, Claude, Gemini: te digo para qué uso cada una."
+        },
+        {
+          "tipo": "Error común",
+          "txt": "El error de pagar todas las IAs porque viste un video de cada una."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "¿Cuántas suscripciones de inteligencia artificial pagas? Probablemente te sobran.",
+          "como": "Pregunta directa, levanta una ceja.",
+          "pantalla": "Tú a cámara. Texto: “¿Cuántas IAs pagas?”."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Al final te dejo la tabla de qué IA uso yo para cada cosa, para que pagues solo una.",
+          "como": "Cercano.",
+          "pantalla": "Texto: “Mi tabla al final 🎁”."
+        },
+        {
+          "t": "7–30 s",
+          "nombre": "Desarrollo",
+          "digo": "Mucha gente paga varias porque vio un video de cada una, no porque las use. En lo básico, las principales hacen casi lo mismo: escribir, resumir, analizar documentos. La diferencia está en para qué la usas más. Elige una principal para el día a día, aprende a usarla bien, y usa las versiones gratis de las demás para lo puntual.",
+          "como": "Cuenta con los dedos lo básico. Énfasis en “una principal”.",
+          "pantalla": "Pantalla: pestañas de 3-4 IAs abiertas; luego queda una grande y las demás pequeñas."
+        },
+        {
+          "t": "30–40 s",
+          "nombre": "Solución + regalo",
+          "digo": "Una IA principal y las demás en gratis. Comenta TABLA y te mando la mía.",
+          "como": "Señala abajo.",
+          "pantalla": "La palabra TABLA en pantalla."
+        }
+      ],
+      "textoPantalla": "“¿Cuántas IAs pagas?” · “Una principal + las demás gratis” · TABLA",
+      "edicion": "Animación simple: varias pestañas que se cierran hasta dejar una.",
+      "stories": "Antes: encuesta “¿Cuántas IAs pagas? 0 / 1 / 2 o más”. Después: comparte tu tabla en una Story.",
+      "descripcion": "¿Cuántas suscripciones de inteligencia artificial pagas? Con una bien usada basta 👇\n\nChatGPT, Claude y Gemini hacen casi lo mismo en lo básico. Elige una principal para el día a día y usa las versiones gratis de las demás para lo puntual.\n\nComenta TABLA y te mando mi tabla de qué IA uso para cada cosa.\n\n#inteligenciaartificial #ChatGPT #Claude #Gemini",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "Ángulo: Comparación. Estructura: Gancho → Lo que te llevas → Desarrollo → Solución + regalo.\nRegalo: comenta TABLA → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-regalos.md del PC, listo para su manychat.txt.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g20",
+      "n": 20,
+      "titulo": "Haz que la IA te entreviste",
+      "pilar": "IA práctica",
+      "angulo": "Educativo",
+      "formato": "Reel + TikTok",
+      "objetivo": "Guardados y compartidos: truco simple que se puede probar ya.",
+      "duracion": "30–40 s",
+      "gancho": "El truco más simple para que ChatGPT o Claude te respondan mejor: que te pregunten ellos a ti.",
+      "ganchos": [
+        {
+          "tipo": "Resultado primero",
+          "txt": "El truco más simple para que ChatGPT o Claude te respondan mejor: que te pregunten ellos a ti."
+        },
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "Deja de explicarle todo a la IA. Haz que te pregunte."
+        },
+        {
+          "tipo": "Error común",
+          "txt": "La IA te responde mal porque adivina lo que no le dijiste."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "El truco más simple para que ChatGPT o Claude te respondan mejor: que te pregunten ellos a ti.",
+          "como": "Energía de “descubrí esto”.",
+          "pantalla": "Pantalla desde el primer segundo: la IA haciéndote una pregunta."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Al final te regalo el prompt exacto, para que lo copies.",
+          "como": "Rápido, sin alargar.",
+          "pantalla": "Texto: “Prompt al final 🎁”."
+        },
+        {
+          "t": "7–30 s",
+          "nombre": "Desarrollo",
+          "digo": "Cuando le pides algo a la IA, ella adivina lo que no le dijiste. Y adivina mal. Si le pides que antes de responder te haga preguntas, una por una, te obliga a darle el contexto que te faltaba. Por ejemplo, para un plan de contenido te pregunta a quién le vendes, qué te ha funcionado y cuánto tiempo tienes. Y la respuesta final ya es para ti, no una plantilla.",
+          "como": "Señala la pantalla en cada pregunta que hace la IA.",
+          "pantalla": "Grabación de pantalla real de una entrevista corta con la IA y la respuesta final."
+        },
+        {
+          "t": "30–40 s",
+          "nombre": "Solución + regalo",
+          "digo": "Comenta ENTREVISTA y te mando el prompt para que lo uses hoy.",
+          "como": "Señala abajo.",
+          "pantalla": "La palabra ENTREVISTA en pantalla."
+        }
+      ],
+      "textoPantalla": "“Que te pregunte ella a ti” · “Una pregunta a la vez” · ENTREVISTA",
+      "edicion": "Acelera la conversación real de pantalla, pero deja legible cada pregunta.",
+      "stories": "Antes: pregunta “¿Para qué usas más la IA?”. Después: haz la entrevista en vivo con una respuesta de la caja.",
+      "descripcion": "El truco más simple para que ChatGPT o Claude te respondan mejor: que la inteligencia artificial te entreviste primero 👇\n\nCuando la IA no tiene contexto, adivina. Si le pides que te haga preguntas una por una antes de responder, la respuesta final es para ti y no una plantilla genérica.\n\nComenta ENTREVISTA y te mando el prompt exacto.\n\n#inteligenciaartificial #ChatGPT #Claude #prompts",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "Ángulo: Educativo. Estructura: Gancho → Lo que te llevas → Desarrollo → Solución + regalo.\nRegalo: comenta ENTREVISTA → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-regalos.md del PC, listo para su manychat.txt.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g21",
+      "n": 21,
+      "titulo": "Cotiza en minutos con IA",
+      "pilar": "IA para negocios",
+      "angulo": "Educativo",
+      "formato": "Reel + TikTok",
+      "objetivo": "Atraer dueños de negocio y freelancers; compartidos.",
+      "duracion": "35–45 s",
+      "gancho": "Si te demoras un día en mandar una cotización, ese cliente probablemente ya está hablando con otro.",
+      "ganchos": [
+        {
+          "tipo": "Problema primero",
+          "txt": "Si te demoras un día en mandar una cotización, ese cliente probablemente ya está hablando con otro."
+        },
+        {
+          "tipo": "Resultado primero",
+          "txt": "Así armo una cotización en minutos con inteligencia artificial."
+        },
+        {
+          "tipo": "Si tienes…",
+          "txt": "Si vendes servicios, este prompt te ahorra la parte más aburrida."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Si te demoras un día en mandar una cotización, ese cliente probablemente ya está hablando con otro.",
+          "como": "Directo, con un poco de urgencia.",
+          "pantalla": "Tú a cámara. Texto: “¿Cuánto te demoras en cotizar?”."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Al final te regalo el prompt que convierte tus precios en una cotización lista en minutos.",
+          "como": "Cercano.",
+          "pantalla": "Texto: “Prompt al final 🎁”."
+        },
+        {
+          "t": "7–30 s",
+          "nombre": "Desarrollo",
+          "digo": "Lo que más demora no es calcular, es redactar: armar el texto, explicar qué incluye y poner las condiciones. Eso lo hace la IA si le das una sola vez tu lista de servicios con precios y tus condiciones. Después solo le pegas lo que pidió el cliente y te arma la cotización con tu formato. Tú revisas los números y la envías.",
+          "como": "Muestra el flujo paso a paso. Énfasis en “tú revisas los números”.",
+          "pantalla": "Pantalla: un proyecto de Claude o ChatGPT con una lista de precios de ejemplo, un pedido de cliente inventado (marcado como ejemplo) y la cotización resultante."
+        },
+        {
+          "t": "30–40 s",
+          "nombre": "Solución + regalo",
+          "digo": "Comenta COTIZAR y te mando el prompt. Úsalo en un proyecto de Claude o ChatGPT para que recuerde tus precios.",
+          "como": "Señala abajo.",
+          "pantalla": "La palabra COTIZAR en pantalla."
+        }
+      ],
+      "textoPantalla": "“¿Cuánto te demoras en cotizar?” · Precios + condiciones → cotización · COTIZAR",
+      "edicion": "La cotización final debe verse completa; zoom al total y a las condiciones.",
+      "stories": "Antes: encuesta “¿Cuánto te demoras en mandar una cotización? Minutos / Horas / Días”. Después: muestra una cotización de ejemplo.",
+      "descripcion": "Cómo hacer una cotización en minutos con inteligencia artificial, sin plantillas complicadas 👇\n\nLe das una sola vez a ChatGPT o Claude tus servicios, precios y condiciones. Después le pegas lo que pidió el cliente y te arma la cotización con tu formato. Tú revisas los números y la envías.\n\nComenta COTIZAR y te mando el prompt.\n\n¿Cuánto te demoras hoy en cotizar?\n\n#inteligenciaartificial #emprendimiento #ventas #ChatGPT",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "Ángulo: Educativo. Estructura: Gancho → Lo que te llevas → Desarrollo → Solución + regalo.\nRegalo: comenta COTIZAR → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-regalos.md del PC, listo para su manychat.txt.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {}
+    },
+    {
+      "id": "g22",
+      "n": 22,
+      "titulo": "Qué es una API, explicado con un restaurante",
+      "pilar": "IA práctica",
+      "angulo": "Educativo",
+      "formato": "Reel + TikTok",
+      "objetivo": "Guardados y compartidos; base para entender automatizaciones (tecnología explicada fácil).",
+      "duracion": "35–45 s",
+      "gancho": "Si no entiendes qué es una API, nunca vas a entender cómo funciona una automatización. Te lo explico con un restaurante.",
+      "ganchos": [
+        {
+          "tipo": "Pregunta",
+          "txt": "Si no entiendes qué es una API, nunca vas a entender cómo funciona una automatización. Te lo explico con un restaurante."
+        },
+        {
+          "tipo": "Comparación",
+          "txt": "API y webhook, explicados con un restaurante."
+        },
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "No necesitas ser programador para entender qué es una API."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Si no entiendes qué es una API, nunca vas a entender cómo funciona una automatización. Te lo explico con un restaurante.",
+          "como": "Cercano, con energía.",
+          "pantalla": "Tú a cámara. Texto: “¿Qué es una API? 🍽️”."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Al final te regalo un mini diccionario con las diez palabras técnicas que más vas a escuchar, explicadas fácil.",
+          "como": "Rápido.",
+          "pantalla": "Texto: “Diccionario al final 🎁”."
+        },
+        {
+          "t": "7–30 s",
+          "nombre": "Desarrollo",
+          "digo": "Tú eres el cliente. La cocina es el sistema que tiene la información. Y el mesero es la API. Tú no entras a la cocina: le pides al mesero, él lleva el pedido y te trae el plato. Cuando una automatización conecta Instagram con tu hoja de cálculo, son dos sistemas hablando por medio de sus meseros. Y un webhook es cuando la cocina te avisa sola que tu plato está listo, sin que tengas que preguntar.",
+          "como": "Usa las manos para ubicar cliente, mesero y cocina en el espacio. Pausa entre cada uno.",
+          "pantalla": "Íconos simples: 🧑 cliente → 🤵 mesero (API) → 👨‍🍳 cocina. Luego 🔔 para el webhook."
+        },
+        {
+          "t": "30–40 s",
+          "nombre": "Solución + regalo",
+          "digo": "Ahora ya sabes qué es una API. Comenta DICCIONARIO y te mando las otras nueve palabras.",
+          "como": "Señala abajo.",
+          "pantalla": "La palabra DICCIONARIO en pantalla."
+        }
+      ],
+      "textoPantalla": "Cliente · Mesero = API · Cocina = sistema · 🔔 Webhook · DICCIONARIO",
+      "edicion": "Los íconos aparecen cuando los nombras. Mantén el mismo esquema en pantalla para el webhook.",
+      "stories": "Antes: quiz “¿Qué es una API? A) Un programa B) Un mesero entre sistemas C) Una app”. Después: explica la respuesta y comparte el Reel.",
+      "descripcion": "¿Qué es una API? Te lo explico fácil, con un restaurante 🍽️👇\n\nTú eres el cliente, la cocina es el sistema y el mesero es la API: lleva tu pedido y te trae la respuesta. Así se conectan las automatizaciones entre apps. Y un webhook es cuando la cocina te avisa sola.\n\nComenta DICCIONARIO y te mando 10 palabras técnicas de inteligencia artificial y automatización, explicadas fácil.\n\n#API #automatizacion #inteligenciaartificial #tecnologia",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "Ángulo: Educativo. Estructura: Gancho → Lo que te llevas → Desarrollo → Solución + regalo.\nRegalo: comenta DICCIONARIO → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-regalos.md del PC, listo para su manychat.txt.",
       "links": {
         "ig": "",
         "tt": ""

@@ -75,13 +75,13 @@ const REEL_DAY = [
 ];
 
 const STRUCT = [
-  {t:"0–2 s", n:"Gancho", q:"¿Por qué debería detenerme?", d:"Gancho específico con prueba visual. Abre con el producto, la pantalla o el antes/después.", col:"#6B1626", k:"#fff", w:"2fr"},
-  {t:"2–6 s", n:"Promesa", q:"¿Esto me importa?", d:"Problema o promesa concreta. Di a quién ayudas y qué va a ver.", col:"#D79A9A", k:"#2B1710"},
-  {t:"6–20 s", n:"Demostración", q:"¿Qué estoy aprendiendo?", d:"Demostración, pasos o historia. Alterna cara, pantalla, detalle y resultado cuando tenga sentido.", col:"#AEC38E", k:"#2B1710"},
-  {t:"20–30 s", n:"Resultado", q:"¿Valió la pena verlo?", d:"Resultado o conclusión. Muestra qué quedó funcionando y qué falta.", col:"#EBCB9D", k:"#2B1710"},
-  {t:"Cierre", n:"CTA", q:"¿Qué hago después?", d:"Un solo CTA coherente: comentar, guardar o visitar el perfil, según el objetivo.", col:"#F7D774", k:"#2B1710"}
+  {t:"0–3 s", n:"Gancho", q:"¿Por qué debería detenerme?", d:"Una frase que detiene el scroll: resultado, error común o una opinión que choca. Sin saludo.", col:"#6B1626", k:"#fff"},
+  {t:"3–7 s", n:"Lo que te llevas", q:"¿Por qué me quedo hasta el final?", d:"Promete lo que van a obtener si ven todo el video: el regalo, el prompt o la plantilla del final.", col:"#D79A9A", k:"#2B1710"},
+  {t:"7–30 s", n:"Desarrollo", q:"¿Qué estoy aprendiendo?", d:"Explica, demuestra o argumenta. Alterna cara, pantalla y ejemplo. Una sola idea.", col:"#AEC38E", k:"#2B1710"},
+  {t:"Cierre", n:"Solución + regalo", q:"¿Qué hago ahora?", d:"Da la solución en una frase y entrega el regalo: comenta la palabra y te llega por mensaje.", col:"#F7D774", k:"#2B1710"}
 ];
 const TECNICAS = [
+  {t:"Polémica con argumento", d:"Toma una postura clara contra una creencia común y defiéndela con una razón y un ejemplo. Ataca la idea, nunca a una persona.", p:"Cierra con la solución y una pregunta: “¿estás de acuerdo o no?”. Responde con respeto a quien opine distinto.", col:"#D3322A", k:"#fff"},
   {t:"Resultado primero", d:"Abre con el producto, la pantalla o el antes/después.", p:"Arrastra el mejor fotograma del final al segundo cero y cuenta el resto después.", col:"#AEC38E"},
   {t:"Una idea por video", d:"Si hay tres tutoriales diferentes, conviértelos en una serie.", p:"Antes de grabar, escribe la idea en una frase. Si necesitas “y además”, son dos videos.", col:"#F7B7A8"},
   {t:"Gancho específico", d:"Identifica a quién ayudas y qué verá; evita frases vacías como “no creerás esto”.", p:"Nombra el tipo de negocio o la tarea en la primera frase.", col:"#EBCB9D"},
@@ -101,9 +101,11 @@ const HOOKS = [
  "Te muestro cómo pasé de [proceso manual] a [proceso más ordenado].",
  "La diferencia entre [concepto A] y [concepto B], explicada con un ejemplo.",
  "No necesitas automatizarlo todo. Empieza por esta tarea.",
- "Esto parece complicado, pero son solo tres pasos."
+ "Esto parece complicado, pero son solo tres pasos.",
+ "Opinión impopular: [creencia común] no es verdad. Te explico por qué.",
+ "Deja de [hábito común con IA]. Lo que necesitas es [alternativa]."
 ];
-const HOOK_TYPES = ["Resultado primero","Problema primero","Error común","Antes / después","Pregunta","Comparación","Experimento","Lista o tres pasos","Historia de construcción"];
+const HOOK_TYPES = ["Polémica","Resultado primero","Problema primero","Error común","Antes / después","Pregunta","Comparación","Experimento","Lista o tres pasos","Historia de construcción"];
 
 /* checklist por video: 4 grupos */
 const CKG = [

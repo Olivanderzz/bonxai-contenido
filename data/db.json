@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "actualizado": "2026-11-08T23:02:46.000Z",
+  "actualizado": "2026-11-08T23:09:26.000Z",
   "inicioPlan": "",
   "guiones": [
     {
@@ -480,7 +480,7 @@
       "metricas": {}
     },
     {
-      "id": "g30",
+      "id": "g30b",
       "n": 30,
       "titulo": "Una nutricionista hacía cada plan a mano. Así se lo voy a resolver",
       "pilar": "Construyendo BONXAI",
@@ -528,19 +528,19 @@
         {
           "t": "19–47 s",
           "nombre": "Solución + regalo",
-          "digo": "Lo primero no fue programar. Fue escuchar sus audios, ver sus planes de ejemplo y entender qué se repite. Con eso le preparé tres opciones: una página que le organiza la consulta, otra con automatizaciones y una completa. Ahora le toca decidir, y te cuento en qué termina. Si tienes un negocio y quieres saber qué podrías automatizar, comenta AUTOMATIZAR.",
+          "digo": "Lo primero no fue programar. Fue escuchar sus audios, ver sus planes de ejemplo y entender qué se repite. Con eso le preparé tres opciones: una página que le organiza la consulta, otra con automatizaciones y una completa. Ahora le toca decidir, y te cuento en qué termina. Si tienes un negocio y quieres saber qué podrías automatizar, comenta DIAGNÓSTICO.",
           "como": "Tono de documental: cuentas lo que está pasando.",
-          "pantalla": "Notas del diagnóstico (borrosas) → las 3 opciones en tarjetas. Cierre: AUTOMATIZAR."
+          "pantalla": "Notas del diagnóstico (borrosas) → las 3 opciones en tarjetas. Cierre: DIAGNÓSTICO."
         }
       ],
-      "textoPantalla": "Caso real · Episodio 1 · Excel + Canva, uno por uno · 3 opciones · AUTOMATIZAR",
+      "textoPantalla": "Caso real · Episodio 1 · Excel + Canva, uno por uno · 3 opciones · DIAGNÓSTICO",
       "edicion": "Termina con “continuará” para que sigan la serie. El episodio 2 sale cuando ella decida.",
       "stories": "Antes: “¿Cuánto tiempo pierdes en tareas repetidas? <1 h / 1-3 h / +3 h al día”. Después: pide que te escriban su caso.",
-      "descripcion": "Una nutricionista hacía cada plan a mano: así lo voy a automatizar con inteligencia artificial 🥗 Comenta AUTOMATIZAR\n\nCálculos en Excel, PDF en Canva, paciente por paciente. Antes de programar escuché sus audios, vi sus planes y encontré qué se repite. Le preparé tres opciones. Te cuento en qué termina.\n\nSi tienes un negocio y quieres saber qué podrías automatizar, comenta AUTOMATIZAR y te mando tu diagnóstico gratis.\n\n#automatizacion #emprendimiento #nutricion #inteligenciaartificial",
-      "estado": "listo",
+      "descripcion": "Una nutricionista hacía cada plan a mano: así lo voy a automatizar con inteligencia artificial 🥗 Comenta DIAGNÓSTICO\n\nCálculos en Excel, PDF en Canva, paciente por paciente. Antes de programar escuché sus audios, vi sus planes y encontré qué se repite. Le preparé tres opciones. Te cuento en qué termina.\n\nSi tienes un negocio y quieres saber qué podrías automatizar, comenta DIAGNÓSTICO y te mando tu diagnóstico gratis.\n\n#automatizacion #emprendimiento #nutricion #inteligenciaartificial",
+      "estado": "idea",
       "fecha": "",
       "hora": "",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo (enfoque «IA que consigue cosas», 6 nov 2026).\nRegalo: comenta AUTOMATIZAR → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-v2-regalos.md del PC.\nOjo: PERMISO de la clienta por escrito antes de publicar, aunque no se diga su nombre. Nunca mostrar planes de pacientes reales (datos de salud): solo un paciente inventado. No decir precios. AUTOMATIZAR es el flujo de leads de BONXAI: queda separado del viejo AUTOMATIZA.",
+      "notas": "PENDIENTE (8 nov 2026): será una de las primeras clientas de Felipe. Es una excepción al cliente ideal (negocio de una sola persona): se graba cuando ella decida y con su permiso.\nEstructura: Gancho → Lo que te llevas → Problema → Solución + regalo (enfoque «IA que consigue cosas», 6 nov 2026).\nRegalo: comenta DIAGNÓSTICO → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-v2-regalos.md del PC.\nOjo: PERMISO de la clienta por escrito antes de publicar, aunque no se diga su nombre. Nunca mostrar planes de pacientes reales (datos de salud): solo un paciente inventado. No decir precios. La palabra de venta es DIAGNÓSTICO (8 nov 2026).",
       "links": {
         "ig": "",
         "tt": ""
@@ -1160,7 +1160,7 @@
       "metricas": {}
     },
     {
-      "id": "g40",
+      "id": "g40b",
       "n": 40,
       "titulo": "De visitar 40 tiendas al día a construir sistemas que trabajan solos",
       "pilar": "Construyendo BONXAI",
@@ -1220,7 +1220,7 @@
       "estado": "listo",
       "fecha": "",
       "hora": "",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, semana 2 · emoción. Adaptado de 00-Estrategia/marca-personal/guiones/01_reel_historia_45s.md y 05_post_emocion_historia.md, conservando las frases de Felipe. Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nLas fotos de Europa están en el celular de Felipe. Pendiente: si se nombra la empresa o se desenfoca el logo.\nNo usar “8 horas caminando” hasta que entre al banco de cifras.",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, semana 2 · emoción. Adaptado de 00-Estrategia/marca-personal/guiones/01_reel_historia_45s.md y 05_post_emocion_historia.md, conservando las frases de Felipe. Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nLas fotos de Europa están en el celular de Felipe. Pendiente: si se nombra la empresa o se desenfoca el logo.\nDato confirmado el 8 nov 2026: jornadas de 8 horas caminando (ya está en el banco de cifras; se puede sumar al acto 1).",
       "links": {
         "ig": "",
         "tt": ""
@@ -1296,7 +1296,7 @@
       "metricas": {}
     },
     {
-      "id": "g42",
+      "id": "g42b",
       "n": 42,
       "titulo": "Este mes abro 3 cupos para el Método Control Total",
       "pilar": "Construyendo BONXAI",
@@ -1353,10 +1353,10 @@
       "edicion": "A cámara, sin efectos. Los 3 pasos en texto.",
       "stories": "Semana 4: cuenta regresiva de cupos + testimonios.",
       "descripcion": "3 cupos este mes para automatizar tu negocio con inteligencia artificial: Método Control Total\n\n✅ Diagnóstico de tu negocio\n✅ Roadmap de IA: qué automatizar y en qué orden\n✅ Implementación y acompañamiento\n\nPara negocios con vendedores que quieren dejar de depender de estar presentes.\n\nComenta CUPO o escríbeme por DM.\n\n#automatizacion #negocios #pymes #inteligenciaartificial",
-      "estado": "idea",
+      "estado": "listo",
       "fecha": "",
       "hora": "",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, semana 4 · comercial. Adaptado de 00-Estrategia/marca-personal/guiones/07_post_comercial_cupos.md, conservando las frases de Felipe. Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nQUEDA EN IDEA hasta que Felipe confirme: (1) que 3 cupos es su capacidad real, (2) si van con el precio piloto (hasta 40 % menos a cambio de testimonio). El DM de CUPO ya está escrito en el guion original; va al manychat.txt del post.",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, semana 4 · comercial. Adaptado de 00-Estrategia/marca-personal/guiones/07_post_comercial_cupos.md, conservando las frases de Felipe. Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\n3 cupos confirmados por Felipe el 8 nov 2026 (consejo de su mentoría). Pendiente: si van con el precio piloto (hasta 40 % menos a cambio de testimonio); el guion no menciona precio. El DM de CUPO ya está escrito en el guion original; va al manychat.txt del post.",
       "links": {
         "ig": "",
         "tt": ""
@@ -1456,6 +1456,9 @@
     "g19",
     "g20",
     "g21",
-    "g22"
+    "g22",
+    "g30",
+    "g40",
+    "g42"
   ]
 }

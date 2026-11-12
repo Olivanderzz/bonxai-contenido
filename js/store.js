@@ -7,6 +7,7 @@ let DB = null;            // la base en memoria
 let CLOUD = null;         // base del artefacto (si existe)
 let ghDirty = false;
 
+const ESTORD = ["idea", "listo", "grabado", "editado", "publicado"];   // mismo orden que ESTADOS en app.js
 const nowISO = () => new Date().toISOString();
 const newer = (a, b) => (a && a.actualizado || "") > (b && b.actualizado || "");
 
@@ -36,22 +37,41 @@ async function loadDB(){
     // El repo trae algo más nuevo: se conserva lo de este equipo (estados, fechas, métricas, ediciones)
     // y solo se suman los guiones que aquí no existen (salvo los que se borraron aquí).
     // Los que se borraron en el repo también salen de este equipo.
+    // Un guion corregido en el repo llega con id nuevo y "reemplaza": <id viejo>; hereda de aquí estado, fecha, links, métricas y notas.
+    // El estado solo avanza: si en el repo un guion ya va más adelante (p. ej. Juliana lo editó), se adopta; nunca retrocede.
     DB = normalize(local); base = normalize(base);
+    const previos = new Map(DB.guiones.map(g => [g.id, g])), borradosAqui = new Set(DB.borrados);
     const antes = DB.guiones.length, fueraRepo = new Set(base.borrados);
     DB.guiones = DB.guiones.filter(g => !fueraRepo.has(g.id));
-    const quitados = antes - DB.guiones.length;
+    const removidos = antes - DB.guiones.length;
     DB.borrados = [...new Set([...DB.borrados, ...base.borrados])];
     const ids = new Set(DB.guiones.map(g => g.id)), fuera = new Set(DB.borrados);
-    const nuevos = base.guiones.filter(g => !ids.has(g.id) && !fuera.has(g.id));
+    const nuevos = base.guiones.filter(g => !ids.has(g.id) && !fuera.has(g.id) && !(g.reemplaza && borradosAqui.has(g.reemplaza)));   // si aquí borraste el viejo, su versión nueva tampoco entra
+    let heredados = 0;
+    nuevos.forEach(g => {
+      const v = g.reemplaza && previos.get(g.reemplaza); if (!v) return;
+      heredados++;
+      if (ESTORD.indexOf(v.estado) > ESTORD.indexOf(g.estado)) g.estado = v.estado;
+      ["fecha", "hora"].forEach(k => { if (v[k]) g[k] = v[k]; });
+      if (v.links && (v.links.ig || v.links.tt)) g.links = v.links;
+      if (v.metricas && Object.keys(v.metricas).length) g.metricas = v.metricas;
+      if (v.notas && !g.notas.includes(v.notas.trim()) && !v.notas.includes(g.notas.trim())) g.notas = g.notas + "\n\nMis notas (de la versión anterior):\n" + v.notas;
+    });
     DB.guiones.push(...nuevos);
+    let avanzaron = 0;
+    const enBase = new Map(base.guiones.map(g => [g.id, g]));
+    DB.guiones.forEach(g => { const b = enBase.get(g.id); if (b && ESTORD.indexOf(b.estado) > ESTORD.indexOf(g.estado)) { g.estado = b.estado; avanzaron++; } });
     DB.actualizado = base.actualizado;
     try { localStorage.setItem(LSK, JSON.stringify(DB)); } catch (e) {}
-    if (nuevos.length || quitados) {
+    const reales = nuevos.length - heredados, quit = Math.max(0, removidos - heredados);   // los reemplazados no cuentan como quitados
+    if (nuevos.length || removidos || avanzaron) {
       ghDirty = true; try { localStorage.setItem(GHK + "-dirty", "1"); } catch (e) {}
       const t = [];
-      if (nuevos.length) t.push(nuevos.length === 1 ? "llegó 1 guion nuevo" : `llegaron ${nuevos.length} guiones nuevos`);
-      if (quitados) t.push(quitados === 1 ? "se quitó 1 que se borró en GitHub" : `se quitaron ${quitados} que se borraron en GitHub`);
-      const s = t.join(" y "); toast(s[0].toUpperCase() + s.slice(1));
+      if (reales) t.push(reales === 1 ? "llegó 1 guion nuevo" : `llegaron ${reales} guiones nuevos`);
+      if (heredados) t.push(heredados === 1 ? "se actualizó 1 guion" : `se actualizaron ${heredados} guiones`);
+      if (avanzaron) t.push(avanzaron === 1 ? "1 guion cambió de estado" : `${avanzaron} guiones cambiaron de estado`);
+      if (quit) t.push(quit === 1 ? "se quitó 1 que se borró en GitHub" : `se quitaron ${quit} que se borraron en GitHub`);
+      const s = t.length > 1 ? t.slice(0, -1).join(", ") + " y " + t[t.length - 1] : t[0]; toast(s[0].toUpperCase() + s.slice(1));
     }
     return;
   }

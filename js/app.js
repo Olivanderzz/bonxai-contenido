@@ -46,6 +46,8 @@ async function copy(text){
 const ESTADOS = [["idea","Idea"],["listo","Listo para grabar"],["grabado","Grabado"],["editado","Editado"],["publicado","Publicado"]];
 const estLabel = e => (ESTADOS.find(x => x[0] === e) || ESTADOS[0])[1];
 const estIdx = e => ESTADOS.findIndex(x => x[0] === e);
+const yaGrabado = g => estIdx(g.estado) >= 2;   // grabado, editado o publicado: sale de "Por grabar"
+const vistaDe = g => yaGrabado(g) ? "hechos" : "pend";
 const FORMATOS = ["Reel + TikTok","Reel","TikTok","Carrusel","Stories","Otro"];
 const pilarCol = p => (PILARES.find(x => x.n === p) || {col:"#E8D5C0"}).col;
 const calOf = d => CAL.find(x => x.gd === d.getDay());
@@ -59,7 +61,7 @@ function scriptText(g){
 }
 
 /* ---------- navegación ---------- */
-const UI = {estado:"", pilar:"", q:"", edit:false, wk:0, red:"ig", tab:"resumen", recI:0};
+const UI = {vista:"pend", estado:"", pilar:"", q:"", edit:false, wk:0, red:"ig", tab:"resumen", recI:0};
 const VIEWS = [
   {id:"hoy", n:"Hoy", ic:"home", c:"#F7D774", title:"¿Qué grabamos hoy?", desc:"Lo que toca hoy, el siguiente guion listo y cómo va todo. Toca Grabar y listo."},
   {id:"guiones", n:"Guiones", ic:"clap", c:"#6B1626", k:"#fff", title:"Banco de guiones", desc:"Cada video con su gancho, escenas y estado. Léelo, edítalo o abre el modo grabar."},
@@ -143,18 +145,33 @@ V_.hoy = () => {
 /* ================= GUIONES ================= */
 function filtered(){
   const q = UI.q.trim().toLowerCase();
-  return DB.guiones.filter(g => (!UI.estado || g.estado === UI.estado) && (!UI.pilar || g.pilar === UI.pilar) && (!q || (g.titulo + " " + g.gancho + " " + g.notas).toLowerCase().includes(q))).sort(byNum);
+  const hechos = UI.vista === "hechos";
+  return DB.guiones.filter(g => yaGrabado(g) === hechos && (!UI.estado || g.estado === UI.estado) && (!UI.pilar || g.pilar === UI.pilar) && (!q || (g.titulo + " " + g.gancho + " " + g.notas).toLowerCase().includes(q)))
+    .sort((a, b) => hechos ? (estIdx(a.estado) - estIdx(b.estado)) || byNum(a, b) : byNum(a, b));
 }
+function giHTML(g, sel){
+  return `<button class="gi" data-go="guiones/${g.id}" aria-current="${g.id === sel}"><span class="n">${pad(g.n)}</span><span><b>${esc(g.titulo || "Sin título")}</b><span class="meta"><span class="chip stc st-${g.estado}">${estLabel(g.estado)}</span>${g.angulo === "Polémica" ? `<span class="chip pol" style="font-size:.7rem;padding:1px 8px">Polémica</span>` : ""}${/^Rueda/.test(g.angulo || "") ? `<span class="chip" style="font-size:.7rem;padding:1px 8px">${esc(g.angulo.replace("Rueda · ", "Rueda: "))}</span>` : ""}${g.formato === "Stories" ? `<span class="chip" style="font-size:.7rem;padding:1px 8px">Stories</span>` : ""}<span class="dot" style="background:${pilarCol(g.pilar)}"></span>${esc(g.pilar || "")}${g.fecha ? " · " + parseD(g.fecha).getDate() + " " + MESES[parseD(g.fecha).getMonth()] : ""}</span></span></button>`;
+}
+const GRUPOS = {grabado: "Grabados · falta editar", editado: "Editados · falta publicar", publicado: "Publicados"};
 function listHTML(sel){
-  const L = filtered();
-  return `<div class="filters"><button class="btn wine" data-new="1">${ic("plus")} Nuevo guion</button>
+  const L = filtered(), hechos = UI.vista === "hechos";
+  const nPend = DB.guiones.filter(g => !yaGrabado(g)).length, nHechos = DB.guiones.length - nPend;
+  const ests = ESTADOS.filter(([e]) => (estIdx(e) >= 2) === hechos);
+  let items = "";
+  if (!L.length) items = `<div class="empty">${hechos && !UI.estado && !UI.pilar && !UI.q ? "Todavía no hay guiones grabados. Cuando marques uno como “Grabado”, aparece aquí." : "Ningún guion con ese filtro."}</div>`;
+  else if (hechos) { let last = ""; L.forEach(g => { if (g.estado !== last) { last = g.estado; items += `<span class="lab gi-grp">${GRUPOS[g.estado] || estLabel(g.estado)}</span>`; } items += giHTML(g, sel); }); }
+  else items = L.map(g => giHTML(g, sel)).join("");
+  return `<div class="filters"><div class="tabs vista" role="tablist"><button role="tab" class="${hechos ? "" : "on"}" aria-selected="${!hechos}" data-vista="pend">Por grabar <b>${nPend}</b></button><button role="tab" class="${hechos ? "on" : ""}" aria-selected="${hechos}" data-vista="hechos">Ya grabados <b>${nHechos}</b></button></div>
+    ${hechos ? "" : `<button class="btn wine" data-new="1">${ic("plus")} Nuevo guion</button>`}
     <input type="search" placeholder="Buscar guion…" value="${esc(UI.q)}" data-ui="q">
-    <div class="row"><select data-ui="estado"><option value="">Todos los estados</option>${ESTADOS.map(([e, n]) => `<option value="${e}" ${UI.estado === e ? "selected" : ""}>${n}</option>`).join("")}</select>
+    <div class="row"><select data-ui="estado"><option value="">${hechos ? "Grabados, editados y publicados" : "Ideas y listos"}</option>${ests.map(([e, n]) => `<option value="${e}" ${UI.estado === e ? "selected" : ""}>${n}</option>`).join("")}</select>
     <select data-ui="pilar"><option value="">Todos los pilares</option>${PILARES.map(p => `<option ${UI.pilar === p.n ? "selected" : ""}>${esc(p.n)}</option>`).join("")}</select></div></div>
-    ${L.length ? L.map(g => `<button class="gi" data-go="guiones/${g.id}" aria-current="${g.id === sel}"><span class="n">${pad(g.n)}</span><span><b>${esc(g.titulo || "Sin título")}</b><span class="meta"><span class="chip stc st-${g.estado}">${estLabel(g.estado)}</span>${g.angulo === "Polémica" ? `<span class="chip pol" style="font-size:.7rem;padding:1px 8px">Polémica</span>` : ""}<span class="dot" style="background:${pilarCol(g.pilar)}"></span>${esc(g.pilar || "")}${g.fecha ? " · " + parseD(g.fecha).getDate() + " " + MESES[parseD(g.fecha).getMonth()] : ""}</span></span></button>`).join("") : `<div class="empty">Ningún guion con ese filtro.</div>`}`;
+    ${items}`;
 }
 V_.guiones = (id) => {
-  if (!id && window.innerWidth > 900) { const f = filtered()[0] || DB.guiones[0]; id = f ? f.id : ""; }
+  const sg = G(id);
+  if (sg && vistaDe(sg) !== UI.vista) { UI.vista = vistaDe(sg); UI.estado = ""; }   // la lista muestra el lado donde está el guion abierto
+  if (!id && window.innerWidth > 900) { const f = filtered()[0]; id = f ? f.id : ""; }
   const g = G(id);
   return `<div class="gl ${g ? "has-sel" : ""}"><aside class="gl-list" id="glList">${listHTML(id)}</aside><div id="gDetail">${g ? (UI.edit ? editHTML(g) : readHTML(g)) : `<div class="empty">Elige un guion de la lista o crea uno nuevo.</div>`}</div></div>`;
 };
@@ -377,20 +394,21 @@ function dataModal(){
 
 /* ================= EVENTOS ================= */
 document.addEventListener("click", e => {
-  const t = e.target.closest("[data-go],[data-rec],[data-new],[data-edit],[data-estado],[data-usehook],[data-copy],[data-copy-g],[data-dup],[data-del],[data-filter],[data-addsc],[data-delsc],[data-mvsc],[data-addhook],[data-delhook],[data-wk],[data-fill],[data-pickday],[data-assign],[data-quick],[data-close],[data-red],[data-recx],[data-recgo],[data-recn],[data-recf],[data-recdone],[data-data],[data-ghpush],[data-ghpull],[data-ghsave],[data-export]");
+  const t = e.target.closest("[data-go],[data-vista],[data-rec],[data-new],[data-edit],[data-estado],[data-usehook],[data-copy],[data-copy-g],[data-dup],[data-del],[data-filter],[data-addsc],[data-delsc],[data-mvsc],[data-addhook],[data-delhook],[data-wk],[data-fill],[data-pickday],[data-assign],[data-quick],[data-close],[data-red],[data-recx],[data-recgo],[data-recn],[data-recf],[data-recdone],[data-data],[data-ghpush],[data-ghpull],[data-ghsave],[data-export]");
   if (!t) { if (REC && e.target.closest("#recStage") && !e.target.closest("input,label,button")) { const r = $("#recStage").getBoundingClientRect(); recGo(REC.i + (e.clientX < r.left + r.width / 3 ? -1 : 1)); } return; }
   const d = t.dataset;
   if (d.go != null) { if (d.go.startsWith("guiones")) UI.edit = false; closeModal(); go(d.go); return; }
+  if (d.vista) { UI.vista = d.vista; UI.estado = ""; const f = filtered()[0]; if (window.innerWidth > 900 && f) go("guiones/" + f.id); else if (route().a) go("guiones"); else refresh(); return; }
   if (d.rec) { go("grabar/" + d.rec); return; }
-  if (d.new) { const g = newGuion(); UI.edit = true; UI.estado = ""; go("guiones/" + g.id); return; }
+  if (d.new) { const g = newGuion(); UI.edit = true; UI.estado = ""; UI.vista = "pend"; go("guiones/" + g.id); return; }
   if (d.edit != null) { UI.edit = d.edit === "1"; refresh(); return; }
-  if (d.estado) { const g = G(d.id); g.estado = d.estado; save(); refresh(); if (d.estado === "publicado") toast("¡Publicado! Anota sus números en Métricas en unos días"); return; }
+  if (d.estado) { const g = G(d.id), antes = yaGrabado(g); g.estado = d.estado; save(); refresh(); if (d.estado === "publicado") toast("¡Publicado! Anota sus números en Métricas en unos días"); else if (!antes && yaGrabado(g)) toast("Pasó a “Ya grabados” ✓"); else if (antes && !yaGrabado(g)) toast("Volvió a “Por grabar”"); return; }
   if (d.usehook) { const g = G(d.id), old = g.gancho; g.gancho = d.usehook; if (g.escenas[0] && g.escenas[0].digo === old) g.escenas[0].digo = d.usehook; save(); refresh(); toast("Gancho cambiado"); return; }
   if (d.copy != null) { copy(d.copy); return; }
   if (d.copyG) { copy(scriptText(G(d.copyG))); return; }
   if (d.dup) { const s = G(d.dup), g = JSON.parse(JSON.stringify(s)); Object.assign(g, {id: uid(), n: nextNum(), titulo: s.titulo + " (copia)", estado: "idea", fecha: "", hora: "", links: {ig: "", tt: ""}, metricas: {}}); DB.guiones.push(g); save(); go("guiones/" + g.id); toast("Duplicado"); return; }
   if (d.del) { const g = G(d.del); if (confirm(`¿Eliminar “${g.titulo || "este guion"}”? Esto no se puede deshacer.`)) { DB.guiones = DB.guiones.filter(x => x !== g); if (!DB.borrados.includes(g.id)) DB.borrados.push(g.id); save(); go("guiones"); toast("Eliminado"); } return; }
-  if (d.filter) { UI.estado = d.filter; UI.pilar = ""; UI.q = ""; const f = filtered()[0]; go("guiones" + (f && window.innerWidth > 900 ? "/" + f.id : "")); if (route().v === "guiones") refresh(); return; }
+  if (d.filter) { UI.vista = estIdx(d.filter) >= 2 ? "hechos" : "pend"; UI.estado = d.filter; UI.pilar = ""; UI.q = ""; const f = filtered()[0]; go("guiones" + (f && window.innerWidth > 900 ? "/" + f.id : "")); if (route().v === "guiones") refresh(); return; }
   if (d.addsc) { G(d.addsc).escenas.push({t: "", nombre: "", digo: "", como: "", pantalla: ""}); save(); refresh(); return; }
   if (d.delsc != null) { G(d.id).escenas.splice(+d.delsc, 1); save(); refresh(); return; }
   if (d.mvsc) { const a = G(d.id).escenas, i = +d.i, j = i + +d.mvsc; if (j < 0 || j >= a.length) return; [a[i], a[j]] = [a[j], a[i]]; save(); refresh(); return; }
@@ -407,7 +425,7 @@ document.addEventListener("click", e => {
   if (d.recgo != null) { recGo(+d.recgo); return; }
   if (d.recn) { recPrefs.notes = !recPrefs.notes; saveRecPrefs(); drawRec(); return; }
   if (d.recf) { recPrefs.fs = Math.max(1.4, Math.min(4.6, +(recPrefs.fs + +d.recf * 0.3).toFixed(1))); saveRecPrefs(); drawRec(); return; }
-  if (d.recdone) { const g = G(d.recdone); if (estIdx(g.estado) < 2) g.estado = "grabado"; save(); toast("¡Grabado! 🎬 Sigue la edición"); go("guiones/" + g.id); return; }
+  if (d.recdone) { const g = G(d.recdone); if (estIdx(g.estado) < 2) g.estado = "grabado"; save(); toast("¡Grabado! 🎬 Pasó a “Ya grabados”"); go("guiones/" + g.id); return; }
   if (d.data) { dataModal(); return; }
   if (d.ghsave) { ghSave({owner: $("#ghO").value.trim(), repo: $("#ghR").value.trim(), branch: $("#ghB").value.trim() || "main", path: $("#ghP").value.trim() || "data/db.json", token: $("#ghT").value.trim(), auto: $("#ghA").checked}); toast("Configuración guardada"); return; }
   if (d.ghpush) { closeModal(); ghPush(false); return; }

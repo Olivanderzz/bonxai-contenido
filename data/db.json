@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "actualizado": "2026-11-08T23:09:26.000Z",
+  "actualizado": "2026-11-12T14:01:35.000Z",
   "inicioPlan": "",
   "guiones": [
     {
@@ -197,10 +197,10 @@
       "edicion": "Que se vea en tiempo real, sin cortes entre el comentario y el DM: eso es lo que asombra. Puedes acelerar 2x lo de en medio.",
       "stories": "Antes: “¿Cuántos mensajes respondes al día? 0-10 / 10-50 / Más de 50”. Después: muestra el DM que te llegó y pregunta “¿Lo quieres para tu negocio?”.",
       "descripcion": "Así responde solo mi Instagram con inteligencia artificial: comentas, te llega el regalo y solo si me sigues 🤖 Comenta RESPONDE\n\nCuando un video funciona llegan cientos de comentarios. Construí BONXAI: responde al instante por DM, revisa si me sigues y recién ahí entrega el recurso. Así gano seguidores mientras automatizo Instagram.\n\nComenta RESPONDE y te mando las 3 cosas que necesitas para montarlo en tu cuenta.\n\n#automatizacion #instagram #inteligenciaartificial #negocios",
-      "estado": "listo",
+      "estado": "editado",
       "fecha": "",
       "hora": "",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo (enfoque «IA que consigue cosas», 6 nov 2026).\nRegalo: comenta RESPONDE → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-v2-regalos.md del PC.\nOjo: no mostrar tokens, IDs ni el panel interno de BONXAI. No prometer cifras de seguidores.",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo (enfoque «IA que consigue cosas», 6 nov 2026).\nRegalo: comenta RESPONDE → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-v2-regalos.md del PC.\nOjo: no mostrar tokens, IDs ni el panel interno de BONXAI. No prometer cifras de seguidores.\n\n12 nov 2026: grabado y editado por Juliana como «Automatizar Instagram desde cero» (palabra AUTOMATIZA, guía en PDF). Carpeta: Reels/videos hablando/Automatizar Instagram desde cero. Propuesto para el dom 15 nov, 12:30 p. m.; falta la aprobación de Felipe.",
       "links": {
         "ig": "",
         "tt": ""
@@ -1081,10 +1081,10 @@
       "edicion": "Que se vea el mensaje entrar y la respuesta salir sin cortes. Aviso fijo abajo: “Negocio de demostración”.",
       "stories": "Antes: “¿Respondes mensajes de noche? Sí / No / Me quedo sin vida”. Después: muestra la hoja con el cliente anotado.",
       "descripcion": "Un agente de inteligencia artificial que cotiza por WhatsApp mientras tu negocio está cerrado 🌙 Comenta VENDEDOR\n\nLos mensajes de la noche se responden al otro día, y para entonces el cliente ya compró en otro lado. Este agente tiene el catálogo, hace las preguntas de un vendedor, cotiza y deja al cliente anotado. Negocio de demostración.\n\nComenta VENDEDOR y te cuento cómo se vería esta automatización de WhatsApp en tu negocio.\n\n#whatsapp #automatizacion #ventas #inteligenciaartificial",
-      "estado": "idea",
+      "estado": "editado",
       "fecha": "",
       "hora": "",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo (enfoque «IA que consigue cosas», 6 nov 2026).\nRegalo: comenta VENDEDOR → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-v2-regalos.md del PC.\nOjo: HAY QUE CONSTRUIR LA DEMO ANTES (n8n + WhatsApp + Google Sheets): por eso queda en estado idea. Negocio inventado y marcado como demo, igual que Ciudad Nido.",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo (enfoque «IA que consigue cosas», 6 nov 2026).\nRegalo: comenta VENDEDOR → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-v2-regalos.md del PC.\nOjo: HAY QUE CONSTRUIR LA DEMO ANTES (n8n + WhatsApp + Google Sheets): por eso queda en estado idea. Negocio inventado y marcado como demo, igual que Ciudad Nido.\n\n12 nov 2026: grabado y editado por Juliana como «StoryTime de cuando me quedé dormido» (palabra BOT, guía en PDF). Carpeta: Reels/videos hablando/StoryTime de cuando me quedé dormido. Propuesto para el vie 13 nov, 12:30 p. m.; falta la aprobación de Felipe.",
       "links": {
         "ig": "",
         "tt": ""
@@ -1160,74 +1160,6 @@
       "metricas": {}
     },
     {
-      "id": "g40b",
-      "n": 40,
-      "titulo": "De visitar 40 tiendas al día a construir sistemas que trabajan solos",
-      "pilar": "Construyendo BONXAI",
-      "angulo": "Rueda · Emoción",
-      "formato": "Reel + TikTok",
-      "objetivo": "Emoción (rueda, semana 2): humanizar la marca con la historia en 3 actos.",
-      "duracion": "45–50 s",
-      "gancho": "Hace 4 años visitaba hasta 40 tiendas al día, caminando por Barcelona y Lyon.",
-      "ganchos": [
-        {
-          "tipo": "Historia de construcción",
-          "txt": "Hace 4 años visitaba hasta 40 tiendas al día, caminando por Barcelona y Lyon."
-        },
-        {
-          "tipo": "Problema primero",
-          "txt": "Hace 4 años mi trabajo era caminar todo el día. El sistema era de otro."
-        },
-        {
-          "tipo": "Antes / después",
-          "txt": "De caminar tienda por tienda a construir sistemas que trabajan solos."
-        }
-      ],
-      "escenas": [
-        {
-          "t": "0–3 s",
-          "nombre": "Gancho",
-          "digo": "Hace 4 años visitaba hasta 40 tiendas al día, caminando por Barcelona y Lyon.",
-          "como": "Voz en off sobre el video.",
-          "pantalla": "Video de 6 s con capucha. Texto: “Hace 4 años mi trabajo era caminar todo el día 👇”."
-        },
-        {
-          "t": "3–7 s",
-          "nombre": "Lo que te llevas",
-          "digo": "Al final te digo qué automatizar primero si tu negocio depende de ti.",
-          "como": "Rápido.",
-          "pantalla": "Texto: “Al final: qué automatizar primero”."
-        },
-        {
-          "t": "7–22 s",
-          "nombre": "Problema",
-          "digo": "Era comercial: tienda por tienda, convenciendo dueños. El sistema era de la empresa; yo solo ponía las piernas. Ahí aprendí cómo funciona un comercio por dentro. Y entendí que no quería ejecutar el sistema de otro: quería construir el mío.",
-          "como": "Cortes rápidos en las fotos; baja el ritmo al final.",
-          "pantalla": "Fotos: maleta → capucha → nublado → roja → Polaroid → espejo (ver 04_Banco_visual.md)."
-        },
-        {
-          "t": "22–48 s",
-          "nombre": "Solución + regalo",
-          "digo": "En 2024 empecé con Airbnb. Automaticé la limpieza, los mensajes y las cuentas. Pasé de ir todos los días a mis apartamentos a ir dos veces por semana. Y lo llevé a otros negocios: una tienda donde la dueña ve sus ventas en vivo y el sistema le detecta tres fallas de dinero por semana. Si tu negocio depende de que tú estés ahí, comenta DIAGNÓSTICO y te digo qué automatizar primero.",
-          "como": "Tono más calmado, a cámara.",
-          "pantalla": "Pantallas del CRM y del aviso de limpieza → sistema de ventas de la tienda. Cierre: “Comenta DIAGNÓSTICO”."
-        }
-      ],
-      "textoPantalla": "Hace 4 años mi trabajo era caminar todo el día 👇 · Tienda por tienda · El sistema era de otro · 2 veces por semana · DIAGNÓSTICO",
-      "edicion": "Cortes de 1-2 s por foto en el acto 1 y ritmo calmado en el acto 3. Música de tensión a resolución. Subtítulos obligatorios.",
-      "stories": "Semana 2: encuesta “¿Tu negocio funciona sin ti? Sí / A medias / No”.",
-      "descripcion": "De visitar 40 tiendas al día a construir sistemas con inteligencia artificial que trabajan solos 🚶‍♂️➡️🤖\n\nPrimero lo hice en mi negocio. Ahora lo hago en el tuyo.\n\nComenta DIAGNÓSTICO y te digo qué automatizar primero.\n\n#automatizacion #inteligenciaartificial #emprendimiento #pymes #negocios",
-      "estado": "listo",
-      "fecha": "",
-      "hora": "",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, semana 2 · emoción. Adaptado de 00-Estrategia/marca-personal/guiones/01_reel_historia_45s.md y 05_post_emocion_historia.md, conservando las frases de Felipe. Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nLas fotos de Europa están en el celular de Felipe. Pendiente: si se nombra la empresa o se desenfoca el logo.\nDato confirmado el 8 nov 2026: jornadas de 8 horas caminando (ya está en el banco de cifras; se puede sumar al acto 1).",
-      "links": {
-        "ig": "",
-        "tt": ""
-      },
-      "metricas": {}
-    },
-    {
       "id": "g41",
       "n": 41,
       "titulo": "3 automatizaciones que todo negocio con vendedores debería tener",
@@ -1296,75 +1228,76 @@
       "metricas": {}
     },
     {
-      "id": "g42b",
-      "n": 42,
-      "titulo": "Este mes abro 3 cupos para el Método Control Total",
+      "id": "g40c",
+      "n": 40,
+      "titulo": "De visitar 40 tiendas al día a construir sistemas que trabajan solos",
       "pilar": "Construyendo BONXAI",
-      "angulo": "Rueda · Comercial",
+      "angulo": "Rueda · Emoción",
       "formato": "Reel + TikTok",
-      "objetivo": "Comercial (rueda, semana 4): cierre o conversión.",
-      "duracion": "30 s",
-      "gancho": "Este mes abro solo 3 cupos para negocios que quieren dejar de depender de estar presentes.",
+      "objetivo": "Emoción (rueda, semana 2): humanizar la marca con la historia en 3 actos.",
+      "duracion": "45–50 s",
+      "gancho": "Hace 4 años visitaba hasta 40 tiendas al día, caminando por Barcelona y Lyon.",
       "ganchos": [
         {
-          "tipo": "Resultado primero",
-          "txt": "Este mes abro solo 3 cupos para negocios que quieren dejar de depender de estar presentes."
-        },
-        {
-          "tipo": "Pregunta",
-          "txt": "¿Tu negocio funciona cuando tú no estás? Este mes tengo 3 cupos."
+          "tipo": "Historia de construcción",
+          "txt": "Hace 4 años visitaba hasta 40 tiendas al día, caminando por Barcelona y Lyon."
         },
         {
           "tipo": "Problema primero",
-          "txt": "Si tu negocio ya factura bien pero no puedes soltarlo, esto es para ti."
+          "txt": "Hace 4 años mi trabajo era caminar todo el día. El sistema era de otro."
+        },
+        {
+          "tipo": "Antes / después",
+          "txt": "De caminar tienda por tienda a construir sistemas que trabajan solos."
         }
       ],
       "escenas": [
         {
-          "t": "0–5 s",
+          "t": "0–3 s",
           "nombre": "Gancho",
-          "digo": "Este mes abro solo 3 cupos para negocios que quieren dejar de depender de estar presentes.",
-          "como": "A cámara, tranquilo y seguro.",
-          "pantalla": "Texto: “3 cupos este mes”."
+          "digo": "Hace 4 años visitaba hasta 40 tiendas al día, caminando por Barcelona y Lyon.",
+          "como": "Voz en off sobre el video.",
+          "pantalla": "Video de 6 s con capucha. Texto: “Hace 4 años mi trabajo era caminar todo el día 👇”."
         },
         {
-          "t": "5–8 s",
+          "t": "3–7 s",
           "nombre": "Lo que te llevas",
-          "digo": "Te cuento qué incluye y para quién es.",
+          "digo": "Al final te digo qué automatizar primero si tu negocio depende de ti.",
           "como": "Rápido.",
-          "pantalla": "Texto: “Qué incluye 👇”."
+          "pantalla": "Texto: “Al final: qué automatizar primero”."
         },
         {
-          "t": "8–15 s",
+          "t": "7–22 s",
           "nombre": "Problema",
-          "digo": "Es para negocios con vendedores que ya facturan bien, pero que si el dueño no está, las cosas se descuadran.",
-          "como": "Directo.",
-          "pantalla": "Texto: “Para negocios con vendedores”."
+          "digo": "Era comercial de Cube Mobile: ocho horas caminando, tienda por tienda, convenciendo dueños. El sistema era de la empresa; yo solo ponía las piernas. Ahí aprendí cómo funciona un comercio por dentro. Y entendí que no quería ejecutar el sistema de otro: quería construir el mío.",
+          "como": "Cortes rápidos en las fotos; baja el ritmo al final.",
+          "pantalla": "Selfies de la época, 1-2 s cada una: capucha y gorra (“Tienda por tienda”) → cielo nublado (“Con lluvia, frío…”) → camiseta roja (“…y con calor”) → Polaroid de la oficina (“El sistema era de otro”, solo si confirmas que eres tú) → espejo del lobby (“Hasta que decidí construir lo mío”). Sin la foto de la maleta."
         },
         {
-          "t": "15–30 s",
+          "t": "22–48 s",
           "nombre": "Solución + regalo",
-          "digo": "Hacemos un diagnóstico de tu negocio, te entrego un roadmap de qué automatizar con IA y lo implementamos: control de ventas en vivo, atención automática y avisos al equipo. Son solo 3 cupos porque lo implemento yo mismo. Comenta CUPO o escríbeme por DM.",
-          "como": "Enumera los 3 pasos.",
-          "pantalla": "✅ Diagnóstico ✅ Roadmap de IA ✅ Implementación y acompañamiento. Cierre: CUPO."
+          "digo": "En 2024 empecé con Airbnb. Automaticé la limpieza, los mensajes y las cuentas. Pasé de ir todos los días a mis apartamentos a ir dos veces por semana. Y lo llevé a otros negocios: una tienda donde la dueña ve sus ventas en vivo y el sistema le detecta tres fallas de dinero por semana. Si tu negocio depende de que tú estés ahí, comenta DIAGNÓSTICO y te digo qué automatizar primero.",
+          "como": "Tono más calmado, a cámara.",
+          "pantalla": "Pantallas del CRM y del aviso de limpieza → sistema de ventas de la tienda. Cierre: “Comenta DIAGNÓSTICO”."
         }
       ],
-      "textoPantalla": "3 cupos este mes · ✅ Diagnóstico ✅ Roadmap de IA ✅ Implementación · CUPO",
-      "edicion": "A cámara, sin efectos. Los 3 pasos en texto.",
-      "stories": "Semana 4: cuenta regresiva de cupos + testimonios.",
-      "descripcion": "3 cupos este mes para automatizar tu negocio con inteligencia artificial: Método Control Total\n\n✅ Diagnóstico de tu negocio\n✅ Roadmap de IA: qué automatizar y en qué orden\n✅ Implementación y acompañamiento\n\nPara negocios con vendedores que quieren dejar de depender de estar presentes.\n\nComenta CUPO o escríbeme por DM.\n\n#automatizacion #negocios #pymes #inteligenciaartificial",
+      "textoPantalla": "Hace 4 años mi trabajo era caminar todo el día 👇 · 8 horas, tienda por tienda · El sistema era de otro · 2 veces por semana · DIAGNÓSTICO",
+      "edicion": "Cortes de 1-2 s por foto en el acto 1 y ritmo calmado en el acto 3. Música de tensión a resolución. Subtítulos obligatorios.",
+      "stories": "Semana 2: encuesta “¿Tu negocio funciona sin ti? Sí / A medias / No”.",
+      "descripcion": "De visitar 40 tiendas al día a construir sistemas con inteligencia artificial que trabajan solos 🚶‍♂️➡️🤖\n\nPrimero lo hice en mi negocio. Ahora lo hago en el tuyo.\n\nComenta DIAGNÓSTICO y te digo qué automatizar primero.\n\n#automatizacion #inteligenciaartificial #emprendimiento #pymes #negocios",
       "estado": "listo",
       "fecha": "",
       "hora": "",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, semana 4 · comercial. Adaptado de 00-Estrategia/marca-personal/guiones/07_post_comercial_cupos.md, conservando las frases de Felipe. Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\n3 cupos confirmados por Felipe el 8 nov 2026 (consejo de su mentoría). Pendiente: si van con el precio piloto (hasta 40 % menos a cambio de testimonio); el guion no menciona precio. El DM de CUPO ya está escrito en el guion original; va al manychat.txt del post.",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, semana 2 · emoción. Adaptado de 00-Estrategia/marca-personal/guiones/01_reel_historia_45s.md y 05_post_emocion_historia.md, conservando las frases de Felipe. Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\n12 nov 2026: se quitó la foto de la maleta (es de un compañero), se sumaron las 8 horas caminando y Cube Mobile (Felipe quiere nombrarla, así que el logo no se desenfoca).\nFotos de la época: selfies en 02-Contenido/LinkedIn/fotos/originales/ y en el celular. NO usar la foto de la maleta ni las 01, 02 y 06 (son compañeros, confirmado el 9 nov 2026).",
       "links": {
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "reemplaza": "g40b"
     },
     {
-      "id": "g43",
+      "id": "g43b",
       "n": 43,
       "titulo": "Video de presentación: Felipe Olivares, Bonxai Agency",
       "pilar": "Construyendo BONXAI",
@@ -1400,7 +1333,7 @@
           "nombre": "Lo que te llevas",
           "digo": "Desde 2022 fui comercial en Barcelona y Lyon. Entre 20 y 40 tiendas al día, caminando. Conozco el comercio desde el mostrador.",
           "como": "Seguro.",
-          "pantalla": "Fotos de Europa."
+          "pantalla": "Selfies de Europa (capucha, nublado, camiseta roja). Sin la foto de la maleta."
         },
         {
           "t": "15–30 s",
@@ -1412,7 +1345,7 @@
         {
           "t": "30–60 s",
           "nombre": "Solución + regalo",
-          "digo": "Lo llevé a otros negocios. En una tienda de souvenirs, la dueña dejó de gastar 3 horas a la semana pasando ventas a Excel, y el sistema le detecta unas 3 fallas de dinero por semana. Ayudo a negocios con vendedores a tener control total de sus ventas, su equipo y sus clientes, con el Método Control Total: diagnóstico, implementación y seguimiento. Agenda tu diagnóstico gratuito. El link está en mi perfil.",
+          "digo": "Lo llevé a otros negocios. En una tienda de souvenirs, la dueña dejó de gastar 3 horas a la semana pasando ventas a Excel, y el sistema le detecta unas 3 fallas de dinero por semana. Ayudo a negocios con vendedores a tener control total de sus ventas, su equipo y sus clientes, con el Método Control Total: diagnóstico, implementación y seguimiento. Agenda tu diagnóstico gratuito de 30 minutos. El link está en mi perfil.",
           "como": "Pausa antes del Método. Cierre mirando al lente.",
           "pantalla": "Pantalla del sistema de ventas + toma en la tienda → los 3 pasos en texto → CTA + link."
         }
@@ -1420,16 +1353,569 @@
       "textoPantalla": "Felipe Olivares · Fundador de Bonxai Agency · 20-40 tiendas al día · 2 veces por semana · Método Control Total · Agenda tu diagnóstico",
       "edicion": "Graba una versión horizontal (LinkedIn y web) y otra vertical (Instagram). Luz frontal y micrófono de solapa. Es el video más B2B de todos.",
       "stories": "Fíjalo en el perfil y compártelo en historias con “¿Quién soy y qué hago?”.",
-      "descripcion": "Soy Felipe Olivares, fundador de Bonxai Agency: automatización con inteligencia artificial para negocios con vendedores\n\nFui comercial en Barcelona y Lyon visitando hasta 40 tiendas al día. Hoy manejo mi negocio yendo 2 veces por semana gracias a sistemas con IA, y lo hago para otros negocios con el Método Control Total.\n\nAgenda tu diagnóstico gratuito: el link está en mi perfil.\n\n#automatizacion #inteligenciaartificial #negocios #pymes",
+      "descripcion": "Soy Felipe Olivares, fundador de Bonxai Agency: automatización con inteligencia artificial para negocios con vendedores\n\nFui comercial en Barcelona y Lyon visitando hasta 40 tiendas al día. Hoy manejo mi negocio yendo 2 veces por semana gracias a sistemas con IA, y lo hago para otros negocios con el Método Control Total.\n\nAgenda tu diagnóstico gratuito de 30 minutos: el link está en mi perfil.\n\n#automatizacion #inteligenciaartificial #negocios #pymes",
       "estado": "listo",
       "fecha": "",
       "hora": "",
-      "notas": "Adaptado de 00-Estrategia/marca-personal/guiones/02_video_presentacion_60s.md. Las escenas siguen los tiempos del original (aquí “Lo que te llevas” es la credencial y “Problema” es la promesa propia).\nPendiente: el link de agenda del diagnóstico (Calendly, Google Calendar o WhatsApp).",
+      "notas": "Adaptado de 00-Estrategia/marca-personal/guiones/02_video_presentacion_60s.md. Las escenas siguen los tiempos del original (aquí “Lo que te llevas” es la credencial y “Problema” es la promesa propia).\nPendiente: el link de agenda del diagnóstico (Calendly, Google Calendar o WhatsApp).\n12 nov 2026: el diagnóstico gratuito es de 30 minutos (banco de cifras, 9 nov). Fotos de la época: selfies en 02-Contenido/LinkedIn/fotos/originales/ y en el celular. NO usar la foto de la maleta ni las 01, 02 y 06 (son compañeros, confirmado el 9 nov 2026).",
       "links": {
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "reemplaza": "g43"
+    },
+    {
+      "id": "g42s",
+      "n": 42,
+      "titulo": "Stories de cierre: 3 cupos del Método Control Total (no es Reel)",
+      "pilar": "Construyendo BONXAI",
+      "angulo": "Rueda · Comercial",
+      "formato": "Stories",
+      "objetivo": "Comercial (rueda, semana 4) para quienes ya te siguen y están calientes, en la última etapa del embudo. La oferta va en Stories, no en un Reel del feed (decisión de Felipe, 12 nov 2026).",
+      "duracion": "5 historias, a lo largo de 3-5 días",
+      "gancho": "Este mes abro solo 3 cupos para negocios que quieren dejar de depender de estar presentes.",
+      "ganchos": [
+        {
+          "tipo": "Resultado primero",
+          "txt": "Este mes abro solo 3 cupos para negocios que quieren dejar de depender de estar presentes."
+        },
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Tu negocio funciona cuando tú no estás? Este mes tengo 3 cupos."
+        },
+        {
+          "tipo": "Variante mes 2",
+          "txt": "Esta semana tengo 5 diagnósticos gratuitos de 30 minutos. Te cuento para quién son."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "Historia 1",
+          "nombre": "Gancho",
+          "digo": "Este mes abro solo 3 cupos para negocios que quieren dejar de depender de estar presentes.",
+          "como": "A cámara, tranquilo y seguro. Sin música encima de la voz.",
+          "pantalla": "Texto: “3 cupos este mes”."
+        },
+        {
+          "t": "Historia 2",
+          "nombre": "Lo que te llevas",
+          "digo": "Esto incluye: un diagnóstico de tu negocio, de 30 minutos y sin costo. Te entrego un roadmap de qué automatizar con IA y en qué orden. Y lo implementamos: ventas en vivo, atención automática y avisos al equipo.",
+          "como": "Enumera con los dedos.",
+          "pantalla": "✅ Diagnóstico (30 min, sin costo) ✅ Roadmap de IA ✅ Implementación y seguimiento."
+        },
+        {
+          "t": "Historia 3",
+          "nombre": "Problema · para quién es",
+          "digo": "Es para negocios con vendedores o con varias sedes que ya venden bien, pero que si el dueño no está, las cosas se descuadran. No es para negocios de una sola persona.",
+          "como": "Directo. Si quieres filtrar más, di la cifra del documento: negocios que facturan 30 millones o más al mes.",
+          "pantalla": "Texto: “Para negocios con vendedores o varias sedes”."
+        },
+        {
+          "t": "Historia 4",
+          "nombre": "Prueba",
+          "digo": "Una tienda de souvenirs dejó de pasar ventas de un cuaderno a Excel, y hoy el sistema le detecta unas 3 fallas de dinero por semana.",
+          "como": "Voz en off sobre la pantalla del reporte.",
+          "pantalla": "Pantalla del reporte de la tienda + la frase de la dueña: “Antes no sabía ni cuál era el producto que más vendía. Ahora todo está organizado en un solo lugar.”"
+        },
+        {
+          "t": "Historia 5",
+          "nombre": "Cierre",
+          "digo": "Son solo 3 cupos porque lo implemento yo mismo. Respóndeme esta historia con la palabra CUPO y te escribo.",
+          "como": "Mirando al lente.",
+          "pantalla": "Sticker de cuenta regresiva (“Cierran los cupos”) + texto: “Respóndeme CUPO”."
+        }
+      ],
+      "textoPantalla": "3 cupos este mes · ✅ Diagnóstico ✅ Roadmap ✅ Implementación · Para negocios con vendedores o varias sedes · Respóndeme CUPO",
+      "edicion": "Son Stories: grábalas el mismo día o en vivo, verticales y sin edición pesada. Subtítulos con el texto de Instagram. Los días siguientes repite la historia 5 con la cuenta regresiva.",
+      "stories": "Días siguientes: actualiza “quedan N cupos” solo con el número real. Si llega un testimonio nuevo, súmalo como historia 4.",
+      "descripcion": "",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "notas": "Felipe, 12 nov 2026: un video de “abro 3 cupos” no va en el feed; eso es para los que ya te siguen, así que va en Stories. Este reemplaza al Reel del guion 42. Sale de 00-Estrategia/marca-personal/guiones/07_post_comercial_cupos.md y de la tabla de Stories de la semana 4 (cuenta regresiva de cupos + testimonios). Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nLas respuestas a una historia llegan como DM. No está confirmado que BONXAI conteste respuestas a historias (responde comentarios de posts), así que Felipe contesta a mano con el DM de CUPO del guion 07 y filtra con el cliente ideal (ADN, sección 8).\nReglas del documento: di “3 cupos” solo si es tu capacidad real (confirmado el 8 nov). Pendiente: si van con el precio piloto (hasta 40 % menos a cambio de testimonio). Ese mes, el espacio del feed de la semana 4 lo ocupa una pieza de valor o de autoridad.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "reemplaza": "g42b"
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Resultado primero",
+          "txt": "Tengo 7 alojamientos y voy a verlos 2 veces por semana, no todos los días."
+        },
+        {
+          "tipo": "Antes / después",
+          "txt": "Antes iba todos los días a mis apartamentos. Hoy voy 2 veces por semana."
+        },
+        {
+          "tipo": "Dato",
+          "txt": "En octubre tuve 55 reservas en 7 alojamientos, y no fui todos los días."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Tengo 7 alojamientos y voy a verlos 2 veces por semana, no todos los días.",
+          "como": "A cámara, frente a un apartamento o caminando (sin mostrar la dirección ni el número).",
+          "pantalla": "Texto: “7 alojamientos · 2 visitas por semana”."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Te muestro las 4 piezas que lo hacen posible, y al final te digo cómo se ve en un negocio con vendedores.",
+          "como": "Rápido.",
+          "pantalla": "Texto: “4 piezas 👇”."
+        },
+        {
+          "t": "7–17 s",
+          "nombre": "Problema",
+          "digo": "Antes iba todos los días y coordinaba la limpieza por mensajes. Si yo no escribía, nadie sabía qué tocaba. Y en octubre fueron 55 reservas en el mes.",
+          "como": "Cercano, sin quejarse.",
+          "pantalla": "Chats desenfocados → texto: “55 reservas en octubre”."
+        },
+        {
+          "t": "17–43 s",
+          "nombre": "Solución + regalo",
+          "digo": "Hoy funciona con cuatro cosas. Un panel donde veo todas las reservas. Un aviso que le dice al equipo de limpieza qué toca, sin que yo escriba. El control de la plata, lo que entra y lo que sale. Y mensajes automáticos para los huéspedes. De siete visitas a la semana pasé a dos. Si tienes vendedores o varias sedes y todo depende de que tú estés, funciona igual. Comenta DIAGNÓSTICO y te digo qué automatizar primero.",
+          "como": "Contando con los dedos. Pausa antes de “funciona igual”.",
+          "pantalla": "1) panel de reservas 2) aviso de limpieza llegando al celular 3) control de la plata (montos tapados) 4) mensaje a un huésped (sin datos). Texto: “≈70 % menos visitas”. Cierre: DIAGNÓSTICO."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "Reel + TikTok",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "7 alojamientos · 2 visitas por semana · 55 reservas en octubre · 1 Panel 2 Aviso de limpieza 3 Control de la plata 4 Mensajes a huéspedes · ≈70 % menos visitas · DIAGNÓSTICO",
+      "edicion": "Una pantalla real por pieza; el aviso de limpieza llegando es la toma más fuerte. Sin nombres de herramientas en pantalla (regla de jerga de la rueda). El Eje Homes aparece solo como caso, nunca como promoción: sin nombre de los apartamentos, direcciones, códigos de chapas, datos de huéspedes ni nombre o teléfono de la persona del aseo.",
+      "stories": "Semana 1 de la rueda: detrás de cámaras del aviso de limpieza llegando al celular.",
+      "descripcion": "Cómo automatizar tu negocio para no tener que estar todos los días: así manejo 7 alojamientos 🏡\n\nAntes iba todos los días y coordinaba la limpieza por mensajes. En octubre tuve 55 reservas y fui 2 veces por semana.\n\nLo que cambió: un panel con todas las reservas, avisos automáticos al equipo de limpieza, control de lo que entra y lo que sale, y mensajes automáticos para los huéspedes. De 7 visitas a la semana a 2.\n\nSi tienes vendedores o varias sedes y todo depende de que tú estés, funciona igual.\n\nComenta DIAGNÓSTICO y te digo qué automatizar primero.\n\n#automatizacion #negocios #pymes #inteligenciaartificial",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 2 · autoridad. Tema del banco de 03_Estrategia_de_contenido.md (“De ir todos los días a 2 veces por semana: cómo manejo 7 alojamientos”). Cifras: solo las del banco de cifras (02_Banco_de_cifras.md). Usa: 7 alojamientos, 2 visitas por semana, ≈70 % menos, 55 reservas en octubre de 2026.\nOjo: se parece al guion 27 (7 Airbnb con bots), que es la versión de alcance (nombra Claude y regala HUESPED). Este es para dueños: sin herramientas y con DIAGNÓSTICO. No publicar los dos en la misma semana; Ciudad Nido (12 nov) también mostró el panel.\nEl Eje Homes aparece solo como caso, nunca como promoción: sin nombre de los apartamentos, direcciones, códigos de chapas, datos de huéspedes ni nombre o teléfono de la persona del aseo.",
+      "objetivo": "Autoridad (rueda, mes 2, semana 1): probar la habilidad 2 con el negocio propio, contado para dueños con equipo o varias sedes.",
+      "duracion": "40–45 s",
+      "id": "g44",
+      "n": 44,
+      "titulo": "De ir todos los días a 2 veces por semana: así manejo 7 alojamientos",
+      "pilar": "IA para negocios",
+      "angulo": "Rueda · Autoridad",
+      "gancho": "Tengo 7 alojamientos y voy a verlos 2 veces por semana, no todos los días."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Historia de construcción",
+          "txt": "La primera dueña que confió en mí pasaba 3 horas a la semana copiando ventas de un cuaderno a Excel."
+        },
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Qué hace que una dueña le confíe su negocio a alguien que apenas empieza?"
+        },
+        {
+          "tipo": "Antes / después",
+          "txt": "Antes no sabía cuál era su producto más vendido. Hoy sabe hasta sus horas pico."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "La primera dueña que confió en mí pasaba 3 horas a la semana copiando ventas de un cuaderno a Excel.",
+          "como": "A cámara o en la tienda, tono cálido.",
+          "pantalla": "El cuaderno de ventas. Texto: “Mi primera clienta 📓”."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Al final te cuento lo que ella aceptó desde el primer día, y que casi nadie acepta.",
+          "como": "Con intriga.",
+          "pantalla": "Texto: “Lo que aceptó desde el día 1 👇”."
+        },
+        {
+          "t": "7–20 s",
+          "nombre": "Problema",
+          "digo": "Tiene una tienda de souvenirs en Santa Rosa de Cabal, con dos vendedores. Anotaban en un cuaderno y ella pasaba todo a Excel, mínimo treinta minutos al día. Y aun así la plata no cuadraba. [PLACEHOLDER: cómo se conocieron y qué duda tenía ella antes de decir que sí].",
+          "como": "Pausado.",
+          "pantalla": "La tienda por fuera → el cuaderno → Excel."
+        },
+        {
+          "t": "20–48 s",
+          "nombre": "Solución + regalo",
+          "digo": "[PLACEHOLDER: por qué dijo que sí, contado por Felipe]. Hoy ve sus ventas en vivo y el sistema le avisa unas tres veces por semana cuando algo no cuadra. Y lo que aceptó desde el primer día: que yo contara su caso. Por eso te lo puedo mostrar. ¿Tu negocio funciona sin ti? Cuéntamelo en los comentarios.",
+          "como": "Si se deja, cierra la dueña con su frase a cámara.",
+          "pantalla": "Celular de la dueña con el reporte → la dueña: “Antes no sabía ni cuál era el producto que más vendía. Ahora todo está organizado en un solo lugar.”"
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "idea",
+      "formato": "Reel + TikTok",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "Mi primera clienta 📓 · 2 vendedores y un cuaderno · ~3 fallas de dinero por semana · Aceptó contar su caso desde el día 1",
+      "edicion": "Lo ideal es grabarlo en la tienda el mismo día que el guion 39 (pantallas del sistema + la dueña). Sin nombres de las vendedoras.",
+      "stories": "Semana 2: encuesta “¿Tu negocio funciona sin ti? Sí / A medias / No”.",
+      "descripcion": "Mi primera clienta en automatización con inteligencia artificial: una tienda que copiaba ventas de un cuaderno a Excel 📓\n\n2 vendedores, un cuaderno y una dueña que pasaba todo a Excel, mínimo 30 minutos al día. Y aun así la plata no cuadraba.\n\n[PLACEHOLDER: por qué confió en mí]\n\nHoy ve sus ventas en vivo y el sistema le avisa cuando algo no cuadra. Y desde el primer día aceptó que yo contara su caso.\n\n¿Tu negocio funciona sin ti? Cuéntamelo en los comentarios 👇\n\n#emprendimiento #negocios #automatizacion",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 2 · emoción. Tema del banco de 03_Estrategia_de_contenido.md y de la variante de guiones/05 (“cómo se cerró el trato, qué dudas tenía la dueña, por qué dijo que sí”). Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nEn IDEA hasta que Felipe cuente lo que falta: cómo se conocieron, qué duda tenía ella y por qué dijo que sí. No se inventa.\nPermiso: aprobado (publicar el caso fue condición del acuerdo). Sin palabra clave: el CTA es conversación, como en guiones/05.",
+      "objetivo": "Emoción (rueda, mes 2, semana 2): humanizar con el primer caso. La heroína es la dueña, Felipe es el guía.",
+      "duracion": "40–50 s",
+      "id": "g45",
+      "n": 45,
+      "titulo": "La primera dueña que confió en mí",
+      "pilar": "Construyendo BONXAI",
+      "angulo": "Rueda · Emoción",
+      "gancho": "La primera dueña que confió en mí pasaba 3 horas a la semana copiando ventas de un cuaderno a Excel."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Lista o tres pasos",
+          "txt": "5 señales de que tu negocio depende demasiado de ti."
+        },
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Tu negocio funciona si te vas una semana? Revisa estas 5 señales."
+        },
+        {
+          "tipo": "Problema primero",
+          "txt": "Tu negocio creció, pero tu control no creció con él. Estas son las señales."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "5 señales de que tu negocio depende demasiado de ti.",
+          "como": "A cámara, directo, cinco dedos arriba.",
+          "pantalla": "Texto: “5 señales 👇”."
+        },
+        {
+          "t": "3–6 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Cuenta cuántas tienes, que al final te digo cuál arreglar primero.",
+          "como": "Rápido.",
+          "pantalla": "Texto: “Cuenta las tuyas 📌”."
+        },
+        {
+          "t": "6–11 s",
+          "nombre": "Problema",
+          "digo": "Tu negocio creció, pero tu control no creció con él.",
+          "como": "Pausa corta después.",
+          "pantalla": "Texto: “Creció el negocio, no el control”."
+        },
+        {
+          "t": "11–42 s",
+          "nombre": "Solución + regalo",
+          "digo": "Uno: no sabes cuánto vendió cada vendedor hoy hasta que lo cuentas tú. Dos: la caja no cuadra y no sabes por qué. Tres: tu equipo te pregunta todo antes de actuar. Cuatro: el cliente que escribe de noche se queda sin respuesta. Cinco: no te puedes ir ni un día, porque si tú no estás, esto no funciona. Si marcaste tres o más, comenta DIAGNÓSTICO y en 30 minutos te digo cuál arreglar primero.",
+          "como": "Contando con los dedos; la cinco más lenta.",
+          "pantalla": "Una tarjeta por señal. Cierre: DIAGNÓSTICO."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "Reel + TikTok",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "5 señales 👇 · 1 No sabes cuánto vendió cada vendedor · 2 La caja no cuadra · 3 Tu equipo te pregunta todo · 4 El cliente de la noche no recibe respuesta · 5 Si no estás, no funciona · DIAGNÓSTICO",
+      "edicion": "También sirve como carrusel de 7 slides (gancho, 5 señales, CTA), que es mejor para guardados. Sin pantallas técnicas.",
+      "stories": "Semana 3: caja de preguntas “¿Qué tarea te quita más tiempo?”.",
+      "descripcion": "5 señales de que tu negocio depende demasiado de ti (y qué automatizar primero) 📌\n\n1. No sabes cuánto vendió cada vendedor hoy hasta que lo cuentas tú.\n2. La caja no cuadra y no sabes por qué.\n3. Tu equipo te pregunta todo antes de actuar.\n4. El cliente que escribe de noche se queda sin respuesta.\n5. No te puedes ir ni un día.\n\nTu negocio creció, pero tu control no creció con él. Guárdalo y cuenta las tuyas.\n\nSi marcaste 3 o más, comenta DIAGNÓSTICO y en 30 minutos te digo cuál arreglar primero.\n\n#negocios #pymes #automatizacion #emprendimiento",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 2 · valor. Tema del banco de 03_Estrategia_de_contenido.md. Las 5 señales salen del ADN: problema de StoryBrand (no saber en tiempo real cuánto vende cada persona, descuadres), dolores del cliente ideal (descuadre, venta no reportada), resultado negativo (clientes que se van por no recibir respuesta), resultado positivo (un equipo que no pregunta todo) y la señal de compra (“si yo no estoy, esto no funciona”). Sin cifras.\nDiagnóstico gratuito de 30 minutos: confirmado en el banco de cifras (9 nov).",
+      "objetivo": "Valor (rueda, mes 2, semana 3): que el dueño se reconozca en el problema y guarde el video.",
+      "duracion": "35–45 s",
+      "id": "g46",
+      "n": 46,
+      "titulo": "5 señales de que tu negocio depende demasiado de ti",
+      "pilar": "IA para negocios",
+      "angulo": "Rueda · Valor",
+      "gancho": "5 señales de que tu negocio depende demasiado de ti."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Historia de construcción",
+          "txt": "Llevaba casi 2 años caminando 8 horas al día por el sistema de otro. Hasta que un día decidí parar."
+        },
+        {
+          "tipo": "Problema primero",
+          "txt": "La empresa ganaba con cada recarga. Yo ponía las piernas."
+        },
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Alguna vez sentiste que trabajabas para el sistema de otro?"
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Llevaba casi 2 años caminando 8 horas al día por el sistema de otro. Hasta que un día decidí parar.",
+          "como": "Voz en off sobre una selfie de la época, o a cámara.",
+          "pantalla": "Selfie con capucha. Texto: “El día que decidí parar”."
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Te cuento qué pasó ese día y lo que hice después.",
+          "como": "Rápido.",
+          "pantalla": "Texto: “Qué pasó 👇”."
+        },
+        {
+          "t": "7–22 s",
+          "nombre": "Problema",
+          "digo": "Era comercial en Barcelona y Lyon. Entre 20 y 40 tiendas al día, ofreciendo tarjetas SIM. La empresa ganaba con cada recarga; yo ponía las piernas. [PLACEHOLDER: el momento exacto: qué pasó ese día, dónde estabas y qué pensaste].",
+          "como": "Ritmo lento, sin dramatizar.",
+          "pantalla": "Selfies: nublado (“Con lluvia, frío…”) → camiseta roja (“…y con calor”)."
+        },
+        {
+          "t": "22–48 s",
+          "nombre": "Solución + regalo",
+          "digo": "En 2024 monté mi propio negocio con una regla: tenía que funcionar sin mí. Hoy voy a mis apartamentos 2 veces por semana, no todos los días. Y eso es lo que hago para otros negocios: sistemas para que el dueño deje de ejecutar y pueda dirigir. ¿Tú todavía ejecutas o ya diriges tu negocio? Te leo en los comentarios.",
+          "como": "Más calmado, a cámara.",
+          "pantalla": "Foto del espejo del lobby → Felipe hoy a cámara → pantalla del aviso de limpieza."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "idea",
+      "formato": "Reel + TikTok",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "El día que decidí parar · 8 horas caminando · El sistema era de otro · 2024: lo mío · 2 veces por semana",
+      "edicion": "Fotos de la época: selfies en 02-Contenido/LinkedIn/fotos/originales/ y en el celular. NO usar la foto de la maleta ni las 01, 02 y 06 (son compañeros, confirmado el 9 nov 2026). Música de tensión a resolución.",
+      "stories": "Semana 2: encuesta “¿Tu negocio funciona sin ti?”.",
+      "descripcion": "El día que decidí dejar de ejecutar el sistema de otro y construir el mío 🚶‍♂️\n\nCasi 2 años como comercial en Barcelona y Lyon: 8 horas caminando, entre 20 y 40 tiendas al día. La empresa ganaba con cada recarga; yo ponía las piernas.\n\n[PLACEHOLDER: el momento]\n\nEn 2024 monté mi negocio con una regla: tenía que funcionar sin mí. Hoy voy 2 veces por semana.\n\n¿Tú todavía ejecutas o ya diriges tu negocio? 👇\n\n#emprendimiento #negocios #automatizacion",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 3 · emoción. Tema del banco de 03_Estrategia_de_contenido.md. Hechos del ADN (acto 1 y acto 2) y del banco de cifras: desde 2022, unos 2 años, 8 horas caminando, 20-40 tiendas, tarjetas SIM, la empresa ganaba con las recargas, 2024.\nEn IDEA hasta que Felipe cuente el momento concreto. Si no hubo un “día” puntual, se cambia el gancho por “Cómo decidí dejar de ejecutar el sistema de otro”. Sin palabra clave: el CTA es conversación.",
+      "objetivo": "Emoción (rueda, mes 3, semana 2): el momento del cambio, el puente entre el acto 1 y el acto 2 de la historia.",
+      "duracion": "40–50 s",
+      "id": "g47",
+      "n": 47,
+      "titulo": "El día que decidí dejar de ejecutar el sistema de otro",
+      "pilar": "Construyendo BONXAI",
+      "angulo": "Rueda · Emoción",
+      "gancho": "Llevaba casi 2 años caminando 8 horas al día por el sistema de otro. Hasta que un día decidí parar."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Pregunta",
+          "txt": "¿Cuánta plata se te va en ventas por transferencia que nadie reporta? Haz esta cuenta."
+        },
+        {
+          "tipo": "Error común",
+          "txt": "El cliente pagó por transferencia, la venta no se anotó y nadie se dio cuenta."
+        },
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "Muchos negocios no necesitan vender más. Necesitan dejar de perder lo que ya venden."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "¿Cuánta plata se te va en ventas por transferencia que nadie reporta? Haz esta cuenta.",
+          "como": "A cámara, serio.",
+          "pantalla": "Texto: “Ventas que nadie reporta 💸”."
+        },
+        {
+          "t": "3–6 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Te dejo la cuenta para que la hagas con tus números.",
+          "como": "Rápido.",
+          "pantalla": "Texto: “La cuenta al final 📌”."
+        },
+        {
+          "t": "6–17 s",
+          "nombre": "Problema",
+          "digo": "En una tienda con dos vendedores pasaba esto: había ventas por transferencia que nadie reportaba y descuadres frecuentes. La plata no cuadraba y nadie sabía por qué.",
+          "como": "Pausado.",
+          "pantalla": "Celular con una transferencia (sin datos) → cuaderno. Texto: “Pagó, pero no quedó anotado”."
+        },
+        {
+          "t": "17–43 s",
+          "nombre": "Solución + regalo",
+          "digo": "La cuenta: ventas sin reportar a la semana, por lo que vale una venta promedio, por cuatro. Eso se te va al mes. En esa tienda, hoy el sistema detecta unas tres fallas de dinero por semana que antes nadie veía. Con que una sola sea una venta que antes se perdía, el sistema empieza a pagarse solo. Lo que lo arregla es que cada venta quede registrada en el momento, se pague como se pague. Comenta DIAGNÓSTICO y hacemos la cuenta con tu negocio.",
+          "como": "Escribe la fórmula en una hoja o en pantalla mientras hablas.",
+          "pantalla": "Fórmula grande: “Ventas sin reportar por semana × venta promedio × 4 = lo que se te va al mes”. Luego: alerta de descuadre del sistema de la tienda. Cierre: DIAGNÓSTICO."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "Reel + TikTok",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "Ventas que nadie reporta 💸 · Ventas sin reportar × venta promedio × 4 · ~3 fallas de dinero por semana · DIAGNÓSTICO",
+      "edicion": "La fórmula tiene que quedarse en pantalla 3 segundos o más (es lo que se guarda). Sin ejemplo en pesos: no hay cifra real para eso; si quieres uno, que lo diga Felipe con un dato verdadero. También sirve como carrusel.",
+      "stories": "Semana 3: caja de preguntas “¿Qué tarea te quita más tiempo?” o encuesta “¿Tu caja cuadra todos los días?”.",
+      "descripcion": "Cuánta plata pierde tu negocio por ventas por transferencia que nadie reporta 💸 Haz esta cuenta\n\nVentas sin reportar a la semana × lo que vale una venta promedio × 4 = lo que se te va al mes.\n\nEn una tienda con 2 vendedores, el sistema hoy detecta unas 3 fallas de dinero por semana que antes nadie veía. Con que una sola sea una venta que antes se perdía, el sistema empieza a pagarse solo.\n\nComenta DIAGNÓSTICO y hacemos la cuenta con tu negocio.\n\n#negocios #pymes #ventas #automatizacion",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 3 · valor. Tema del banco de 03_Estrategia_de_contenido.md. Hechos del banco de cifras: la tienda tenía ventas por transferencia que no se reportaban y descuadres; hoy detecta unas 3 fallas de dinero por semana; argumento de retorno (“con que una sola falla detectada sea una venta que antes se perdía, el sistema empieza a pagarse solo”). Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nOjo: no decir que las 3 fallas por semana son todas transferencias; el banco dice “fallas de dinero”. No inventar montos en pesos.",
+      "objetivo": "Valor (rueda, mes 3, semana 3): que el dueño haga la cuenta con sus números y vea el costo de no tener control.",
+      "duracion": "35–45 s",
+      "id": "g48",
+      "n": 48,
+      "titulo": "Cuánta plata pierdes por ventas por transferencia que nadie reporta",
+      "pilar": "IA para negocios",
+      "angulo": "Rueda · Valor",
+      "gancho": "¿Cuánta plata se te va en ventas por transferencia que nadie reporta? Haz esta cuenta."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Historia de construcción",
+          "txt": "Visité más de mil tiendas en Barcelona y Lyon. Esto es lo que aprendí de sus dueños."
+        },
+        {
+          "tipo": "Lista o tres pasos",
+          "txt": "3 cosas que aprendí entrando a más de mil tiendas."
+        },
+        {
+          "tipo": "Dato",
+          "txt": "Entre 20 y 40 tiendas al día, caminando. Esto vi en cada mostrador."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Visité más de mil tiendas en Barcelona y Lyon. Esto es lo que aprendí de sus dueños.",
+          "como": "Voz en off sobre el video de 6 s o una selfie de la época.",
+          "pantalla": "Video de 6 s con capucha. Texto: “+1.000 tiendas”."
+        },
+        {
+          "t": "3–6 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Son tres cosas, y la última me cambió el rumbo.",
+          "como": "Rápido.",
+          "pantalla": "Texto: “3 lecciones 👇”."
+        },
+        {
+          "t": "6–14 s",
+          "nombre": "Problema",
+          "digo": "Era comercial: entre 20 y 40 tiendas al día, 8 horas caminando, ofreciendo tarjetas SIM. En cada mostrador veía lo mismo.",
+          "como": "Cortes rápidos.",
+          "pantalla": "Selfies de la época, 1-2 s cada una."
+        },
+        {
+          "t": "14–42 s",
+          "nombre": "Solución + regalo",
+          "digo": "Uno: el dueño no se puede ir ni una hora, porque si no está, el negocio se descuadra. Dos: conseguir cada cliente cuesta; yo lo sabía porque lo hacía tienda por tienda. Tres: el sistema era de la empresa, y yo solo ponía las piernas. Ahí entendí que quería construir el mío. Hoy construyo sistemas para que el dueño recupere el control sin tener que estar ahí. ¿Cuál de las tres te pasa a ti? Te leo en los comentarios.",
+          "como": "A cámara para las tres lecciones, con los dedos.",
+          "pantalla": "Una tarjeta por lección → Felipe hoy → pantalla del reporte de la tienda."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "Reel + TikTok",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "+1.000 tiendas · 20-40 al día, 8 horas caminando · 1 El dueño no se puede ir · 2 Cada cliente cuesta · 3 El sistema era de otro",
+      "edicion": "Fotos de la época: selfies en 02-Contenido/LinkedIn/fotos/originales/ y en el celular. NO usar la foto de la maleta ni las 01, 02 y 06 (son compañeros, confirmado el 9 nov 2026).",
+      "stories": "Semana 2: encuesta “¿Tu negocio funciona sin ti?”.",
+      "descripcion": "Lo que aprendí visitando más de mil tiendas como comercial, y por qué hoy automatizo negocios 🚶‍♂️\n\nEntre 20 y 40 tiendas al día, 8 horas caminando por Barcelona y Lyon. En cada mostrador veía lo mismo:\n\n1. El dueño no se puede ir ni una hora, porque si no está, el negocio se descuadra.\n2. Conseguir cada cliente cuesta.\n3. El sistema era de la empresa; yo solo ponía las piernas.\n\nAhí entendí que quería construir el mío. Hoy construyo sistemas para que el dueño recupere el control sin tener que estar ahí.\n\n¿Cuál de las tres te pasa a ti? 👇\n\n#emprendimiento #negocios #automatizacion",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 4 · emoción. Tema del banco de 03_Estrategia_de_contenido.md (“Lo que aprendí visitando miles de tiendas”). “Más de mil” es la cifra segura del banco de cifras. Las 3 lecciones salen del ADN (acto 1: conoce el comercio desde el mostrador y sabe lo que cuesta conseguir cada cliente) y de guiones/05 (dueños que no podían irse ni una hora). Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nSin palabra clave: el CTA es conversación.",
+      "objetivo": "Emoción (rueda, mes 4, semana 2): convertir la época de comercial en autoridad: conoce el comercio desde el mostrador.",
+      "duracion": "40–45 s",
+      "id": "g49",
+      "n": 49,
+      "titulo": "Lo que aprendí visitando más de mil tiendas",
+      "pilar": "Construyendo BONXAI",
+      "angulo": "Rueda · Emoción",
+      "gancho": "Visité más de mil tiendas en Barcelona y Lyon. Esto es lo que aprendí de sus dueños."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Contraintuitivo",
+          "txt": "Automatizo negocios con inteligencia artificial, y hay 3 cosas que nunca dejaría en sus manos."
+        },
+        {
+          "tipo": "Lista o tres pasos",
+          "txt": "3 cosas que nunca dejaría en manos de una IA."
+        },
+        {
+          "tipo": "Error común",
+          "txt": "Automatizar no es dejar que la IA haga todo sola. Estas 3 cosas, nunca."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Automatizo negocios con inteligencia artificial, y hay 3 cosas que nunca dejaría en sus manos.",
+          "como": "A cámara, firme.",
+          "pantalla": "Texto: “3 cosas que NO le dejo a la IA ✋”."
+        },
+        {
+          "t": "3–6 s",
+          "nombre": "Lo que te llevas",
+          "digo": "Y al final te digo por dónde sí empezar.",
+          "como": "Rápido.",
+          "pantalla": "Texto: “Y por dónde sí empezar 👇”."
+        },
+        {
+          "t": "6–12 s",
+          "nombre": "Problema",
+          "digo": "Mucha gente cree que automatizar es dejar que la IA decida sola. Ahí es donde un negocio se mete en problemas.",
+          "como": "Serio.",
+          "pantalla": "Texto: “La IA no decide sola”."
+        },
+        {
+          "t": "12–42 s",
+          "nombre": "Solución + regalo",
+          "digo": "Uno: los precios. Puede mostrar tu catálogo, pero el precio y el descuento los decides tú. Dos: los pagos. Que te organice las cuentas, sí; que mueva tu plata o apruebe un pago, no. Tres: el cliente molesto. A ese lo atiende una persona, y en los sistemas que monto alguien puede tomar la conversación cuando hace falta. ¿Por dónde sí empezar? Por lo de menor riesgo y mayor ahorro. Comenta DIAGNÓSTICO y te digo qué es seguro automatizar en tu negocio.",
+          "como": "Contando con los dedos.",
+          "pantalla": "Tarjetas: 1 Precios 2 Pagos 3 Cliente molesto → “Menor riesgo, mayor ahorro”. Cierre: DIAGNÓSTICO."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "Reel + TikTok",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "3 cosas que NO le dejo a la IA ✋ · 1 Precios 2 Pagos 3 Cliente molesto · Empieza por lo de menor riesgo y mayor ahorro · DIAGNÓSTICO",
+      "edicion": "Tiene algo de polémica: sirve para comentarios. Corto y a cámara.",
+      "stories": "Semana 3: caja de preguntas “¿Qué te da miedo dejarle a la IA?”.",
+      "descripcion": "3 cosas que nunca dejaría en manos de la inteligencia artificial (y yo automatizo negocios) ✋\n\n1. Los precios: la IA puede mostrar tu catálogo, pero el precio y el descuento los decides tú.\n2. Los pagos: que te organice las cuentas, sí; que mueva tu plata, no.\n3. El cliente molesto: a ese lo atiende una persona.\n\nAutomatizar de forma segura es empezar por lo de menor riesgo y mayor ahorro, con tus datos bajo tu control.\n\nComenta DIAGNÓSTICO y te digo qué es seguro automatizar en tu negocio.\n\n#inteligenciaartificial #automatizacion #negocios #pymes",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 4 · valor. Tema del banco de 03_Estrategia_de_contenido.md. Las 3 cosas salen del ADN (“De forma segura”: la IA no decide sola sobre precios, pagos ni clientes molestos; se empieza por lo de menor riesgo y mayor ahorro; los datos quedan bajo el control del dueño). La toma de control de la conversación es real: es del agente de ventas de BONXAI.",
+      "objetivo": "Valor (rueda, mes 4, semana 3): generar confianza explicando qué significa automatizar “de forma segura”.",
+      "duracion": "35–45 s",
+      "id": "g50",
+      "n": 50,
+      "titulo": "3 cosas que nunca dejaría en manos de una IA",
+      "pilar": "IA para negocios",
+      "angulo": "Rueda · Valor",
+      "gancho": "Automatizo negocios con inteligencia artificial, y hay 3 cosas que nunca dejaría en sus manos."
     }
   ],
   "ideas": [],
@@ -1459,6 +1945,9 @@
     "g22",
     "g30",
     "g40",
-    "g42"
+    "g42",
+    "g40b",
+    "g43",
+    "g42b"
   ]
 }

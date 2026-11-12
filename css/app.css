@@ -192,6 +192,10 @@ label.f{display:flex;flex-direction:column;gap:4px;font-weight:600;font-size:.86
 .tabs{display:flex;gap:6px;flex-wrap:wrap}
 .tabs button{border:2px solid var(--ink);border-radius:99px;padding:6px 14px;font-weight:600;cursor:pointer;background:var(--surface);font-size:.9rem}
 .tabs button.on{background:var(--ink);color:var(--bg)}
+.tabs.vista{display:grid;grid-template-columns:1fr 1fr}
+.tabs.vista button{padding:8px 6px;font-size:.88rem}
+.tabs.vista b{font:800 .9rem var(--display);margin-left:2px}
+.gi-grp{margin:8px 2px 0}
 .pil{border:2px solid var(--ink);border-radius:16px;overflow:hidden;background:var(--surface)}
 .pil .ph{background:var(--pc);padding:12px 14px;display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid var(--ink)}
 .pil .ph b{font:800 1.15rem var(--display)}

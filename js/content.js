@@ -1,20 +1,20 @@
 /* Estrategia y material de consulta del Plan Maestro BONXAI (solo lectura).
    Los guiones NO están aquí: viven en data/db.json */
 const CAL = [
-  {d:"Lunes",    gd:1, pz:"Video práctico / herramienta",     fm:"Reel + TikTok",                                  ob:"Alcance",                 st:"Plan de la semana + encuesta",  col:"#AEC38E", quick:[["Reel","Instagram"],["Video","TikTok"],["Stories","Instagram"]],
-    ideas:["Una Story con el plan de la semana y una encuesta.","Un segundo video corto de una herramienta, adaptado a TikTok."]},
-  {d:"Martes",   gd:2, pz:"Carrusel tutorial / checklist",    fm:"Instagram carrusel; adaptar a TikTok si encaja", ob:"Guardados",               st:"Tip + pregunta",                col:"#F7B7A8", quick:[["Carrusel","Instagram"],["Video","TikTok"],["Stories","Instagram"]],
-    ideas:["Una versión en video corto del carrusel para TikTok, si el tema encaja.","Un tip en Stories con una pregunta."]},
-  {d:"Miércoles",gd:3, pz:"Demostración de automatización",   fm:"Reel + TikTok",                                  ob:"Autoridad",               st:"Pantalla detrás de cámaras",    col:"#EBCB9D", quick:[["Reel","Instagram"],["Video","TikTok"],["Stories","Instagram"]],
-    ideas:["Una captura del proceso en Stories, sin datos sensibles.","Un clip corto de una automatización que ya funcione."]},
-  {d:"Jueves",   gd:4, pz:"IA aplicada a un negocio",         fm:"Reel + TikTok",                                  ob:"Compartidos",             st:"Problema frecuente + encuesta", col:"#D79A9A", quick:[["Reel","Instagram"],["Video","TikTok"],["Stories","Instagram"]],
-    ideas:["Un video sobre un problema frecuente de un negocio pequeño.","Una encuesta en Stories sobre ese mismo problema."]},
-  {d:"Viernes",  gd:5, pz:"Errores, comparación o lista",     fm:"Carrusel o video",                               ob:"Guardados y comentarios", st:"Respuesta a pregunta",          col:"#F7D774", quick:[["Carrusel","Instagram"],["Video","Ambas"],["Stories","Instagram"]],
-    ideas:["Un carrusel de errores comunes o de comparación.","Responder en video una pregunta real de la audiencia."]},
-  {d:"Sábado",   gd:6, pz:"Experimento / construyendo BONXAI",fm:"Reel + TikTok",                                  ob:"Conexión y confianza",    st:"Resultado + aprendizaje",       col:"#8FB07A", quick:[["Reel","Instagram"],["Video","TikTok"],["Stories","Instagram"]],
-    ideas:["Un avance de BONXAI con lo que quedó funcionando y lo que falta.","Una Story con el resultado y lo aprendido."]},
-  {d:"Domingo",  gd:0, pz:"Revisión; video opcional",         fm:"Publicación opcional",                           ob:"Aprendizaje",             st:"Resumen + adelanto",            col:"#E8D5C0", quick:[["Video","Ambas"],["Stories","Instagram"]],
-    ideas:["Revisar las métricas de la semana.","Elegir los tres experimentos de la semana siguiente.","Un video opcional si ya tienes material listo."]}
+  {d:"Lunes",    gd:1, pz:"Hablando a cámara · caso real",              fm:"Hablando a cámara",  ob:"Seguidores",  st:"Detrás de cámaras del caso + encuesta", col:"#D79A9A", quick:[["Reel","Instagram"],["Carrusel","Instagram"],["Stories","Instagram"]],
+    ideas:["Caso fuerte en 7 bloques (35-45 s): tu prueba en pantalla real.","Si toca carrusel esta semana, sale el mismo día que un reel, nunca en su lugar."]},
+  {d:"Martes",   gd:2, pz:"B-roll con texto · lista, POV o tip",        fm:"B-roll con texto",   ob:"Envíos",      st:"Sticker del día (encuesta o quiz)",      col:"#AEC38E", quick:[["Reel","Instagram"],["Stories","Instagram"]],
+    ideas:["Tomas tuyas (trabajando, en la calle, en los apartamentos) con el gancho y el valor en texto grande.","Cada toma se usa en un solo reel publicado: nunca repetir una toma."]},
+  {d:"Miércoles",gd:3, pz:"Hablando a cámara · caso real",              fm:"Hablando a cámara",  ob:"Seguidores",  st:"El CRM o el sistema por dentro",          col:"#D79A9A", quick:[["Reel","Instagram"],["Carrusel","Instagram"],["Stories","Instagram"]],
+    ideas:["Otro caso fuerte en 7 bloques, con otra familia de gancho que el del lunes."]},
+  {d:"Jueves",   gd:4, pz:"Cómico · sketch o POV de dueño de negocio",  fm:"Cómico",             ob:"Envíos",      st:"Caja de preguntas",                       col:"#F7D774", quick:[["Reel","Instagram"],["Stories","Instagram"]],
+    ideas:["Humor de 7-15 s: situación que duele → remate. Sin solución.","Cierre: “mándaselo a…”."]},
+  {d:"Viernes",  gd:5, pz:"Hablando a cámara · caso real",              fm:"Hablando a cámara",  ob:"Seguidores",  st:"Caso de la tienda por partes",            col:"#D79A9A", quick:[["Reel","Instagram"],["Carrusel","Instagram"],["Stories","Instagram"]],
+    ideas:["Tercer caso fuerte de la semana."]},
+  {d:"Sábado",   gd:6, pz:"B-roll con texto · lista, POV o tip",        fm:"B-roll con texto",   ob:"Envíos",      st:"Prompt del día o detrás de cámaras",      col:"#AEC38E", quick:[["Reel","Instagram"],["Stories","Instagram"]],
+    ideas:["Primer cuadro en movimiento, gancho de 5-8 palabras, máximo 3 líneas por pantalla."]},
+  {d:"Domingo",  gd:0, pz:"Hablando a cámara · opinión, emoción o lista",fm:"Hablando a cámara", ob:"Comentarios", st:"La época de Europa o una frase motivacional (van en Stories)", col:"#EBCB9D", quick:[["Reel","Instagram"],["Stories","Instagram"]],
+    ideas:["Opinión (25-35 s), historia o lista para guardar.","Las frases motivacionales salen del feed: van en Stories."]}
 ];
 const FMTS = ["Reel","Video","Carrusel","Stories","Foto","Otro"];
 const PLATS = ["Instagram","TikTok","Ambas"];
@@ -75,10 +75,13 @@ const REEL_DAY = [
 ];
 
 const STRUCT = [
-  {t:"0–3 s", n:"Gancho", q:"¿Por qué debería detenerme?", d:"Una frase que detiene el scroll: resultado, error común o una opinión que choca. Sin saludo.", col:"#6B1626", k:"#fff"},
-  {t:"3–7 s", n:"Lo que te llevas", q:"¿Por qué me quedo hasta el final?", d:"Promete lo que van a obtener si ven todo el video: el regalo, el prompt o la plantilla del final.", col:"#D79A9A", k:"#2B1710"},
-  {t:"7–30 s", n:"Desarrollo", q:"¿Qué estoy aprendiendo?", d:"Explica, demuestra o argumenta. Alterna cara, pantalla y ejemplo. Una sola idea.", col:"#AEC38E", k:"#2B1710"},
-  {t:"Cierre", n:"Solución + regalo", q:"¿Qué hago ahora?", d:"Da la solución en una frase y entrega el regalo: comenta la palabra y te llega por mensaje.", col:"#F7D774", k:"#2B1710"}
+  {t:"0–2 s",   n:"Gancho",            q:"Atención", d:"Tú + situación concreta. Máximo 12 palabras habladas desde el primer cuadro y 5-8 en pantalla. Arranca en movimiento, mirando al lente.", col:"#6B1626", k:"#fff"},
+  {t:"2–7 s",   n:"Dolor",             q:"Problema · interés", d:"La escena exacta que vive, para que diga “ese soy yo”.", col:"#D79A9A", k:"#2B1710"},
+  {t:"7–12 s",  n:"Agitar",            q:"Agitar", d:"Lo que le cuesta: plata, clientes, noches. Funciona como re-gancho.", col:"#F9A08D", k:"#2B1710"},
+  {t:"12–17 s", n:"El después",        q:"Deseo · después", d:"Cómo se ve su día cuando está resuelto (“Imagínate…”).", col:"#F7D774", k:"#2B1710"},
+  {t:"17–32 s", n:"Puente con prueba", q:"Solución · puente", d:"Cómo lo logré yo, en pantalla real. Qué se hizo, no cómo se programa.", col:"#AEC38E", k:"#2B1710"},
+  {t:"32–38 s", n:"Giro",              q:"Deseo", d:"Resultado inesperado, error u opinión: lo que hace que lo reenvíen.", col:"#EBCB9D", k:"#2B1710"},
+  {t:"Últimos 3 s", n:"Acción",        q:"Acción", d:"Una sola: enviar, guardar o palabra clave. Conecta con el gancho para que el video vuelva a empezar.", col:"#8FB07A", k:"#2B1710"}
 ];
 const TECNICAS = [
   {t:"Polémica con argumento", d:"Toma una postura clara contra una creencia común y defiéndela con una razón y un ejemplo. Ataca la idea, nunca a una persona.", p:"Cierra con la solución y una pregunta: “¿estás de acuerdo o no?”. Responde con respeto a quien opine distinto.", col:"#D3322A", k:"#fff"},
@@ -194,9 +197,11 @@ const OFFICIAL = [
 const ANA_FIELDS = ["Mi video con mejor retención fue…","Mi video con más compartidos fue…","El tema que más visitas al perfil generó fue…","La hipótesis que aprendí…","La prueba que haré la próxima semana…"];
 
 /* colores del calendario = objetivo del día */
-const OBJ_COL = {"Alcance":"#AEC38E","Guardados":"#F7B7A8","Autoridad":"#EBCB9D","Compartidos":"#D79A9A","Guardados y comentarios":"#F7D774","Conexión y confianza":"#8FB07A","Aprendizaje":"#E8D5C0","Comentarios":"#C5CF8F","Ventas":"#F9A08D"};
+const OBJ_COL = {"Seguidores":"#D79A9A","Envíos":"#AEC38E","Alcance":"#AEC38E","Guardados":"#F7B7A8","Autoridad":"#EBCB9D","Compartidos":"#D79A9A","Guardados y comentarios":"#F7D774","Conexión y confianza":"#8FB07A","Aprendizaje":"#E8D5C0","Comentarios":"#C5CF8F","Ventas":"#F9A08D"};
 const objCol = ob => OBJ_COL[ob] || "#E8D5C0";
 const OBJ_INFO = {
+  "Seguidores":"Caso real tuyo en pantalla: es lo que trae seguidores (el Airbnb trajo 1 cada 257 vistas). El gancho habla de él, la prueba habla de ti.",
+  "Envíos":"Que lo manden por DM: lista corta, POV o humor de dueño de negocio. Los envíos pesan más que los likes para llegar a gente nueva.",
   "Alcance":"Que te encuentre gente nueva. Piensa en el gancho y en lo que se entiende en dos segundos.",
   "Guardados":"Que alguien quiera volver a verlo: pasos, checklist, plantilla o ejemplo.",
   "Autoridad":"Mostrar que sabes lo que haces con una demostración real.",
@@ -294,3 +299,65 @@ const WEEK_SUG = {
  6:[{tipo:"Detrás de cámaras",txt:"Avance de BONXAI: qué funcionó y qué falta",h:"12:00"},{tipo:"Detrás de cámaras",txt:"El reto de la semana construyendo BONXAI",h:"12:00"},{tipo:"Video práctico",txt:"Experimento: probé algo y te cuento el resultado",h:"12:00"},{tipo:"Detrás de cámaras",txt:"Lo que aprendí esta semana",h:"12:00"}],
  0:[{tipo:"Otro",txt:"Revisar las métricas y elegir tres pruebas",h:"10:00"},{tipo:"Otro",txt:"Grabar el lote de videos de la semana",h:"10:00"},{tipo:"Otro",txt:"Leer los mensajes y comentarios de la semana",h:"10:00"},{tipo:"Otro",txt:"Planear la semana que viene",h:"10:00"}]
 };
+
+
+/* ===== MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md) ===== */
+const MASTER = {
+  tema: "IA aplicada a negocios reales, mostrada por alguien que la usa en los suyos.",
+  linea: "Pasé de ejecutar el sistema de otro a construir los míos. Hoy los construyo para tu negocio.",
+  reglas: [
+    "El héroe es el cliente: el gancho habla de él, la prueba habla de mí.",
+    "Sin jerga técnica: resultados siempre, herramientas casi nunca.",
+    "Una idea por video. El detalle técnico va al DM o al carrusel.",
+    "Nunca el mismo clip con otro texto. Para repetir un tema que funcionó, se graba material nuevo.",
+    "1 reel al día, nunca más. Si no está terminado a tiempo, ese día no se publica.",
+    "Noticias solo verificadas y en primera persona: qué significa para un negocio como el de quien ve.",
+    "Las cifras salen solo del banco de cifras. Si falta algo: [PENDIENTE].",
+    "Palabra clave solo si se entrega algo concreto; si no, el cierre es “mándaselo a…”."
+  ],
+  fallas: [
+    ["Los seguidores llegan con prueba propia, no con vistas", "“Convertí mi Airbnb…”: 1.800 vistas y 7 seguidores (1 cada 257). “Ya estoy afuera”: 3.500 vistas y 2 seguidores."],
+    ["Duplicados y reciclaje", "Instagram reparte menos lo que se parece a algo ya publicado (Jensen Huang dos veces, “Comenta PUEBLO” con 0 vistas)."],
+    ["Demasiados reels seguidos", "Seis en dos días, casi todos bajo 300 vistas."],
+    ["Perfil que no convierte", "497 visitas al perfil y 0 toques en el enlace."],
+    ["Tres públicos mezclados", "Aprender IA, motivación y dueños de negocio: el algoritmo no sabe a quién mostrar."]
+  ],
+  hueco: "Casi nadie muestra negocios reales de Colombia funcionando con IA. Ese contenido lo comparte un comerciante con otro, y ese es el cliente."
+};
+const SEMANA_META = [
+  {f:"Hablando a cámara", meta:4, que:"3 casos fuertes (7 bloques) + 1 de opinión, lista o emoción", col:"#D79A9A"},
+  {f:"B-roll con texto",  meta:2, que:"Lista corta, POV o tip con tus tomas; el valor va en pantalla", col:"#AEC38E"},
+  {f:"Cómico",            meta:1, que:"Sketch o POV de dueño de negocio, 7-15 s, “mándaselo a…”", col:"#F7D774"},
+  {f:"Carrusel",          meta:1, max:2, que:"Caso paso a paso o lista para guardar, el mismo día que un reel", col:"#F7B7A8"}
+];
+const TIPOS_GUION = [
+  ["Fuerte (caso real)", "35–45 s", "Los 7 bloques"],
+  ["Lista o tips", "25–40 s", "Gancho → dolor en 1 frase → cada punto con su mini-resultado → acción (guardar o enviar)"],
+  ["Opinión", "25–35 s", "Gancho contrario → por qué todos lo creen → por qué falla, con mi prueba → qué hacer → acción"],
+  ["Humor / POV", "7–15 s", "Situación que duele → remate. Sin solución; la acción es “mándaselo a…”"]
+];
+const RETENCION = ["Lo prometido en el gancho llega antes del 60 % del video.", "Micro-gancho cada 5-7 s (“pero eso no es lo peor”).", "Cambio de plano cada 3-5 s: cara, pantalla, texto, acercamiento.", "Subtítulos siempre."];
+const HOOK_FAM = [
+  {n:"Situación tuya", p:"Si [situación concreta], [consecuencia]", ej:["Si tienes vendedores, se te está yendo plata y no sabes por dónde.","Si tienes un Airbnb, vives pegado al celular."]},
+  {n:"Pérdida", p:"Estás perdiendo [plata/clientes/tiempo] por [cosa pequeña]", ej:["Estás perdiendo clientes por contestar el WhatsApp a las 9 de la noche."]},
+  {n:"Dato que te afecta", p:"[Quién] te [castiga/premia] por [acción]", ej:["Instagram te quita alcance por subir el mismo video dos veces."]},
+  {n:"Mándale esto a…", p:"Mándale esto a [persona] que [hábito]", ej:["Mándale esto a tu socio, el que todavía cuadra la caja en un cuaderno."]},
+  {n:"POV / identificación", p:"POV: [escena] · Dime que eres… sin decirme…", ej:["Dime que tienes vendedores sin decirme que preguntas “¿cuánto se vendió hoy?”"]},
+  {n:"Contraste", p:"[Lo que todos creen] no va a [resolver X]. Esto sí", ej:["Contratar otro vendedor no va a arreglar tus ventas."]},
+  {n:"Resultado primero", p:"Muestro el final y luego el inicio", ej:["Así ve esta dueña sus ventas sin estar en la tienda."]},
+  {n:"Pregunta que te hacen", p:"¿[Pregunta real]?", ej:["¿Cuánto cuesta automatizar un negocio pequeño?"]},
+  {n:"Opinión impopular", p:"Opinión impopular: [afirmación]", ej:["Opinión impopular: la IA no le sirve a un negocio desordenado."]}
+];
+const CK_CAMARA = ["Empiezo hablando en el primer cuadro (sin “bueno”, sin respirar, sin mirar al lado).", "Le hablo a una persona: “tú”, nunca “chicos”.", "Hablo como hablo en Santa Rosa: mi acento y mi historia de vendedor son ventaja.", "Energía un punto arriba de lo normal; grabo de pie.", "Frases cortas, sin palabras técnicas.", "Cambio de plano cada 3-5 s (regla para Juliana).", "Subtítulos grandes, centrados, sin tapar la cara.", "Luz de frente, mirada al lente.", "Prueba en silencio: ¿se entiende el gancho en 2 s?", "3 versiones del gancho; gana la más natural."];
+const METAS_REEL = [
+  ["Omisión en los primeros 3 s", "Menos de 35 %"],
+  ["Visualización media", "Más de la mitad del video"],
+  ["Envíos por cada 1.000 de alcance", "10 o más"],
+  ["Seguidores por cada 1.000 vistas", "Comparar con el promedio (Airbnb ≈ 3,9)"]
+];
+const PLAN4 = [
+  ["1 · 16–22 nov", "Máster 2, 6, 1 + 4 (opinión)", "2 nuevos con tomas ya grabadas", "Máster 5", "Caso de la tienda paso a paso", "Grabar en la tienda y las pantallas del CRM antes del miércoles"],
+  ["2 · 23–29 nov", "Máster 3 y 7 + 2 nuevos", "Máster 8 (lista) + 1 nuevo", "1 nuevo", "Apartamentos: antes y después", "Comparar vistas y seguidores por reel con el promedio"],
+  ["3 · 30 nov–6 dic", "3 casos del tipo que más seguidores trajo + 1 opinión", "2 del tipo con más envíos", "1 nuevo", "Una lista para guardar", "Conseguir un caso nuevo publicable"],
+  ["4 · 7–13 dic", "Igual, con ganchos nuevos", "Igual, con ganchos nuevos", "1 nuevo", "Caso o lista nueva", "Revisar qué formato trajo más seguidores por cada 1.000 vistas"]
+];

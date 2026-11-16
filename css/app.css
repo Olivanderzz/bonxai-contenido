@@ -345,3 +345,12 @@ details.acc>div{padding:0 14px 14px;font-size:.92rem;display:flex;flex-direction
   .rec-bot button{padding:7px}
   .rec-bot .hint{display:none}
 }
+
+/* inventario de la semana (máster 16 nov) */
+.invs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.inv{border:2px solid var(--ink);border-top:8px solid var(--pc);border-radius:14px;padding:10px;background:var(--surface);display:flex;flex-direction:column;gap:6px;min-width:0}
+.inv-h{display:flex;justify-content:space-between;gap:6px;align-items:center;flex-wrap:wrap}
+.inv.ok{opacity:.7}
+.inv .btn{white-space:normal;text-align:left;justify-content:flex-start;height:auto;line-height:1.25;padding-top:6px;padding-bottom:6px}
+@media (max-width:1100px){.invs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.invs{grid-template-columns:1fr}}

@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "actualizado": "2026-11-13T16:50:30.000Z",
+  "actualizado": "2026-11-16T16:20:50.000Z",
   "inicioPlan": "",
   "guiones": [
     {
@@ -9,7 +9,7 @@
       "titulo": "Construí una app que me persigue hasta que cumplo mi día",
       "pilar": "IA práctica",
       "angulo": "Construcción",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Alcance y compartidos: dolor universal (organizarse) + algo construido de verdad sin programar.",
       "duracion": "35–45 s",
       "gancho": "Mi celular me va a insistir hasta que haga esto. Y la app la construí yo, sin saber programar.",
@@ -77,7 +77,7 @@
       "titulo": "La app donde planeo todo mi contenido (la hice con Claude)",
       "pilar": "IA práctica",
       "angulo": "Construcción",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Guardados y seguidores: muestra que construyes herramientas que usas a diario.",
       "duracion": "35–45 s",
       "gancho": "Todo mi contenido sale de esta app. Y la hice yo, con Claude.",
@@ -145,7 +145,7 @@
       "titulo": "Mi Instagram contesta solo… pero solo si me sigues",
       "pilar": "Construyendo BONXAI",
       "angulo": "Construcción",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Leads de BONXAI: demostrar el follow gate funcionando en vivo (el producto que se vende).",
       "duracion": "30–40 s",
       "gancho": "Voy a comentar en mi propio Reel desde otro celular. Mira lo que pasa.",
@@ -197,9 +197,9 @@
       "edicion": "Que se vea en tiempo real, sin cortes entre el comentario y el DM: eso es lo que asombra. Puedes acelerar 2x lo de en medio.",
       "stories": "Antes: “¿Cuántos mensajes respondes al día? 0-10 / 10-50 / Más de 50”. Después: muestra el DM que te llegó y pregunta “¿Lo quieres para tu negocio?”.",
       "descripcion": "Así responde solo mi Instagram con inteligencia artificial: comentas, te llega el regalo y solo si me sigues 🤖 Comenta RESPONDE\n\nCuando un video funciona llegan cientos de comentarios. Construí BONXAI: responde al instante por DM, revisa si me sigues y recién ahí entrega el recurso. Así gano seguidores mientras automatizo Instagram.\n\nComenta RESPONDE y te mando las 3 cosas que necesitas para montarlo en tu cuenta.\n\n#automatizacion #instagram #inteligenciaartificial #negocios",
-      "estado": "editado",
-      "fecha": "",
-      "hora": "",
+      "estado": "publicado",
+      "fecha": "2026-11-15",
+      "hora": "12:30",
       "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo (enfoque «IA que consigue cosas», 6 nov 2026).\nRegalo: comenta RESPONDE → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-v2-regalos.md del PC.\nOjo: no mostrar tokens, IDs ni el panel interno de BONXAI. No prometer cifras de seguidores.\n\n12 nov 2026: grabado y editado por Juliana como «Automatizar Instagram desde cero» (palabra AUTOMATIZA, guía en PDF). Carpeta: Reels/videos hablando/Automatizar Instagram desde cero. Propuesto para el dom 15 nov, 12:30 p. m.; falta la aprobación de Felipe.",
       "links": {
         "ig": "",
@@ -213,7 +213,7 @@
       "titulo": "Mi Instagram publica aunque mi computador esté apagado",
       "pilar": "Construyendo BONXAI",
       "angulo": "Antes / después",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Compartidos y autoridad: automatización real que cualquier creador o negocio quiere.",
       "duracion": "25–35 s",
       "gancho": "Este video se publicó solo. Mi computador estaba apagado.",
@@ -281,7 +281,7 @@
       "titulo": "Tengo 7 Airbnb y unos bots me ayudan a administrarlos",
       "pilar": "IA para negocios",
       "angulo": "Construcción",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Audiencia de negocios (anfitriones) y leads: caso real propio con resultados visibles.",
       "duracion": "35–45 s",
       "gancho": "Tengo siete alojamientos en Airbnb y la persona del aseo sabe todos los días qué limpiar sin que yo le escriba.",
@@ -349,7 +349,7 @@
       "titulo": "Le pedí a Claude que rediseñara una tienda en Shopify",
       "pilar": "IA para negocios",
       "angulo": "Construcción",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Leads de BONXAI (tiendas online) y alcance: antes/después visual.",
       "duracion": "35–45 s",
       "gancho": "Esta tienda en Shopify la rediseñé con Claude. Mira la portada.",
@@ -417,7 +417,7 @@
       "titulo": "Hice un manual de marca completo con inteligencia artificial",
       "pilar": "IA práctica",
       "angulo": "Construcción",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Guardados: emprendedores que necesitan marca y no pueden pagar una agencia.",
       "duracion": "30–40 s",
       "gancho": "Este manual de marca lo armé con inteligencia artificial: logo, colores, letras y cómo se usa.",
@@ -485,7 +485,7 @@
       "titulo": "Una nutricionista hacía cada plan a mano. Así se lo voy a resolver",
       "pilar": "Construyendo BONXAI",
       "angulo": "Historia de construcción",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Leads de BONXAI y serie: episodio 1 de un caso real documentado (build in public).",
       "duracion": "40–50 s",
       "gancho": "Una nutricionista me mandó cinco audios contándome cómo trabaja. Y encontré dónde se le va el tiempo.",
@@ -553,7 +553,7 @@
       "titulo": "Encontré 3 fugas de dinero en una importadora en una sola llamada",
       "pilar": "IA para negocios",
       "angulo": "Resultado primero",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Leads de BONXAI: dueños de comercio que sienten que pierden plata y no saben dónde.",
       "duracion": "40–50 s",
       "gancho": "En una sola llamada encontramos tres fugas de dinero en un negocio que vende todos los días.",
@@ -621,7 +621,7 @@
       "titulo": "Dos clientas, dos negocios: ninguna necesitaba un chatbot",
       "pilar": "IA para negocios",
       "angulo": "Polémica",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Comentarios y autoridad: postura clara respaldada por dos casos reales.",
       "duracion": "35–45 s",
       "gancho": "Te van a querer vender un chatbot. Probablemente no lo necesitas.",
@@ -689,7 +689,7 @@
       "titulo": "ChatGPT ahora hace GIFs: animé una foto en segundos",
       "pilar": "IA práctica",
       "angulo": "Resultado primero",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Alcance (novedad del 4 nov) y guardados del prompt.",
       "duracion": "20–30 s",
       "gancho": "Esta animación la hizo ChatGPT con una sola foto.",
@@ -757,7 +757,7 @@
       "titulo": "Claude ya puede ver tu banco (en EE. UU.). Esto sí puedes hacer desde aquí",
       "pilar": "IA práctica",
       "angulo": "Noticia con consecuencias",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Alcance y guardados: noticia del 5 nov aterrizada a Latinoamérica + dolor de dinero.",
       "duracion": "35–45 s",
       "gancho": "Claude acaba de lanzar algo para ver en qué se te va la plata. En Colombia todavía no está, así que lo hice a la antigua.",
@@ -825,7 +825,7 @@
       "titulo": "¿Puede mi portátil de 8 GB correr una IA sin internet?",
       "pilar": "IA práctica",
       "angulo": "Experimento",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Alcance y guardados: casi todos tienen un portátil así; experimento honesto con resultado incierto.",
       "duracion": "40–55 s",
       "gancho": "Mi computador tiene 8 GB de RAM y ni siquiera tiene tarjeta gráfica. Le voy a instalar una IA y voy a apagar el wifi.",
@@ -893,7 +893,7 @@
       "titulo": "Mismo prompt, misma página web: Claude contra ChatGPT",
       "pilar": "IA práctica",
       "angulo": "Comparación",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Comentarios (cada uno defiende su IA) y guardados del prompt.",
       "duracion": "40–55 s",
       "gancho": "Le di exactamente el mismo pedido a Claude y a ChatGPT: la página web de una panadería. Un solo intento.",
@@ -961,7 +961,7 @@
       "titulo": "Ahora una IA puede seguir trabajando con tu computador apagado",
       "pilar": "IA práctica",
       "angulo": "Noticia con consecuencias",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Alcance a gente nueva (noticia de la semana del 6 nov) y comentarios.",
       "duracion": "30–40 s",
       "gancho": "Google acaba de hacer que una IA siga trabajando cuando cierras el portátil.",
@@ -1029,7 +1029,7 @@
       "titulo": "Un cliente escribe a las 11 p. m. y un agente le cotiza por WhatsApp",
       "pilar": "IA para negocios",
       "angulo": "Demostración",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Leads de BONXAI: demostración de un vendedor automático (caso simulado y marcado como demo).",
       "duracion": "40–55 s",
       "gancho": "Son las 11 de la noche, el negocio está cerrado y alguien pide una cotización para 40 personas. Mira quién le contesta.",
@@ -1081,146 +1081,10 @@
       "edicion": "Que se vea el mensaje entrar y la respuesta salir sin cortes. Aviso fijo abajo: “Negocio de demostración”.",
       "stories": "Antes: “¿Respondes mensajes de noche? Sí / No / Me quedo sin vida”. Después: muestra la hoja con el cliente anotado.",
       "descripcion": "Un agente de inteligencia artificial que cotiza por WhatsApp mientras tu negocio está cerrado 🌙 Comenta VENDEDOR\n\nLos mensajes de la noche se responden al otro día, y para entonces el cliente ya compró en otro lado. Este agente tiene el catálogo, hace las preguntas de un vendedor, cotiza y deja al cliente anotado. Negocio de demostración.\n\nComenta VENDEDOR y te cuento cómo se vería esta automatización de WhatsApp en tu negocio.\n\n#whatsapp #automatizacion #ventas #inteligenciaartificial",
-      "estado": "editado",
-      "fecha": "",
-      "hora": "",
+      "estado": "publicado",
+      "fecha": "2026-11-13",
+      "hora": "12:30",
       "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo (enfoque «IA que consigue cosas», 6 nov 2026).\nRegalo: comenta VENDEDOR → BONXAI lo entrega por DM después de que te sigan. El texto del regalo no va aquí (este repo es público): está en 02-Contenido/Instagram/Reels/guiones-app-nov-2026-v2-regalos.md del PC.\nOjo: HAY QUE CONSTRUIR LA DEMO ANTES (n8n + WhatsApp + Google Sheets): por eso queda en estado idea. Negocio inventado y marcado como demo, igual que Ciudad Nido.\n\n12 nov 2026: grabado y editado por Juliana como «StoryTime de cuando me quedé dormido» (palabra BOT, guía en PDF). Carpeta: Reels/videos hablando/StoryTime de cuando me quedé dormido. Propuesto para el vie 13 nov, 12:30 p. m.; falta la aprobación de Felipe.",
-      "links": {
-        "ig": "",
-        "tt": ""
-      },
-      "metricas": {}
-    },
-    {
-      "id": "g39",
-      "n": 39,
-      "titulo": "Esta tienda gastaba 3 horas a la semana pasando ventas de un cuaderno a Excel",
-      "pilar": "IA para negocios",
-      "angulo": "Rueda · Autoridad",
-      "formato": "Reel + TikTok",
-      "objetivo": "Autoridad (rueda, semana 1): que el empresario vea que Felipe sabe hacerlo y que ya lo hizo.",
-      "duracion": "35–45 s",
-      "gancho": "Esta tienda gastaba 3 horas a la semana pasando ventas de un cuaderno a Excel.",
-      "ganchos": [
-        {
-          "tipo": "Resultado primero",
-          "txt": "Esta tienda gastaba 3 horas a la semana pasando ventas de un cuaderno a Excel."
-        },
-        {
-          "tipo": "Problema primero",
-          "txt": "2 vendedores, un cuaderno y una dueña que pasaba todo a Excel. Y aun así la plata no cuadraba."
-        },
-        {
-          "tipo": "Antes / después",
-          "txt": "Antes: un cuaderno. Ahora: el sistema detecta unas 3 fallas de dinero por semana."
-        }
-      ],
-      "escenas": [
-        {
-          "t": "0–3 s",
-          "nombre": "Gancho",
-          "digo": "Esta tienda gastaba 3 horas a la semana pasando ventas de un cuaderno a Excel.",
-          "como": "Grabado en la tienda, sin saludo.",
-          "pantalla": "El cuaderno de ventas en primer plano. Texto: “3 horas a la semana en Excel 📓”."
-        },
-        {
-          "t": "3–7 s",
-          "nombre": "Lo que te llevas",
-          "digo": "Quédate, que al final te digo qué revisaría primero en tu negocio.",
-          "como": "Rápido.",
-          "pantalla": "Texto: “Al final: por dónde empezar 🎁”."
-        },
-        {
-          "t": "7–18 s",
-          "nombre": "Problema",
-          "digo": "Dos vendedores anotaban en un cuaderno, y la dueña pasaba todo a Excel: mínimo treinta minutos al día. Y aun así había descuadres. Transferencias que nadie reportaba, plata que no cuadraba.",
-          "como": "Pausado, serio.",
-          "pantalla": "Vendedor anotando en el cuaderno → Excel. Texto: “Descuadres + transferencias sin reportar”."
-        },
-        {
-          "t": "18–42 s",
-          "nombre": "Solución + regalo",
-          "digo": "Hoy cada vendedor registra su venta en un sistema y el reporte le llega solo a la dueña. El sistema revisa todos los días y detecta unas tres fallas de dinero por semana. En dos meses pasó de no saber qué producto vendía más a conocer su producto estrella y sus horas pico. ¿Tienes vendedores y no sabes qué pasa cuando no estás? Comenta DIAGNÓSTICO.",
-          "como": "Con seguridad. Si se puede, cierra con la dueña diciendo su frase.",
-          "pantalla": "Celular de la dueña con el reporte en vivo → alerta de descuadre → producto estrella. Cierre: DIAGNÓSTICO."
-        }
-      ],
-      "textoPantalla": "3 horas a la semana en Excel 📓 · Descuadres · Reporte en vivo · ~3 fallas de dinero por semana · DIAGNÓSTICO",
-      "edicion": "Todo grabado en la tienda: reporte en el celular de la dueña, un vendedor registrando una venta y, si se puede, la dueña diciendo su frase a cámara. Sin pantallas técnicas.",
-      "stories": "Semana 1 de la rueda: detrás de cámaras del sistema (cómo llega una venta al celular de la dueña).",
-      "descripcion": "Una tienda pasaba 3 horas a la semana copiando ventas a Excel; así la automatizamos 📓 Comenta DIAGNÓSTICO\n\n2 vendedores, un cuaderno y una dueña que pasaba todo a Excel. Y aun así había descuadres: transferencias que nadie reportaba, plata que no cuadraba.\n\nHoy cada venta queda registrada al instante y el sistema le avisa unas 3 veces por semana cuando algo no cuadra. Además sabe qué producto vende más y a qué horas. No es software de millones: es un sistema pensado para cómo trabaja ese negocio.\n\n¿Tienes vendedores y no sabes qué pasa cuando no estás? Comenta DIAGNÓSTICO.\n\n#automatizacion #negocios #pymes #ventas",
-      "estado": "listo",
-      "fecha": "",
-      "hora": "",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, semana 1 · autoridad. Adaptado de 00-Estrategia/marca-personal/guiones/04_post_autoridad_caso_tienda.md, conservando las frases de Felipe. Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nPermiso: aprobado (publicar el caso fue condición del acuerdo). No mostrar nombres de las vendedoras.\nTambién existe como carrusel de 7 slides y versión LinkedIn en el guion original.\nCaption: primera línea ajustada con palabra clave (regla SEO del 29 oct).",
-      "links": {
-        "ig": "",
-        "tt": ""
-      },
-      "metricas": {}
-    },
-    {
-      "id": "g41",
-      "n": 41,
-      "titulo": "3 automatizaciones que todo negocio con vendedores debería tener",
-      "pilar": "IA para negocios",
-      "angulo": "Rueda · Valor",
-      "formato": "Reel + TikTok",
-      "objetivo": "Valor (rueda, semana 3): educar y demostrar valor; guardados.",
-      "duracion": "30–35 s",
-      "gancho": "Si tienes vendedores, necesitas estas 3 automatizaciones.",
-      "ganchos": [
-        {
-          "tipo": "Lista o tres pasos",
-          "txt": "Si tienes vendedores, necesitas estas 3 automatizaciones."
-        },
-        {
-          "tipo": "Contraintuitivo",
-          "txt": "No necesitas inteligencia artificial para todo. Necesitas estas 3 cosas funcionando."
-        },
-        {
-          "tipo": "Pregunta",
-          "txt": "¿Tu negocio tiene estas 3 automatizaciones? Si tienes vendedores, deberías."
-        }
-      ],
-      "escenas": [
-        {
-          "t": "0–3 s",
-          "nombre": "Gancho",
-          "digo": "Si tienes vendedores, necesitas estas 3 automatizaciones.",
-          "como": "Directo, con tres dedos arriba.",
-          "pantalla": "Texto: “3 automatizaciones para negocios con vendedores 👇”."
-        },
-        {
-          "t": "3–6 s",
-          "nombre": "Lo que te llevas",
-          "digo": "Guárdalo, que al final te digo por cuál empezar.",
-          "como": "Rápido.",
-          "pantalla": "Texto: “Guárdalo 📌”."
-        },
-        {
-          "t": "6–10 s",
-          "nombre": "Problema",
-          "digo": "Si tú no estás, no sabes cuánto se vendió, quién respondió al cliente ni qué quedó pendiente.",
-          "como": "Cercano.",
-          "pantalla": "Texto: “Si no estás, no sabes qué pasa”."
-        },
-        {
-          "t": "10–32 s",
-          "nombre": "Solución + regalo",
-          "digo": "Uno: reporte de ventas en vivo. Una tienda dejó de perder tres horas a la semana con esto. Dos: respuesta automática en WhatsApp e Instagram. El cliente que escribe de noche no espera. Tres: avisos automáticos al equipo. Yo pasé de ir todos los días a mis apartamentos a ir dos veces por semana. Y una regla: automatizar un proceso desordenado solo te da desorden más rápido. ¿Cuál necesitas primero? Comenta DIAGNÓSTICO.",
-          "como": "Contando con los dedos.",
-          "pantalla": "1) reporte de ventas en el celular 2) DM automático 3) aviso de limpieza llegando. Cierre: DIAGNÓSTICO."
-        }
-      ],
-      "textoPantalla": "3 automatizaciones 👇 · 1 Ventas en vivo · 2 Respuesta automática · 3 Avisos al equipo · DIAGNÓSTICO",
-      "edicion": "Una pantalla real por cada automatización. Corto: 30 s.",
-      "stories": "Semana 3: caja de preguntas “¿Qué tarea te quita más tiempo?”.",
-      "descripcion": "3 automatizaciones con inteligencia artificial que todo negocio con vendedores debería tener en 2026 📌\n\nNo necesitas IA “para todo”. Necesitas estas 3 cosas funcionando: reporte de ventas en vivo, respuesta automática en WhatsApp e Instagram y avisos automáticos al equipo. Las uso en mi propio negocio y las he implementado en otros. Guárdalo para cuando estés listo.\n\nComenta DIAGNÓSTICO y te digo cuál necesitas primero.\n\n#automatizacion #negocios #pymes #inteligenciaartificial",
-      "estado": "listo",
-      "fecha": "",
-      "hora": "",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, semana 3 · valor. Adaptado de 00-Estrategia/marca-personal/guiones/06_post_valor_3_automatizaciones.md, conservando las frases de Felipe. Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nTambién existe como carrusel de 6 slides (en LinkedIn, como PDF) en el guion original.",
       "links": {
         "ig": "",
         "tt": ""
@@ -1233,7 +1097,7 @@
       "titulo": "De visitar 40 tiendas al día a construir sistemas que trabajan solos",
       "pilar": "Construyendo BONXAI",
       "angulo": "Rueda · Emoción",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Emoción (rueda, semana 2): humanizar la marca con la historia en 3 actos.",
       "duracion": "45–50 s",
       "gancho": "Hace 4 años visitaba hasta 40 tiendas al día, caminando por Barcelona y Lyon.",
@@ -1286,8 +1150,8 @@
       "stories": "Semana 2: encuesta “¿Tu negocio funciona sin ti? Sí / A medias / No”.",
       "descripcion": "De visitar 40 tiendas al día a construir sistemas con inteligencia artificial que trabajan solos 🚶‍♂️➡️🤖\n\nPrimero lo hice en mi negocio. Ahora lo hago en el tuyo.\n\nComenta DIAGNÓSTICO y te digo qué automatizar primero.\n\n#automatizacion #inteligenciaartificial #emprendimiento #pymes #negocios",
       "estado": "editado",
-      "fecha": "",
-      "hora": "",
+      "fecha": "2026-11-18",
+      "hora": "12:30",
       "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, semana 2 · emoción. Adaptado de 00-Estrategia/marca-personal/guiones/01_reel_historia_45s.md y 05_post_emocion_historia.md, conservando las frases de Felipe. Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\n12 nov 2026: se quitó la foto de la maleta (es de un compañero), se sumaron las 8 horas caminando y Cube Mobile (Felipe quiere nombrarla, así que el logo no se desenfoca).\nFotos de la época: selfies en 02-Contenido/LinkedIn/fotos/originales/ y en el celular. NO usar la foto de la maleta ni las 01, 02 y 06 (son compañeros, confirmado el 9 nov 2026). | 12 nov 2026: Juliana lo editó (Drive). Programado en Instagram el 18 nov, 12:30 p. m.",
       "links": {
         "ig": "",
@@ -1302,7 +1166,7 @@
       "titulo": "Video de presentación: Felipe Olivares, Bonxai Agency",
       "pilar": "Construyendo BONXAI",
       "angulo": "Presentación",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "objetivo": "Video fijado en Instagram, destacado de LinkedIn, hero de la web y envío a prospectos.",
       "duracion": "60 s",
       "gancho": "Soy Felipe Olivares, fundador de Bonxai Agency.",
@@ -1444,74 +1308,6 @@
     {
       "ganchos": [
         {
-          "tipo": "Resultado primero",
-          "txt": "Tengo 7 alojamientos y voy a verlos 2 veces por semana, no todos los días."
-        },
-        {
-          "tipo": "Antes / después",
-          "txt": "Antes iba todos los días a mis apartamentos. Hoy voy 2 veces por semana."
-        },
-        {
-          "tipo": "Dato",
-          "txt": "En octubre tuve 55 reservas en 7 alojamientos, y no fui todos los días."
-        }
-      ],
-      "escenas": [
-        {
-          "t": "0–3 s",
-          "nombre": "Gancho",
-          "digo": "Tengo 7 alojamientos y voy a verlos 2 veces por semana, no todos los días.",
-          "como": "A cámara, frente a un apartamento o caminando (sin mostrar la dirección ni el número).",
-          "pantalla": "Texto: “7 alojamientos · 2 visitas por semana”."
-        },
-        {
-          "t": "3–7 s",
-          "nombre": "Lo que te llevas",
-          "digo": "Te muestro las 4 piezas que lo hacen posible, y al final te digo cómo se ve en un negocio con vendedores.",
-          "como": "Rápido.",
-          "pantalla": "Texto: “4 piezas 👇”."
-        },
-        {
-          "t": "7–17 s",
-          "nombre": "Problema",
-          "digo": "Antes iba todos los días y coordinaba la limpieza por mensajes. Si yo no escribía, nadie sabía qué tocaba. Y en octubre fueron 55 reservas en el mes.",
-          "como": "Cercano, sin quejarse.",
-          "pantalla": "Chats desenfocados → texto: “55 reservas en octubre”."
-        },
-        {
-          "t": "17–43 s",
-          "nombre": "Solución + regalo",
-          "digo": "Hoy funciona con cuatro cosas. Un panel donde veo todas las reservas. Un aviso que le dice al equipo de limpieza qué toca, sin que yo escriba. El control de la plata, lo que entra y lo que sale. Y mensajes automáticos para los huéspedes. De siete visitas a la semana pasé a dos. Si tienes vendedores o varias sedes y todo depende de que tú estés, funciona igual. Comenta DIAGNÓSTICO y te digo qué automatizar primero.",
-          "como": "Contando con los dedos. Pausa antes de “funciona igual”.",
-          "pantalla": "1) panel de reservas 2) aviso de limpieza llegando al celular 3) control de la plata (montos tapados) 4) mensaje a un huésped (sin datos). Texto: “≈70 % menos visitas”. Cierre: DIAGNÓSTICO."
-        }
-      ],
-      "links": {
-        "ig": "",
-        "tt": ""
-      },
-      "metricas": {},
-      "estado": "listo",
-      "formato": "Reel + TikTok",
-      "fecha": "",
-      "hora": "",
-      "textoPantalla": "7 alojamientos · 2 visitas por semana · 55 reservas en octubre · 1 Panel 2 Aviso de limpieza 3 Control de la plata 4 Mensajes a huéspedes · ≈70 % menos visitas · DIAGNÓSTICO",
-      "edicion": "Una pantalla real por pieza; el aviso de limpieza llegando es la toma más fuerte. Sin nombres de herramientas en pantalla (regla de jerga de la rueda). El Eje Homes aparece solo como caso, nunca como promoción: sin nombre de los apartamentos, direcciones, códigos de chapas, datos de huéspedes ni nombre o teléfono de la persona del aseo.",
-      "stories": "Semana 1 de la rueda: detrás de cámaras del aviso de limpieza llegando al celular.",
-      "descripcion": "Cómo automatizar tu negocio para no tener que estar todos los días: así manejo 7 alojamientos 🏡\n\nAntes iba todos los días y coordinaba la limpieza por mensajes. En octubre tuve 55 reservas y fui 2 veces por semana.\n\nLo que cambió: un panel con todas las reservas, avisos automáticos al equipo de limpieza, control de lo que entra y lo que sale, y mensajes automáticos para los huéspedes. De 7 visitas a la semana a 2.\n\nSi tienes vendedores o varias sedes y todo depende de que tú estés, funciona igual.\n\nComenta DIAGNÓSTICO y te digo qué automatizar primero.\n\n#automatizacion #negocios #pymes #inteligenciaartificial",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 2 · autoridad. Tema del banco de 03_Estrategia_de_contenido.md (“De ir todos los días a 2 veces por semana: cómo manejo 7 alojamientos”). Cifras: solo las del banco de cifras (02_Banco_de_cifras.md). Usa: 7 alojamientos, 2 visitas por semana, ≈70 % menos, 55 reservas en octubre de 2026.\nOjo: se parece al guion 27 (7 Airbnb con bots), que es la versión de alcance (nombra Claude y regala HUESPED). Este es para dueños: sin herramientas y con DIAGNÓSTICO. No publicar los dos en la misma semana; Ciudad Nido (12 nov) también mostró el panel.\nEl Eje Homes aparece solo como caso, nunca como promoción: sin nombre de los apartamentos, direcciones, códigos de chapas, datos de huéspedes ni nombre o teléfono de la persona del aseo.",
-      "objetivo": "Autoridad (rueda, mes 2, semana 1): probar la habilidad 2 con el negocio propio, contado para dueños con equipo o varias sedes.",
-      "duracion": "40–45 s",
-      "id": "g44",
-      "n": 44,
-      "titulo": "De ir todos los días a 2 veces por semana: así manejo 7 alojamientos",
-      "pilar": "IA para negocios",
-      "angulo": "Rueda · Autoridad",
-      "gancho": "Tengo 7 alojamientos y voy a verlos 2 veces por semana, no todos los días."
-    },
-    {
-      "ganchos": [
-        {
           "tipo": "Historia de construcción",
           "txt": "La primera dueña que confió en mí pasaba 3 horas a la semana copiando ventas de un cuaderno a Excel."
         },
@@ -1560,7 +1356,7 @@
       },
       "metricas": {},
       "estado": "idea",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "fecha": "",
       "hora": "",
       "textoPantalla": "Mi primera clienta 📓 · 2 vendedores y un cuaderno · ~3 fallas de dinero por semana · Aceptó contar su caso desde el día 1",
@@ -1628,7 +1424,7 @@
       },
       "metricas": {},
       "estado": "listo",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "fecha": "",
       "hora": "",
       "textoPantalla": "5 señales 👇 · 1 No sabes cuánto vendió cada vendedor · 2 La caja no cuadra · 3 Tu equipo te pregunta todo · 4 El cliente de la noche no recibe respuesta · 5 Si no estás, no funciona · DIAGNÓSTICO",
@@ -1696,7 +1492,7 @@
       },
       "metricas": {},
       "estado": "idea",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "fecha": "",
       "hora": "",
       "textoPantalla": "El día que decidí parar · 8 horas caminando · El sistema era de otro · 2024: lo mío · 2 veces por semana",
@@ -1764,7 +1560,7 @@
       },
       "metricas": {},
       "estado": "listo",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "fecha": "",
       "hora": "",
       "textoPantalla": "Ventas que nadie reporta 💸 · Ventas sin reportar × venta promedio × 4 · ~3 fallas de dinero por semana · DIAGNÓSTICO",
@@ -1832,7 +1628,7 @@
       },
       "metricas": {},
       "estado": "listo",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "fecha": "",
       "hora": "",
       "textoPantalla": "+1.000 tiendas · 20-40 al día, 8 horas caminando · 1 El dueño no se puede ir · 2 Cada cliente cuesta · 3 El sistema era de otro",
@@ -1900,7 +1696,7 @@
       },
       "metricas": {},
       "estado": "listo",
-      "formato": "Reel + TikTok",
+      "formato": "Hablando a cámara",
       "fecha": "",
       "hora": "",
       "textoPantalla": "3 cosas que NO le dejo a la IA ✋ · 1 Precios 2 Pagos 3 Cliente molesto · Empieza por lo de menor riesgo y mayor ahorro · DIAGNÓSTICO",
@@ -1916,6 +1712,668 @@
       "pilar": "IA para negocios",
       "angulo": "Rueda · Valor",
       "gancho": "Automatizo negocios con inteligencia artificial, y hay 3 cosas que nunca dejaría en sus manos."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Situación tuya (A)",
+          "txt": "Si tienes vendedores, se te está yendo plata y no sabes por dónde."
+        },
+        {
+          "tipo": "Curiosidad (B)",
+          "txt": "Esta dueña descubrió 3 descuadres por semana que nadie le contaba."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho",
+          "digo": "Si tienes vendedores, se te está yendo plata y no sabes por dónde.",
+          "como": "",
+          "pantalla": "Mi cara + texto “Se te está yendo plata”."
+        },
+        {
+          "t": "2–7 s",
+          "nombre": "Dolor",
+          "digo": "Ellos anotan en un cuaderno, tú pasas todo a Excel en la noche… y aun así la caja no cuadra.",
+          "como": "",
+          "pantalla": "El cuaderno, el Excel."
+        },
+        {
+          "t": "7–12 s",
+          "nombre": "Agitar",
+          "digo": "Y lo peor no es el tiempo. Son las transferencias que nadie reporta: plata que se va y ni te enteras.",
+          "como": "",
+          "pantalla": "Transferencia en un celular (sin datos)."
+        },
+        {
+          "t": "12–17 s",
+          "nombre": "El después",
+          "digo": "Imagínate saber desde tu celular cuánto vendió cada uno hoy, y que te avise cuando algo no cuadra.",
+          "como": "",
+          "pantalla": "Celular con el reporte."
+        },
+        {
+          "t": "17–32 s",
+          "nombre": "Puente con prueba",
+          "digo": "Eso le hice a esta tienda. Cada venta queda registrada al instante y le llega a la dueña. El sistema le avisa unas tres veces por semana cuando hay un descuadre, y ya no gasta tres horas a la semana en Excel.",
+          "como": "",
+          "pantalla": "Venta registrada → reporte → alerta."
+        },
+        {
+          "t": "32–38 s",
+          "nombre": "Giro",
+          "digo": "Pero lo que más le sorprendió fue otra cosa: en dos meses supo por fin cuál era su producto estrella.",
+          "como": "",
+          "pantalla": "Clip de la dueña con su frase."
+        },
+        {
+          "t": "Últimos 3 s",
+          "nombre": "Acción",
+          "digo": "Si tienes vendedores, comenta DIAGNÓSTICO y te digo por dónde se te está yendo la plata.",
+          "como": "",
+          "pantalla": "Mi cara."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "Hablando a cámara",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "Se te está yendo plata · ~3 descuadres por semana · 3 h a la semana en Excel → 0 · Producto estrella · DIAGNÓSTICO",
+      "edicion": "Grabar: 2-3 versiones del gancho (A y B) y quedarse con la más natural. Arrancar hablando en el primer cuadro, de pie, mirando al lente. Cambio de plano cada 3-5 s y subtítulos grandes (reglas para Juliana).",
+      "stories": "Caso de la tienda por partes, durante la semana.",
+      "descripcion": "Si tienes vendedores, se te está yendo plata y no sabes por dónde: así lo resolvimos en una tienda con inteligencia artificial 💸\n\n2 vendedores, un cuaderno y una dueña que pasaba todo a Excel. Aun así la caja no cuadraba: transferencias que nadie reportaba.\n\nHoy cada venta queda registrada al instante y el sistema le avisa unas 3 veces por semana cuando hay un descuadre. Y en 2 meses supo por fin cuál era su producto estrella.\n\nComenta DIAGNÓSTICO y te digo por dónde se te está yendo la plata.\n\n#negocios #pymes #ventas #automatizacion",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 1 (fuerte, ya en 7 bloques). Reemplaza al guion 39 (mismo caso, versión anterior). Cifras del banco: 2 vendedores, ~3 fallas por semana, 3 h a la semana, 2 meses. Permiso del caso: aprobado.\nMaterial: grabar en la tienda (venta registrada, reporte, alerta y 30 s de la dueña con su frase). En Descargas está tienda-monarca-registro-ventas.mp4 (10 nov), que sirve para el bloque 5.\nOjo: el carrusel del mismo caso sale el mar 17 nov a las 8 p. m. Este reel, mejor desde el jueves 19, con material nuevo (nunca los clips del carrusel).",
+      "objetivo": "Caso fuerte (7 bloques). Trae seguidores con prueba propia: la tienda de souvenirs.",
+      "duracion": "40 s",
+      "pilar": "IA para negocios",
+      "angulo": "Rueda · Autoridad",
+      "id": "m1",
+      "titulo": "Máster 1 · La tienda que perdía plata",
+      "gancho": "Si tienes vendedores, se te está yendo plata y no sabes por dónde.",
+      "reemplaza": "g39",
+      "n": 39
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Situación tuya (A)",
+          "txt": "Si tienes un Airbnb, vives pegado al celular. Yo tengo siete y voy dos veces por semana."
+        },
+        {
+          "tipo": "Curiosidad (B)",
+          "txt": "Manejo siete apartamentos sin estar presente. Esto fue lo que automaticé."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho",
+          "digo": "Si tienes un Airbnb, vives pegado al celular. Yo tengo siete y voy dos veces por semana.",
+          "como": "",
+          "pantalla": "Caminando con llaves + texto."
+        },
+        {
+          "t": "2–7 s",
+          "nombre": "Dolor",
+          "digo": "Avisarle a la de la limpieza, contestarle al huésped a las once de la noche, ir a revisar que todo esté listo.",
+          "como": "",
+          "pantalla": "WhatsApp lleno (desenfocado)."
+        },
+        {
+          "t": "7–12 s",
+          "nombre": "Agitar",
+          "digo": "Y un mensaje que se te olvide puede ser una mala reseña. Yo iba todos los días.",
+          "como": "",
+          "pantalla": "Texto “todos los días”."
+        },
+        {
+          "t": "12–17 s",
+          "nombre": "El después",
+          "digo": "Imagínate que la limpieza sepa sola cuándo y dónde, y que el huésped reciba todo sin que tú escribas.",
+          "como": "",
+          "pantalla": "Yo tranquilo, celular quieto."
+        },
+        {
+          "t": "17–32 s",
+          "nombre": "Puente con prueba",
+          "digo": "Eso armé: el aviso de limpieza le llega solo al personal, los huéspedes reciben sus instrucciones solos y yo veo todo en un tablero que parece un videojuego.",
+          "como": "",
+          "pantalla": "Aviso → mensaje al huésped → CRM (datos ocultos)."
+        },
+        {
+          "t": "32–38 s",
+          "nombre": "Giro",
+          "digo": "Y no contraté a nadie más. Primero ordenamos cómo se trabaja; después lo automaticé.",
+          "como": "",
+          "pantalla": "Mi cara."
+        },
+        {
+          "t": "Últimos 3 s",
+          "nombre": "Acción",
+          "digo": "Mándaselo a alguien con un Airbnb que vive pegado al celular.",
+          "como": "",
+          "pantalla": "Mi cara."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "Hablando a cámara",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "Vives pegado al celular · 7 apartamentos, 2 visitas por semana · Aviso de limpieza · Mensajes solos · Tablero tipo videojuego · Mándaselo a…",
+      "edicion": "Grabar: 2-3 versiones del gancho (A y B) y quedarse con la más natural. Arrancar hablando en el primer cuadro, de pie, mirando al lente. Cambio de plano cada 3-5 s y subtítulos grandes (reglas para Juliana).",
+      "stories": "El CRM por dentro (datos ocultos).",
+      "descripcion": "Si tienes un Airbnb, vives pegado al celular: así manejo 7 apartamentos yendo 2 veces por semana con automatización 🏡\n\nAntes iba todos los días: avisarle a la limpieza, contestarle al huésped a las 11 de la noche, revisar que todo estuviera listo.\n\nHoy el aviso de limpieza le llega solo al personal, los huéspedes reciben sus instrucciones solos y yo veo todo en un tablero que parece un videojuego. No contraté a nadie más: primero ordenamos cómo se trabaja y después lo automaticé.\n\nMándaselo a alguien con un Airbnb que vive pegado al celular.\n\n#airbnb #anfitrion #automatizacion",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 2 (fuerte, ya en 7 bloques). Reemplaza al guion 44.\n⚠️ El máster dice 5 apartamentos, pero el 8 nov confirmaste que son 7 (“el 5 era un error”) y así está en el banco de cifras, así que aquí dice siete. Si de verdad son 5, se cambia.\nOjo: el guion 27 (7 Airbnb con bots) es casi el mismo tema; no publicar los dos. El Eje Homes aparece solo como caso: sin direcciones, códigos de chapas, datos de huéspedes ni nombre o teléfono de la persona del aseo.",
+      "objetivo": "Caso fuerte (7 bloques) con el negocio propio. Es el tipo de reel que más seguidores trajo (Airbnb: 1 cada 257 vistas).",
+      "duracion": "40 s",
+      "pilar": "IA para negocios",
+      "angulo": "Rueda · Autoridad",
+      "id": "m2",
+      "titulo": "Máster 2 · 7 apartamentos sin estar presente",
+      "gancho": "Si tienes un Airbnb, vives pegado al celular. Yo tengo siete y voy dos veces por semana.",
+      "reemplaza": "g44",
+      "n": 44
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Lista (A)",
+          "txt": "3 cosas que puedes automatizar en tu negocio esta semana. Yo ya las uso."
+        },
+        {
+          "tipo": "Curiosidad (B)",
+          "txt": "3 cosas que automaticé en mis negocios y puedes copiar."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho",
+          "digo": "3 cosas que puedes automatizar en tu negocio esta semana. Yo ya las uso.",
+          "como": "Texto grande, 5-8 palabras: “3 cosas que puedes automatizar”.",
+          "pantalla": "Toma en movimiento (caminando o abriendo el portátil)."
+        },
+        {
+          "t": "2–5 s",
+          "nombre": "Dolor (1 frase)",
+          "digo": "Si todo pasa por ti, empieza por estas.",
+          "como": "Máximo 3 líneas por pantalla.",
+          "pantalla": "Toma tuya trabajando."
+        },
+        {
+          "t": "5–12 s",
+          "nombre": "Punto 1",
+          "digo": "1. Reporte de ventas en vivo → una tienda dejó de pasar 3 h a la semana a Excel.",
+          "como": "",
+          "pantalla": "Pantalla del reporte de la tienda."
+        },
+        {
+          "t": "12–19 s",
+          "nombre": "Punto 2",
+          "digo": "2. Avisos automáticos al equipo → pasé de ir todos los días a ir 2 veces por semana.",
+          "como": "",
+          "pantalla": "Aviso de limpieza llegando al celular (datos ocultos)."
+        },
+        {
+          "t": "19–25 s",
+          "nombre": "Punto 3",
+          "digo": "3. Respuesta automática a clientes → el que escribe de noche no espera.",
+          "como": "",
+          "pantalla": "DM saliendo solo."
+        },
+        {
+          "t": "Últimos 3 s",
+          "nombre": "Acción",
+          "digo": "Guárdalo y comenta SISTEMAS si quieres saber por cuál empezar.",
+          "como": "",
+          "pantalla": "Texto: “Guárdalo 📌 · Comenta SISTEMAS”."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "B-roll con texto",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "3 cosas que puedes automatizar · 1 Ventas en vivo 2 Avisos al equipo 3 Respuesta a clientes · Guárdalo · SISTEMAS",
+      "edicion": "B-roll: no se habla (o voz en off opcional). Primer cuadro en movimiento, gancho de 5-8 palabras, máximo 3 líneas por pantalla. Cada toma se usa en un solo reel publicado: no repetir tomas ya publicadas.",
+      "stories": "",
+      "descripcion": "3 cosas que puedes automatizar en tu negocio esta semana con inteligencia artificial (yo ya las uso) 📌\n\n1. Reporte de ventas en vivo: una tienda dejó de pasar 3 horas a la semana a Excel.\n2. Avisos automáticos al equipo: pasé de ir todos los días a mis apartamentos a ir 2 veces por semana.\n3. Respuesta automática a clientes: el que escribe de noche no espera.\n\nGuárdalo y comenta SISTEMAS si quieres saber por cuál empezar.\n\n#automatizacion #negocios #pymes",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 8 (lista), pasado a su versión corta (sección 7: gancho → dolor en 1 frase → cada punto con su mini-resultado → acción). Reemplaza al guion 41 (mismas 3 automatizaciones).\n[PENDIENTE: configurar SISTEMAS: qué recibe concretamente quien comenta (el máster pide palabra clave solo si se entrega algo). Si no hay entregable, el cierre pasa a “mándaselo a…”.]",
+      "objetivo": "Lista para guardar en formato B-roll (semana 2 del plan). El valor va en pantalla, no solo en el caption.",
+      "duracion": "25–30 s",
+      "pilar": "IA para negocios",
+      "angulo": "Rueda · Valor",
+      "id": "m8",
+      "titulo": "Máster 8 · 3 cosas que puedes automatizar esta semana",
+      "gancho": "3 cosas que puedes automatizar en tu negocio esta semana. Yo ya las uso.",
+      "reemplaza": "g41",
+      "n": 41
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Situación tuya (A)",
+          "txt": "Si le metes IA a tu negocio desordenado, lo vas a empeorar."
+        },
+        {
+          "tipo": "Opinión impopular (B)",
+          "txt": "Opinión impopular: la IA no le sirve a un negocio desordenado."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho contrario",
+          "digo": "Si le metes IA a tu negocio desordenado, lo vas a empeorar.",
+          "como": "Serio, mirando al lente.",
+          "pantalla": "Mi cara."
+        },
+        {
+          "t": "2–7 s",
+          "nombre": "Por qué todos lo creen",
+          "digo": "Te venden la IA como si arreglara todo sola.",
+          "como": "",
+          "pantalla": "Texto: “La IA lo arregla todo… ¿o no?”."
+        },
+        {
+          "t": "7–13 s",
+          "nombre": "Por qué falla",
+          "digo": "Pero si tus ventas están en un cuaderno, una IA solo te va a dar el mismo desorden, pero más rápido.",
+          "como": "",
+          "pantalla": "Cuaderno con tachones."
+        },
+        {
+          "t": "13–23 s",
+          "nombre": "Mi prueba",
+          "digo": "En la tienda que ayudé no empezamos con IA. Empezamos definiendo cómo se anota una venta. Después lo automatizamos.",
+          "como": "",
+          "pantalla": "Hoja con el proceso → pantalla del sistema."
+        },
+        {
+          "t": "23–27 s",
+          "nombre": "Qué hacer",
+          "digo": "Primero se ordena, después se automatiza. Al revés es plata perdida.",
+          "como": "",
+          "pantalla": "Texto grande."
+        },
+        {
+          "t": "Últimos 3 s",
+          "nombre": "Acción",
+          "digo": "Mándaselo a ese amigo que quiere meterle IA a todo.",
+          "como": "",
+          "pantalla": "Mi cara."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "Hablando a cámara",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "Tu negocio desordenado + IA = más desorden · Primero se ordena, después se automatiza · Mándaselo a…",
+      "edicion": "Grabar: 2-3 versiones del gancho (A y B) y quedarse con la más natural. Arrancar hablando en el primer cuadro, de pie, mirando al lente. Cambio de plano cada 3-5 s y subtítulos grandes (reglas para Juliana).",
+      "stories": "",
+      "descripcion": "Si le metes inteligencia artificial a tu negocio desordenado, lo vas a empeorar. Opinión impopular 👇\n\nSi tus ventas están en un cuaderno, una IA solo te va a dar el mismo desorden, pero más rápido. En la tienda que ayudé no empezamos con IA: primero definimos cómo se anota una venta y después lo automatizamos.\n\nPrimero se ordena, después se automatiza.\n\nMándaselo a ese amigo que quiere meterle IA a todo.\n\n#inteligenciaartificial #negocios #emprendimiento",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 4 (opinión), pasado a su versión corta (sección 7: gancho contrario → por qué todos lo creen → por qué falla, con mi prueba → qué hacer → acción). La frase “Te venden la IA como si arreglara todo sola” es nueva (el bloque “por qué todos lo creen” no estaba en el original); cámbiala si no suena a ti.",
+      "objetivo": "Opinión del domingo. Genera comentarios y envíos.",
+      "duracion": "25–30 s",
+      "pilar": "IA para negocios",
+      "angulo": "Polémica",
+      "id": "m4",
+      "n": 51,
+      "titulo": "Máster 4 · La IA te desordena más rápido",
+      "gancho": "Si le metes IA a tu negocio desordenado, lo vas a empeorar."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Situación tuya (A)",
+          "txt": "Si tienes vendedores, esta escena te la sabes."
+        },
+        {
+          "tipo": "POV / identificación (B)",
+          "txt": "Dime que tienes vendedores sin decirme…"
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0 s",
+          "nombre": "Texto de entrada",
+          "digo": "Si tienes vendedores, esta escena te la sabes.",
+          "como": "Solo texto en pantalla desde el segundo 0.",
+          "pantalla": "Texto A (o B: “Dime que tienes vendedores sin decirme…”)."
+        },
+        {
+          "t": "1–3 s",
+          "nombre": "Dueño",
+          "digo": "¿Cuánto se vendió hoy?",
+          "como": "Tú, de dueño.",
+          "pantalla": "Plano 1."
+        },
+        {
+          "t": "3–5 s",
+          "nombre": "Vendedor 1",
+          "digo": "Como 300… creo.",
+          "como": "Cambio de gorra o de plano.",
+          "pantalla": "Plano 2."
+        },
+        {
+          "t": "5–8 s",
+          "nombre": "Vendedor 2",
+          "digo": "Yo lo anoté en el cuaderno… ¿dónde está el cuaderno?",
+          "como": "Buscando el cuaderno.",
+          "pantalla": "Plano 3."
+        },
+        {
+          "t": "8–11 s",
+          "nombre": "Vendedor 3",
+          "digo": "Una transferencia no la anoté, pero me acuerdo.",
+          "como": "Muy seguro de sí.",
+          "pantalla": "Plano 4."
+        },
+        {
+          "t": "11–13 s",
+          "nombre": "Remate",
+          "digo": "(El dueño con sistema mira el celular, sonríe y ve la cifra exacta.)",
+          "como": "Sin hablar.",
+          "pantalla": "Celular con el reporte."
+        },
+        {
+          "t": "13–15 s",
+          "nombre": "Acción",
+          "digo": "Mándaselo al dueño que todavía pregunta.",
+          "como": "",
+          "pantalla": "Texto final."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "Cómico",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "Si tienes vendedores, esta escena te la sabes · Mándaselo al dueño que todavía pregunta",
+      "edicion": "Tú haces todos los personajes con cambio de gorra o de plano. 15 s máximo.",
+      "stories": "",
+      "descripcion": "Si tienes vendedores, esta escena te la sabes 😅 ¿Cuánto se vendió hoy?\n\nMándaselo al dueño que todavía pregunta.\n\n#negocios #emprendimiento #humor",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 5 (humor), ajustado a la sección 7: el máster cerraba con “Etiqueta al dueño que todavía pregunta”; la fórmula de humor pide “mándaselo a…”, así que quedó “Mándaselo al dueño que todavía pregunta” (puedes volver a “Etiqueta” si prefieres).",
+      "objetivo": "Cómico del jueves: se comparte entre dueños con vendedores. Sin solución; la acción es “mándaselo a…”.",
+      "duracion": "15 s",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "id": "m5",
+      "n": 52,
+      "titulo": "Máster 5 · “¿Cuánto se vendió hoy?” (sketch)",
+      "gancho": "Si tienes vendedores, esta escena te la sabes."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Situación tuya (A)",
+          "txt": "Tu equipo no lee tablas. Por eso le pedí a Claude un CRM que parece un videojuego."
+        },
+        {
+          "tipo": "Curiosidad (B)",
+          "txt": "Le pedí a Claude un CRM y me hizo un videojuego."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho",
+          "digo": "Tu equipo no lee tablas. Por eso le pedí a Claude un CRM que parece un videojuego.",
+          "como": "",
+          "pantalla": "Pantalla del CRM + texto."
+        },
+        {
+          "t": "2–7 s",
+          "nombre": "Dolor",
+          "digo": "Le mandas un Excel a tu personal y nadie lo abre. Te terminan preguntando todo por WhatsApp.",
+          "como": "",
+          "pantalla": "Excel sin abrir, chats."
+        },
+        {
+          "t": "7–12 s",
+          "nombre": "Agitar",
+          "digo": "Y tú todo el día de intermediario, repitiendo lo mismo.",
+          "como": "",
+          "pantalla": "Yo respondiendo mensajes."
+        },
+        {
+          "t": "12–17 s",
+          "nombre": "El después",
+          "digo": "Imagínate que con un vistazo sepan qué apartamento está ocupado y cuál toca limpiar.",
+          "como": "",
+          "pantalla": "Corte rápido al CRM."
+        },
+        {
+          "t": "17–32 s",
+          "nombre": "Puente con prueba",
+          "digo": "Así quedó: cada apartamento es un edificio. Si hay huésped, se ve. Si toca limpieza, se ve.",
+          "como": "",
+          "pantalla": "Recorrido por el CRM (datos ocultos)."
+        },
+        {
+          "t": "32–38 s",
+          "nombre": "Giro",
+          "digo": "No es por bonito. Un sistema que nadie usa no sirve, y esto sí lo usan.",
+          "como": "",
+          "pantalla": "Mi cara."
+        },
+        {
+          "t": "Últimos 3 s",
+          "nombre": "Acción",
+          "digo": "Mándaselo al que todavía maneja su equipo con un Excel.",
+          "como": "",
+          "pantalla": "Mi cara."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "Hablando a cámara",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "Tu equipo no lee tablas · CRM tipo videojuego · Cada apartamento es un edificio · Mándaselo a…",
+      "edicion": "Grabar: 2-3 versiones del gancho (A y B) y quedarse con la más natural. Arrancar hablando en el primer cuadro, de pie, mirando al lente. Cambio de plano cada 3-5 s y subtítulos grandes (reglas para Juliana).",
+      "stories": "",
+      "descripcion": "Tu equipo no lee tablas: por eso le pedí a la inteligencia artificial un CRM que parece un videojuego 🎮\n\nLe mandas un Excel a tu personal y nadie lo abre; te terminan preguntando todo por WhatsApp. Así quedó: cada apartamento es un edificio. Si hay huésped, se ve. Si toca limpieza, se ve.\n\nUn sistema que nadie usa no sirve, y este sí lo usan.\n\nMándaselo al que todavía maneja su equipo con un Excel.\n\n#automatizacion #negocios #crm",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 6 (fuerte, ya en 7 bloques).\nOjo: es el mismo CRM del video animado de Ciudad Nido (publicado el 12 nov). Aquí va material nuevo: tú a cámara y la pantalla real, nunca clips del animado. El Eje Homes aparece solo como caso: sin direcciones, códigos de chapas, datos de huéspedes ni nombre o teléfono de la persona del aseo.",
+      "objetivo": "Caso fuerte (7 bloques): sistema propio en pantalla real.",
+      "duracion": "35 s",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "id": "m6",
+      "n": 53,
+      "titulo": "Máster 6 · El CRM que parece videojuego",
+      "gancho": "Tu equipo no lee tablas. Por eso le pedí a Claude un CRM que parece un videojuego."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Situación tuya (A)",
+          "txt": "Mientras duermes, tus clientes te escriben y nadie les contesta."
+        },
+        {
+          "tipo": "Curiosidad (B)",
+          "txt": "Mi Instagram contesta solo mientras duermo. Y me falló tres veces."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho",
+          "digo": "Mientras duermes, tus clientes te escriben y nadie les contesta.",
+          "como": "",
+          "pantalla": "Celular encendiéndose de noche + texto."
+        },
+        {
+          "t": "2–7 s",
+          "nombre": "Dolor",
+          "digo": "Alguien pregunta el precio a las diez de la noche y tú lo ves al otro día.",
+          "como": "",
+          "pantalla": "Mensaje sin responder."
+        },
+        {
+          "t": "7–12 s",
+          "nombre": "Agitar",
+          "digo": "Para entonces, ya le compró a otro.",
+          "como": "",
+          "pantalla": "Texto grande."
+        },
+        {
+          "t": "12–17 s",
+          "nombre": "El después",
+          "digo": "Imagínate que cada persona reciba respuesta en segundos, aunque estés dormido.",
+          "como": "",
+          "pantalla": "Respuesta saliendo sola."
+        },
+        {
+          "t": "17–32 s",
+          "nombre": "Puente con prueba",
+          "digo": "En mi Instagram ya pasa: comentas una palabra y te llega el regalo al DM, solo si me sigues.",
+          "como": "",
+          "pantalla": "Grabación de pantalla del flujo."
+        },
+        {
+          "t": "32–38 s",
+          "nombre": "Giro",
+          "digo": "Pero me falló tres veces: el PC se durmió y no publicó, la palabra “Negocio” no coincidía con NEGOCIOS y un post salió duplicado.",
+          "como": "",
+          "pantalla": "Texto de cada error."
+        },
+        {
+          "t": "Últimos 3 s",
+          "nombre": "Acción",
+          "digo": "Lo mismo se le monta a un negocio en WhatsApp. Comenta AUTO y te muestro cómo.",
+          "como": "",
+          "pantalla": "Mi cara."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "listo",
+      "formato": "Hablando a cámara",
+      "fecha": "",
+      "hora": "",
+      "textoPantalla": "Mientras duermes, nadie les contesta · Respuesta en segundos · Me falló 3 veces · AUTO",
+      "edicion": "Grabar: 2-3 versiones del gancho (A y B) y quedarse con la más natural. Arrancar hablando en el primer cuadro, de pie, mirando al lente. Cambio de plano cada 3-5 s y subtítulos grandes (reglas para Juliana).",
+      "stories": "",
+      "descripcion": "Mientras duermes, tus clientes te escriben y nadie les contesta. Así automaticé las respuestas de mi Instagram (y las 3 veces que me falló) 🌙\n\nAlguien pregunta el precio a las 10 de la noche y tú lo ves al otro día. Para entonces ya le compró a otro.\n\nEn mi Instagram comentas una palabra y te llega el regalo al DM, solo si me sigues. Pero me falló tres veces: el PC se durmió y no publicó, una palabra no coincidía y un post salió duplicado.\n\nLo mismo se le monta a un negocio en WhatsApp. Comenta AUTO y te muestro cómo.\n\n#automatizacion #instagram #negocios",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 7 (fuerte, ya en 7 bloques). AUTO necesita su manychat.txt (qué se entrega) antes de publicar.\nOjo: el 15 nov salió “Automatizar Instagram desde cero” (guion 25), con el mismo flujo. Graba material nuevo (sin clips de ese video) y deja al menos una semana entre los dos (el plan lo pone en la semana 2).",
+      "objetivo": "Caso fuerte (7 bloques): tu Instagram demuestra el servicio. El giro (los 3 errores) es lo que hace que lo reenvíen.",
+      "duracion": "40 s",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "id": "m7",
+      "n": 54,
+      "titulo": "Máster 7 · Mi Instagram contesta mientras duermo",
+      "gancho": "Mientras duermes, tus clientes te escriben y nadie les contesta."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Resultado primero",
+          "txt": "Esta tienda gastaba 3 horas a la semana pasando ventas de un cuaderno a Excel."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "Slide 1",
+          "nombre": "Gancho",
+          "digo": "Esta tienda gastaba 3 horas a la semana pasando ventas de un cuaderno a Excel.",
+          "como": "",
+          "pantalla": "Ver slides en la carpeta del carrusel."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "editado",
+      "formato": "Carrusel",
+      "fecha": "2026-11-17",
+      "hora": "20:00",
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "notas": "Carrusel ya hecho y programado en el VPS para el mar 17 nov, 8:00 p. m. Carpeta: 02-Contenido/Instagram/Carruseles/2026-11-17-caso-tienda-cuaderno. Está aquí para que cuente en el inventario de la semana.",
+      "objetivo": "Carrusel de la semana 1 del máster (caso de la tienda paso a paso). Ya programado en el VPS.",
+      "duracion": "7 slides",
+      "pilar": "IA para negocios",
+      "angulo": "Rueda · Autoridad",
+      "id": "c-tienda-17nov",
+      "n": 55,
+      "titulo": "Carrusel · Caso de la tienda: del cuaderno a Excel",
+      "gancho": "Esta tienda gastaba 3 horas a la semana pasando ventas de un cuaderno a Excel."
+    },
+    {
+      "ganchos": [
+        {
+          "tipo": "Polémica",
+          "txt": "Si pagaste 500 dólares por un curso de inteligencia artificial, pagaste por algo que hoy es gratis."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "Si pagaste 500 dólares por un curso de inteligencia artificial, pagaste por algo que hoy es gratis.",
+          "como": "",
+          "pantalla": "Video ya editado."
+        }
+      ],
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "estado": "editado",
+      "formato": "Hablando a cámara",
+      "fecha": "2026-11-16",
+      "hora": "12:30",
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "notas": "Ya grabado y editado (Juliana). Carpeta: 02-Contenido/Instagram/Reels/videos hablando/Cursos IA. Palabra GRATIS. Está aquí para que cuente en el inventario de la semana. Es del público “aprender IA”, que el máster quiere sacar del feed (tema único).",
+      "objetivo": "Reel editado por Juliana, programado en el VPS para el lun 16 nov, 12:30 p. m.",
+      "duracion": "50 s",
+      "pilar": "IA práctica",
+      "angulo": "Polémica",
+      "id": "r-cursos-16nov",
+      "n": 56,
+      "titulo": "Cursos IA: lo que pagaste hoy es gratis",
+      "gancho": "Si pagaste 500 dólares por un curso de inteligencia artificial, pagaste por algo que hoy es gratis."
     }
   ],
   "ideas": [],
@@ -1948,6 +2406,9 @@
     "g42",
     "g40b",
     "g43",
-    "g42b"
+    "g42b",
+    "g39",
+    "g44",
+    "g41"
   ]
 }

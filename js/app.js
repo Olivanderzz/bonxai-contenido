@@ -48,7 +48,7 @@ const estLabel = e => (ESTADOS.find(x => x[0] === e) || ESTADOS[0])[1];
 const estIdx = e => ESTADOS.findIndex(x => x[0] === e);
 const yaGrabado = g => estIdx(g.estado) >= 2;   // grabado, editado o publicado: sale de "Por grabar"
 const vistaDe = g => yaGrabado(g) ? "hechos" : "pend";
-const FORMATOS = ["Reel + TikTok","Reel","TikTok","Carrusel","Stories","Otro"];
+const FORMATOS = ["Hablando a cámara","B-roll con texto","Cómico","Carrusel","Stories","Reel + TikTok","Otro"];
 const pilarCol = p => (PILARES.find(x => x.n === p) || {col:"#E8D5C0"}).col;
 const calOf = d => CAL.find(x => x.gd === d.getDay());
 const G = id => DB.guiones.find(g => g.id === id);
@@ -67,7 +67,7 @@ const VIEWS = [
   {id:"guiones", n:"Guiones", ic:"clap", c:"#6B1626", k:"#fff", title:"Banco de guiones", desc:"Cada video con su gancho, escenas y estado. Léelo, edítalo o abre el modo grabar."},
   {id:"calendario", n:"Calendario", ic:"calendar", c:"#F26B55", title:"La semana, de un vistazo", desc:"Cada día tiene su tipo de pieza y objetivo. Asigna guiones a fechas con un toque."},
   {id:"metricas", n:"Métricas", ic:"chart", c:"#D8B07C", title:"Qué está funcionando", desc:"Anota los números de cada video publicado. La app calcula las tasas y te dice cuál ganó."},
-  {id:"estrategia", n:"Estrategia", ic:"compass", c:"#AEC38E", title:"La guía completa", desc:"Pilares, estructura, ganchos, Stories, plataformas y el plan de 30 días. Para consultar."}
+  {id:"estrategia", n:"Estrategia", ic:"compass", c:"#AEC38E", title:"La guía completa", desc:"El máster del 16 nov: tema único, la semana por formatos, la fórmula de 7 bloques, el banco de ganchos y el plan de 4 semanas."}
 ];
 const ARTK = {hoy:"inicio", guiones:"guiones", calendario:"calendario", metricas:"metricas", estrategia:"estrategia"};
 function route(){ const [v, a] = location.hash.replace("#", "").split("/"); return {v: VIEWS.find(x => x.id === v) ? v : (v === "grabar" ? "grabar" : "hoy"), a: a ? decodeURIComponent(a) : ""}; }
@@ -103,6 +103,24 @@ function autoH(root = document){ $$("textarea", root).forEach(t => { t.style.hei
 
 /* ================= HOY ================= */
 const V_ = {};
+function semanaHTML(){
+  const t = today(), lun = new Date(t); lun.setDate(t.getDate() - ((t.getDay() + 6) % 7));
+  const dom = new Date(lun); dom.setDate(lun.getDate() + 6);
+  const k0 = ymd(lun), k1 = ymd(dom);
+  const filas = SEMANA_META.map(m => {
+    const L = DB.guiones.filter(g => g.formato === m.f);
+    const pub = L.filter(g => g.estado === "publicado" && g.fecha >= k0 && g.fecha <= k1).length;
+    const grab = L.filter(g => g.estado === "grabado" || g.estado === "editado").length;
+    const falta = Math.max(0, m.meta - pub - grab), sig = L.filter(g => g.estado === "listo").sort((a, b) => (/^Máster/.test(b.titulo) - /^Máster/.test(a.titulo)) || byNum(a, b))[0];   // primero los del máster
+    const ok = !falta;
+    return `<div class="inv${ok ? " ok" : ""}" style="--pc:${m.col}"><div class="inv-h"><b>${esc(m.f)}</b><span class="chip">${ok ? "✓ cubierto" : "faltan " + falta}</span></div>
+      <p class="sm">Meta ${m.meta}${m.max ? "-" + m.max : ""} · grabados ${grab} · publicados ${pub}</p>
+      ${!ok ? (sig ? `<button class="btn sm" data-go="guiones/${sig.id}">Grabar: ${pad(sig.n)} · ${esc(sig.titulo)}</button>` : `<p class="sm muted">No hay guion listo de este formato. ${esc(m.que)}.</p>`) : ""}</div>`;
+  }).join("");
+  return `<section class="card"><div class="sec"><h3>¿Qué nos falta esta semana?</h3><span class="muted sm">${lun.getDate()} ${MESES[lun.getMonth()]} – ${dom.getDate()} ${MESES[dom.getMonth()]} · 1 reel al día, nunca más</span></div>
+    <div class="invs" style="margin-top:12px">${filas}</div>
+    <p class="sm muted" style="margin-top:8px">Cuenta por el formato de cada guion. Lo grabado y sin publicar sirve para esta semana; lo publicado no se vuelve a usar.</p></section>`;
+}
 function pieceRow(g){
   return `<div class="piece st-${g.estado}"><span class="h">${esc(g.hora || "--:--")}</span><div><b>${esc(g.titulo || "Sin título")}</b><small>${esc(g.formato)} · <span class="chip stc" style="font-size:.7rem;padding:1px 8px">${estLabel(g.estado)}</span></small></div>
     <div class="row">${g.escenas.length && estIdx(g.estado) < 2 ? `<button class="btn sm wine" data-rec="${g.id}">${ic("rec")} Grabar</button>` : ""}<button class="btn sm" data-go="guiones/${g.id}">Abrir</button></div></div>`;
@@ -110,7 +128,7 @@ function pieceRow(g){
 V_.hoy = () => {
   const t = today(), k = ymd(t), c = calOf(t);
   const hoyG = DB.guiones.filter(g => g.fecha === k).sort((a, b) => (a.hora || "").localeCompare(b.hora || ""));
-  const listos = DB.guiones.filter(g => g.estado === "listo" && g.escenas.length).sort((a, b) => (a.fecha || "9999").localeCompare(b.fecha || "9999") || byNum(a, b));
+  const listos = DB.guiones.filter(g => g.estado === "listo" && g.escenas.length).sort((a, b) => (a.fecha || "9999").localeCompare(b.fecha || "9999") || (/^Máster/.test(b.titulo) - /^Máster/.test(a.titulo)) || byNum(a, b));   // primero los del máster
   const nx = listos[0];
   let planTxt = "";
   if (DB.inicioPlan) { const i = Math.round((t - parseD(DB.inicioPlan)) / 864e5); if (i >= 0 && i < 30) planTxt = `Día ${i + 1} de 30 · ${i < 28 ? "Semana " + (Math.floor(i / 7) + 1) : "Cierre"}`; }
@@ -130,6 +148,8 @@ V_.hoy = () => {
       <p class="muted sm" style="margin-top:6px">${nx.escenas.length} escenas · ${esc(nx.duracion || "")} · ${esc(nx.pilar || "")}</p></div>
       <div class="row" style="flex-direction:column;align-items:stretch"><button class="btn big wine" data-rec="${nx.id}">${ic("rec")} Grabar ahora</button><button class="btn" data-go="guiones/${nx.id}">Ver guion</button></div></div></section>`
     : `<section class="card y"><h3>No hay guiones listos para grabar</h3><p style="margin-top:6px">Marca un guion como “Listo para grabar” o crea uno nuevo.</p><div class="row" style="margin-top:10px"><button class="btn wine" data-new="1">${ic("plus")} Nuevo guion</button></div></section>`}
+
+  ${semanaHTML()}
 
   <section><div class="sec" style="margin-bottom:10px"><h2>Cómo vamos</h2><span class="muted sm">Toca un estado para ver esos guiones</span></div>
     <div class="pipe">${ESTADOS.map(([e, n]) => `<button class="st-${e}" data-filter="${e}"><b>${DB.guiones.filter(g => g.estado === e).length}</b><span>${n}</span></button>`).join("")}</div></section>
@@ -301,25 +321,25 @@ function modal(html){ closeModal(); const m = document.createElement("div"); m.c
 function closeModal(){ const m = $("#modal"); if (m) m.remove(); }
 
 /* ================= MÉTRICAS ================= */
-const MF = [["alcance","Alcance"],["ret","Retención %"],["guard","Guardados"],["comp","Compartidos"],["visitas","Visitas perfil"],["seg","Seguidores"]];
+const MF = [["vistas","Vistas"],["alcance","Alcance"],["omision","Omisión 3 s %"],["ret","Visualiz. media %"],["guard","Guardados"],["comp","Envíos"],["visitas","Visitas perfil"],["seg","Seguidores"]];
 const rate = (a, b) => a && b ? (a / b * 1000) : null;
 function metList(){ const red = UI.red; return DB.guiones.filter(g => estIdx(g.estado) >= 3 || (g.metricas[red] && Object.keys(g.metricas[red]).length)).sort((a, b) => (b.fecha || "").localeCompare(a.fecha || "") || byNum(a, b)); }
 function bestHTML(){
   const L = metList(), m = g => g.metricas[UI.red] || {};
   const bR = x => x.ret ? +x.ret : null;
   const best = (f, lab, col, pct) => { let top = null, v = -1; L.forEach(g => { const x = f(m(g)); if (x != null && x > v) { v = x; top = g; } }); return `<div style="--bc:${col}"><span class="lab" style="color:var(--ink)">${lab}</span>${top ? `<b>${pct ? v + "%" : v.toFixed(1)}</b><span class="sm">${pad(top.n)} · ${esc(top.titulo)}</span>` : `<b>—</b><span class="sm">Aún sin datos</span>`}</div>`; };
-  return best(bR, "Mejor retención", "#F7D774", true) + best(x => rate(+x.comp, +x.alcance), "Más compartidos ×1.000", "#AEC38E") + best(x => rate(+x.guard, +x.alcance), "Más guardados ×1.000", "#F7B7A8");
+  return best(x => rate(+x.seg, +x.vistas), "Más seguidores ×1.000 vistas", "#D79A9A") + best(x => rate(+x.comp, +x.alcance), "Más envíos ×1.000 (meta 10)", "#AEC38E") + best(bR, "Mejor visualización media", "#F7D774", true);
 }
 V_.metricas = () => {
   const red = UI.red, L = metList(), m = g => g.metricas[red] || {};
   return `
   <section class="card">
     <div class="sec"><div class="tabs" style="position:static;margin:0;padding:0"><button class="${red === "ig" ? "on" : ""}" data-red="ig">Instagram</button><button class="${red === "tt" ? "on" : ""}" data-red="tt">TikTok</button></div>
-      <span class="muted sm">Mira los números a los 7 días de publicado. Por 1.000 = por cada mil de alcance.</span></div>
+      <span class="muted sm">Anota cada reel a las 48 h. Metas: omisión menor a 35 %, visualización media de más de la mitad, 10 envíos o más por cada 1.000 de alcance y seguidores por cada 1.000 vistas por encima del promedio (Airbnb ≈ 3,9).</span></div>
     <div class="best" id="bestBox" style="margin-top:14px">${bestHTML()}</div>
-    <div class="tw" style="margin-top:14px">${L.length ? `<table class="mt"><thead><tr><th>Video</th>${MF.map(f => `<th>${f[1]}</th>`).join("")}<th>Guard. ×1k</th><th>Comp. ×1k</th></tr></thead><tbody>
-      ${L.map(g => { const x = m(g), rg = rate(+x.guard, +x.alcance), rc = rate(+x.comp, +x.alcance); return `<tr><td class="ttl"><a href="#guiones/${g.id}">${pad(g.n)} · ${esc(g.titulo)}</a><br><small class="muted">${g.fecha ? fmtD(parseD(g.fecha)) : "sin fecha"} · ${estLabel(g.estado)}</small></td>
-        ${MF.map(([k, l]) => `<td data-l="${esc(l)}"><input type="number" min="0" inputmode="numeric" data-met="${k}" data-id="${g.id}" value="${esc(x[k] ?? "")}"></td>`).join("")}<td class="rate" data-l="Guard. ×1k" id="rg-${g.id}">${rg != null ? rg.toFixed(1) : "—"}</td><td class="rate" data-l="Comp. ×1k" id="rc-${g.id}">${rc != null ? rc.toFixed(1) : "—"}</td></tr>`; }).join("")}</tbody></table>`
+    <div class="tw" style="margin-top:14px">${L.length ? `<table class="mt"><thead><tr><th>Video</th>${MF.map(f => `<th>${f[1]}</th>`).join("")}<th>Envíos ×1k</th><th>Seg. ×1k vistas</th></tr></thead><tbody>
+      ${L.map(g => { const x = m(g), rc = rate(+x.comp, +x.alcance), rs = rate(+x.seg, +x.vistas); return `<tr><td class="ttl"><a href="#guiones/${g.id}">${pad(g.n)} · ${esc(g.titulo)}</a><br><small class="muted">${g.fecha ? fmtD(parseD(g.fecha)) : "sin fecha"} · ${estLabel(g.estado)}</small></td>
+        ${MF.map(([k, l]) => `<td data-l="${esc(l)}"><input type="number" min="0" inputmode="numeric" data-met="${k}" data-id="${g.id}" value="${esc(x[k] ?? "")}"></td>`).join("")}<td class="rate" data-l="Envíos ×1k" id="rc-${g.id}">${rc != null ? rc.toFixed(1) : "—"}</td><td class="rate" data-l="Seg. ×1k vistas" id="rs-${g.id}">${rs != null ? rs.toFixed(1) : "—"}</td></tr>`; }).join("")}</tbody></table>`
       : `<div class="empty">Cuando marques un guion como Editado o Publicado, aparece aquí para anotar sus números.</div>`}</div>
   </section>
   <section class="card"><h3>Aprendizajes de la semana</h3><p class="sm muted" style="margin-top:4px">${ANA_FIELDS.map(esc).join(" · ")}</p>
@@ -331,7 +351,7 @@ V_.metricas = () => {
 };
 
 /* ================= ESTRATEGIA ================= */
-const TABS = [["resumen","Resumen"],["estructura","Estructura del video"],["ganchos","Ganchos"],["stories","Stories"],["plataformas","Plataformas"],["checklist","Checklist"],["plan","Plan 30 días"],["nicho","Lo que funciona hoy"]];
+const TABS = [["resumen","Máster"],["estructura","Fórmula del guion"],["ganchos","Ganchos"],["stories","Stories"],["plataformas","Plataformas"],["checklist","Checklist"],["plan","Plan 4 semanas"],["nicho","Investigación 29 oct"]];
 V_.estrategia = (tab) => {
   const t = TABS.find(x => x[0] === tab) ? tab : "resumen";
   return `<div class="tabs">${TABS.map(([k, n]) => `<button class="${t === k ? "on" : ""}" data-go="estrategia/${k}">${n}</button>`).join("")}</div>${EST[t]()}`;
@@ -339,16 +359,26 @@ V_.estrategia = (tab) => {
 const lst = a => `<ul class="clean">${a.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
 const EST = {
   resumen: () => `
-    <section class="card w"><span class="lab">La promesa de la cuenta</span><h2 style="margin-top:6px;font-size:1.6rem">IA práctica para negocios</h2>
-      <div style="display:flex;flex-direction:column;gap:6px;margin-top:12px">${REGLAS.map((r, i) => `<p><b style="color:var(--butter)">${i + 1}.</b> ${esc(r)}</p>`).join("")}</div></section>
-    <section><h2 style="margin-bottom:10px">Los 4 pilares</h2><div class="grid g2">${PILARES.map(p => `<div class="pil"><div class="ph" style="--pc:${p.col};${p.col === "#6B1626" || p.col === "#D3322A" ? "color:#fff" : ""}"><b>${esc(p.n)}</b><span>${p.p}%</span></div><div class="pb"><p><b>Qué va:</b> ${esc(p.que)}</p><p><b>Para:</b> ${esc(p.ob)}</p><p class="muted">${esc(p.meta)}</p>${lst(p.ideas)}<p class="sm"><b>Mide:</b> ${esc(p.mide.join(" · "))}</p></div></div>`).join("")}</div></section>
-    <section class="card"><h3>Qué queremos tener en 30 días</h3><div class="grid g2" style="margin-top:10px">${OBJ30.map(o => `<div><b>${esc(o[0])}</b><p class="sm muted">${esc(o[1])}</p></div>`).join("")}</div></section>
-    <section class="card"><h3>Bloques de trabajo de la semana</h3><div class="tw"><table class="cmp" style="margin-top:8px"><tbody>${WORKBLOCKS.map(w => `<tr><td>${esc(w[0])}</td><td style="white-space:nowrap">${esc(w[1])}</td><td>${esc(w[2])}</td></tr>`).join("")}</tbody></table></div></section>`,
+    <section class="card w"><span class="lab">Máster del 16 nov 2026 · tema único</span><h2 style="margin-top:6px;font-size:1.6rem">${esc(MASTER.tema)}</h2>
+      <p style="margin-top:8px;opacity:.9"><i>${esc(MASTER.linea)}</i></p>
+      <div style="display:flex;flex-direction:column;gap:6px;margin-top:12px">${MASTER.reglas.map((r, i) => `<p><b style="color:var(--butter)">${i + 1}.</b> ${esc(r)}</p>`).join("")}</div></section>
+    <section><h2 style="margin-bottom:10px">La semana: 7 reels en 3 formatos + 1-2 carruseles</h2><div class="grid g2">${SEMANA_META.map(m => `<div class="tile"><div class="bar" style="--pc:${m.col}"></div><div class="sec"><b>${esc(m.f)}</b><span class="chip">${m.meta}${m.max ? "-" + m.max : ""} por semana</span></div><span class="sm">${esc(m.que)}</span></div>`).join("")}</div>
+      <div class="tw" style="margin-top:12px"><table class="cmp"><thead><tr><th>Día</th><th>Pieza</th><th>Para qué</th><th>Stories</th></tr></thead><tbody>${CAL.slice(0).sort((a, b) => ((a.gd + 6) % 7) - ((b.gd + 6) % 7)).map(c => `<tr><td><span class="dot" style="background:${objCol(c.ob)}"></span> ${esc(c.d)}</td><td data-l="Pieza">${esc(c.pz)}</td><td data-l="Para qué">${esc(c.ob)}</td><td data-l="Stories">${esc(c.st)}</td></tr>`).join("")}</tbody></table></div>
+      <p class="sm muted" style="margin-top:6px">Si a las 2 semanas las vistas o los seguidores por reel bajan frente al promedio, se pasa a 5 reels por semana (3 hablando, 1 B-roll, 1 cómico).</p></section>
+    <section class="card"><h3>Lo que falla hoy en Instagram (diagnóstico del 15 nov)</h3><p class="sm muted" style="margin-top:4px">El gancho no es el problema: la omisión en los 3 primeros segundos va de 19 % a 38 % en los mejores reels.</p>
+      <div class="grid g2" style="margin-top:10px">${MASTER.fallas.map((f, i) => `<div><b>${i + 1}. ${esc(f[0])}</b><p class="sm muted">${esc(f[1])}</p></div>`).join("")}</div>
+      <p class="sm" style="margin-top:10px;background:#FFF3D6;border-left:4px solid var(--wine);padding:6px 8px;border-radius:6px"><b>Tu hueco:</b> ${esc(MASTER.hueco)}</p></section>
+    <section class="card"><h3>Metas de cada reel (a las 48 h)</h3><div class="tw"><table class="cmp" style="margin-top:8px"><tbody>${METAS_REEL.map(m => `<tr><td>${esc(m[0])}</td><td>${esc(m[1])}</td></tr>`).join("")}</tbody></table></div>
+      <p class="sm muted" style="margin-top:6px">Un reel que cumple las tres primeras se replica con otro caso. Uno que falla en omisión necesita otro gancho, no otro tema.</p></section>`,
   estructura: () => `
-    <section><h2 style="margin-bottom:10px">Estructura de un video corto</h2><div class="struct">${STRUCT.map(s => `<div style="--pc:${s.col};--pk:${s.k}"><small>${esc(s.t)}</small><b>${esc(s.n)}</b><p class="sm" style="font-style:italic;margin-top:4px">${esc(s.q)}</p><p class="sm" style="margin-top:4px">${esc(s.d)}</p></div>`).join("")}</div></section>
-    <section><h2 style="margin-bottom:10px">Técnicas de retención</h2><div class="grid g2">${TECNICAS.map(x => `<div class="tile"><div class="bar" style="--pc:${x.col}"></div><b>${esc(x.t)}</b><span class="sm">${esc(x.d)}</span><span class="sm"><b>En la práctica:</b> ${esc(x.p)}</span></div>`).join("")}</div></section>`,
+    <section><h2 style="margin-bottom:4px">Fórmula de 7 bloques</h2><p class="sm muted" style="margin-bottom:10px">PAS + Antes-Después-Puente + AIDA. Regla de oro: el gancho habla de él, la prueba habla de mí.</p><div class="struct">${STRUCT.map(s => `<div style="--pc:${s.col};--pk:${s.k}"><small>${esc(s.t)}</small><b>${esc(s.n)}</b><p class="sm" style="font-style:italic;margin-top:4px">${esc(s.q)}</p><p class="sm" style="margin-top:4px">${esc(s.d)}</p></div>`).join("")}</div></section>
+    <section class="card"><h3>Versión según el tipo de guion</h3><div class="tw"><table class="cmp" style="margin-top:8px"><thead><tr><th>Tipo</th><th>Duración</th><th>Bloques</th></tr></thead><tbody>${TIPOS_GUION.map(r => `<tr><td>${esc(r[0])}</td><td data-l="Duración" style="white-space:nowrap">${esc(r[1])}</td><td data-l="Bloques">${esc(r[2])}</td></tr>`).join("")}</tbody></table></div>
+      <div style="margin-top:10px"><span class="lab">Retención</span>${lst(RETENCION)}</div></section>
+    <section><h2 style="margin-bottom:10px">Más técnicas</h2><div class="grid g2">${TECNICAS.map(x => `<div class="tile"><div class="bar" style="--pc:${x.col}"></div><b>${esc(x.t)}</b><span class="sm">${esc(x.d)}</span><span class="sm"><b>En la práctica:</b> ${esc(x.p)}</span></div>`).join("")}</div></section>`,
   ganchos: () => `
-    <section><h2 style="margin-bottom:10px">Fórmulas que funcionan</h2><div class="grid g2">${GANCHO_FORMULAS.map(f => `<div class="tile"><b>${esc(f.n)}</b><p style="font:700 1.05rem/1.3 var(--display)">“${esc(f.ej)}”</p><span class="sm muted">${esc(f.cuando)}</span></div>`).join("")}</div></section>
+    <section><h2 style="margin-bottom:4px">Banco de ganchos del máster</h2><p class="sm muted" style="margin-bottom:10px">Rota 3-4 familias por semana y nunca la misma dos veces seguidas. Graba 2-3 aperturas por video y quédate con la más natural. Toca un ejemplo para copiarlo.</p>
+      <div class="grid g2">${HOOK_FAM.map(f => `<div class="tile"><b>${esc(f.n)}</b><span class="sm muted">${esc(f.p)}</span>${f.ej.map(e => `<div class="copyline" style="border:0;padding:0"><span style="font:700 1rem/1.3 var(--display)">“${esc(e)}”</span><button class="btn sm ghost" data-copy="${esc(e)}">${ic("copy")}</button></div>`).join("")}</div>`).join("")}</div></section>
+    <section><h2 style="margin-bottom:10px">Fórmulas anteriores</h2><div class="grid g2">${GANCHO_FORMULAS.map(f => `<div class="tile"><b>${esc(f.n)}</b><p style="font:700 1.05rem/1.3 var(--display)">“${esc(f.ej)}”</p><span class="sm muted">${esc(f.cuando)}</span></div>`).join("")}</div></section>
     <section class="card"><h3>Plantillas para completar</h3><p class="sm muted">Cambia lo que está entre corchetes. Toca para copiar.</p><div style="margin-top:8px">${HOOKS.map(h => `<div class="copyline"><span>${esc(h)}</span><button class="btn sm ghost" data-copy="${esc(h)}">${ic("copy")}</button></div>`).join("")}</div></section>
     <section class="card"><h3>Tipos de gancho para variar</h3><div class="row" style="margin-top:8px">${HOOK_TYPES.map(h => `<span class="chip">${esc(h)}</span>`).join("")}</div></section>`,
   stories: () => `
@@ -362,10 +392,12 @@ const EST = {
       <div class="grid g2" style="margin-top:12px"><div><span class="lab">Se mantiene</span>${lst(KEEP)}</div><div><span class="lab">Se adapta</span>${lst(CHANGE)}</div></div></section>
     <div class="grid g2"><section class="card"><h3>Antes de publicar</h3><div style="margin-top:8px">${lst(PUB_BEFORE)}</div></section><section class="card"><h3>Después de publicar</h3><div style="margin-top:8px">${lst(PUB_AFTER)}</div></section></div>
     <div class="grid g2">${Object.keys(SALUD).map(k => `<section class="card"><h3>Salud del perfil · ${k}</h3><div style="margin-top:8px">${lst(SALUD[k])}</div></section>`).join("")}</div>`,
-  checklist: () => `<p class="muted">Lista general para cada video. La parte de “Al grabar” también aparece al terminar el modo grabar.</p>
+  checklist: () => `<section class="tile" style="border-top:8px solid var(--wine)"><b style="font:800 1.1rem var(--display)">A cámara (máster)</b>${lst(CK_CAMARA)}</section>
+    <p class="muted">Lista general para cada video. La parte de “Al grabar” también aparece al terminar el modo grabar.</p>
     <div class="grid g2">${CKG.map(c => `<section class="tile" style="border-top:8px solid ${c.col}"><b style="font:800 1.1rem var(--display)">${esc(c.t)}</b>${lst(c.items)}</section>`).join("")}</div>`,
   plan: () => `
-    <div class="grid g2">${WEEKS.map((w, i) => `<section class="pil"><div class="ph" style="--pc:${w.col}"><b>Semana ${i + 1} · ${esc(w.t)}</b></div><div class="pb">${lst(w.items)}</div></section>`).join("")}</div>
+    <section class="card"><h3>Plan de 4 semanas (máster)</h3><div class="tw"><table class="cmp" style="margin-top:8px"><thead><tr><th>Semana</th><th>Hablando (4)</th><th>B-roll (2)</th><th>Cómico (1)</th><th>Carrusel</th><th>Tarea clave</th></tr></thead><tbody>${PLAN4.map(r => `<tr><td>${esc(r[0])}</td><td data-l="Hablando (4)">${esc(r[1])}</td><td data-l="B-roll (2)">${esc(r[2])}</td><td data-l="Cómico (1)">${esc(r[3])}</td><td data-l="Carrusel">${esc(r[4])}</td><td data-l="Tarea clave">${esc(r[5])}</td></tr>`).join("")}</tbody></table></div>
+      <p class="sm muted" style="margin-top:6px">“Máster N” = guion N del documento máster; en la app se llaman igual al empezar el título.</p></section>
     <section class="card"><h3>La semana tipo</h3><div class="tw"><table class="cmp" style="margin-top:8px"><thead><tr><th>Día</th><th>Pieza</th><th>Formato</th><th>Objetivo</th><th>Stories</th></tr></thead><tbody>${CAL.map(c => `<tr><td><span class="dot" style="background:${objCol(c.ob)}"></span> ${esc(c.d)}</td><td data-l="Pieza">${esc(c.pz)}</td><td data-l="Formato">${esc(c.fm)}</td><td data-l="Objetivo">${esc(c.ob)}</td><td data-l="Stories">${esc(c.st)}</td></tr>`).join("")}</tbody></table></div></section>
     <section class="card"><h3>Ideas extra</h3><div class="grid g2" style="margin-top:8px"><div><span class="lab">Carruseles</span>${lst(CARRUSEL_IDEAS)}</div><div><span class="lab">Noticias con criterio</span>${lst(NOTICIA_IDEAS)}</div></div></section>`,
   nicho: () => `
@@ -441,7 +473,7 @@ document.addEventListener("input", e => {
   if (d.gl) { G(d.id).links[d.gl] = el.value; save(); return; }
   if (d.db) { DB[d.db] = el.value; save(); return; }
   if (d.met) { const g = G(d.id); g.metricas[UI.red] = g.metricas[UI.red] || {}; if (el.value === "") delete g.metricas[UI.red][d.met]; else g.metricas[UI.red][d.met] = +el.value; save();
-    const x = g.metricas[UI.red], rg = rate(+x.guard, +x.alcance), rc = rate(+x.comp, +x.alcance); $("#rg-" + g.id).textContent = rg != null ? rg.toFixed(1) : "—"; $("#rc-" + g.id).textContent = rc != null ? rc.toFixed(1) : "—"; $("#bestBox").innerHTML = bestHTML(); return; }
+    const x = g.metricas[UI.red], rc = rate(+x.comp, +x.alcance), rs = rate(+x.seg, +x.vistas); $("#rc-" + g.id).textContent = rc != null ? rc.toFixed(1) : "—"; $("#rs-" + g.id).textContent = rs != null ? rs.toFixed(1) : "—"; $("#bestBox").innerHTML = bestHTML(); return; }
   if (d.ui) { UI[d.ui] = el.value; rerenderList(); if (d.ui === "q") { const s = $("[data-ui=q]"); s.focus(); s.setSelectionRange(s.value.length, s.value.length); } return; }
 });
 document.addEventListener("change", e => {

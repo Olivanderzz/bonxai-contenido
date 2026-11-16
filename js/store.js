@@ -61,6 +61,10 @@ async function loadDB(){
     let avanzaron = 0;
     const enBase = new Map(base.guiones.map(g => [g.id, g]));
     DB.guiones.forEach(g => { const b = enBase.get(g.id); if (b && ESTORD.indexOf(b.estado) > ESTORD.indexOf(g.estado)) { g.estado = b.estado; avanzaron++; } });
+    // Fecha: si aquí el guion no tiene fecha y en el repo sí (lo programó el VPS), se toma la del repo.
+    DB.guiones.forEach(g => { const b = enBase.get(g.id); if (b && !g.fecha && b.fecha) { g.fecha = b.fecha; if (!g.hora && b.hora) g.hora = b.hora; } });
+    // Formato del máster (16 nov): si aquí sigue el genérico "Reel + TikTok", se toma el del repo; si lo cambiaste aquí, se respeta.
+    DB.guiones.forEach(g => { const b = enBase.get(g.id); if (b && g.formato === "Reel + TikTok" && b.formato && b.formato !== g.formato) g.formato = b.formato; });
     DB.actualizado = base.actualizado;
     try { localStorage.setItem(LSK, JSON.stringify(DB)); } catch (e) {}
     const reales = nuevos.length - heredados, quit = Math.max(0, removidos - heredados);   // los reemplazados no cuentan como quitados

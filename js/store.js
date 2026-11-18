@@ -18,7 +18,7 @@ function normalize(d){
   d.guiones.forEach(g => {
     g.ganchos = g.ganchos || []; g.escenas = g.escenas || []; g.links = g.links || {ig:"", tt:""};
     g.metricas = g.metricas || {}; g.estado = g.estado || "idea"; g.formato = g.formato || "Reel + TikTok";
-    ["titulo","pilar","objetivo","duracion","gancho","textoPantalla","edicion","stories","descripcion","fecha","hora","notas"].forEach(k => { if (g[k] == null) g[k] = ""; });
+    ["titulo","pilar","objetivo","duracion","gancho","textoPantalla","edicion","stories","descripcion","fecha","hora","notas","cat","etapa"].forEach(k => { if (g[k] == null) g[k] = ""; });
   });
   d.borrados = Array.isArray(d.borrados) ? d.borrados : [];
   d.inicioPlan = d.inicioPlan || "";
@@ -64,6 +64,8 @@ async function loadDB(){
     // Fecha: si aquí el guion no tiene fecha y en el repo sí (lo programó el VPS), se toma la del repo.
     DB.guiones.forEach(g => { const b = enBase.get(g.id); if (b && !g.fecha && b.fecha) { g.fecha = b.fecha; if (!g.hora && b.hora) g.hora = b.hora; } });
     // Formato del máster (16 nov): si aquí sigue el genérico "Reel + TikTok", se toma el del repo; si lo cambiaste aquí, se respeta.
+    // Categoría y etapa del embudo (18 nov 2026): si aquí están vacías y el repo las trae, se toman.
+    DB.guiones.forEach(g => { const b = enBase.get(g.id); if (b) ["cat", "etapa"].forEach(k => { if (!g[k] && b[k]) g[k] = b[k]; }); });
     DB.guiones.forEach(g => { const b = enBase.get(g.id); if (b && g.formato === "Reel + TikTok" && b.formato && b.formato !== g.formato) g.formato = b.formato; });
     DB.actualizado = base.actualizado;
     try { localStorage.setItem(LSK, JSON.stringify(DB)); } catch (e) {}

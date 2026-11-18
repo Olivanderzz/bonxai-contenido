@@ -392,3 +392,9 @@ const PRUEBA_CI = [
   "Siguiente paso: ¿el cierre lleva a seguirme, enviarlo o guardarlo? (en TOFU, casi nunca a vender)",
 ];
 const CIERRES_TOFU = ["Sígueme si tienes un negocio y no quieres que todo dependa de ti","Mándaselo a [persona concreta]","Guárdalo para cuando lo vayas a hacer"];
+
+const CATS = ["Problema","Creencia","Carencia","Pregunta","Resultado","Tendencia"];
+const ETAPAS = [["TOFU","Darme a conocer"],["MOFU","Confianza"],["BOFU","Venta (DIAGNÓSTICO)"]];
+const CAT_COL = {Problema:"#D79A9A", Creencia:"#AEC38E", Carencia:"#F7D774", Pregunta:"#9EC1CF", Resultado:"#EBCB9D", Tendencia:"#C9B6E4"};
+// Cupo de una jornada de grabación (cubre 2 semanas del calendario): hablando 8, B-roll 4, cómico 2
+const JORNADA = [{f:"Hablando a cámara", n:8}, {f:"B-roll con texto", n:4}, {f:"Cómico", n:2}];

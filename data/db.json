@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "actualizado": "2026-11-16T16:20:50.000Z",
+  "actualizado": "2026-11-18T21:43:53.000Z",
   "inicioPlan": "",
   "guiones": [
     {
@@ -69,7 +69,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "id": "g24",
@@ -137,7 +139,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "id": "g25",
@@ -205,7 +209,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "id": "g26",
@@ -273,7 +279,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "id": "g27",
@@ -341,7 +349,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "id": "g28",
@@ -409,7 +419,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "id": "g29",
@@ -477,7 +489,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "id": "g30b",
@@ -545,7 +559,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Problema",
+      "etapa": "TOFU"
     },
     {
       "id": "g31",
@@ -613,7 +629,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "id": "g32",
@@ -681,7 +699,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Creencia",
+      "etapa": "TOFU"
     },
     {
       "id": "g33",
@@ -749,7 +769,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Tendencia",
+      "etapa": "TOFU"
     },
     {
       "id": "g34",
@@ -817,7 +839,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Tendencia",
+      "etapa": "TOFU"
     },
     {
       "id": "g35",
@@ -885,7 +909,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Pregunta",
+      "etapa": "TOFU"
     },
     {
       "id": "g36",
@@ -953,7 +979,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Tendencia",
+      "etapa": "TOFU"
     },
     {
       "id": "g37",
@@ -1021,7 +1049,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Tendencia",
+      "etapa": "TOFU"
     },
     {
       "id": "g38",
@@ -1089,7 +1119,9 @@
         "ig": "",
         "tt": ""
       },
-      "metricas": {}
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "id": "g40c",
@@ -1149,7 +1181,7 @@
       "edicion": "Cortes de 1-2 s por foto en el acto 1 y ritmo calmado en el acto 3. Música de tensión a resolución. Subtítulos obligatorios.",
       "stories": "Semana 2: encuesta “¿Tu negocio funciona sin ti? Sí / A medias / No”.",
       "descripcion": "De visitar 40 tiendas al día a construir sistemas con inteligencia artificial que trabajan solos 🚶‍♂️➡️🤖\n\nPrimero lo hice en mi negocio. Ahora lo hago en el tuyo.\n\nComenta DIAGNÓSTICO y te digo qué automatizar primero.\n\n#automatizacion #inteligenciaartificial #emprendimiento #pymes #negocios",
-      "estado": "editado",
+      "estado": "publicado",
       "fecha": "2026-11-18",
       "hora": "12:30",
       "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, semana 2 · emoción. Adaptado de 00-Estrategia/marca-personal/guiones/01_reel_historia_45s.md y 05_post_emocion_historia.md, conservando las frases de Felipe. Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\n12 nov 2026: se quitó la foto de la maleta (es de un compañero), se sumaron las 8 horas caminando y Cube Mobile (Felipe quiere nombrarla, así que el logo no se desenfoca).\nFotos de la época: selfies en 02-Contenido/LinkedIn/fotos/originales/ y en el celular. NO usar la foto de la maleta ni las 01, 02 y 06 (son compañeros, confirmado el 9 nov 2026). | 12 nov 2026: Juliana lo editó (Drive). Programado en Instagram el 18 nov, 12:30 p. m.",
@@ -1158,7 +1190,9 @@
         "tt": ""
       },
       "metricas": {},
-      "reemplaza": "g40b"
+      "reemplaza": "g40b",
+      "cat": "Carencia",
+      "etapa": "TOFU"
     },
     {
       "id": "g43b",
@@ -1227,7 +1261,9 @@
         "tt": ""
       },
       "metricas": {},
-      "reemplaza": "g43"
+      "reemplaza": "g43",
+      "cat": "Resultado",
+      "etapa": "MOFU"
     },
     {
       "id": "g42s",
@@ -1303,7 +1339,9 @@
         "tt": ""
       },
       "metricas": {},
-      "reemplaza": "g42b"
+      "reemplaza": "g42b",
+      "cat": "",
+      "etapa": "BOFU"
     },
     {
       "ganchos": [
@@ -1371,7 +1409,9 @@
       "titulo": "La primera dueña que confió en mí",
       "pilar": "Construyendo BONXAI",
       "angulo": "Rueda · Emoción",
-      "gancho": "La primera dueña que confió en mí pasaba 3 horas a la semana copiando ventas de un cuaderno a Excel."
+      "gancho": "La primera dueña que confió en mí pasaba 3 horas a la semana copiando ventas de un cuaderno a Excel.",
+      "cat": "Carencia",
+      "etapa": "MOFU"
     },
     {
       "ganchos": [
@@ -1423,15 +1463,15 @@
         "tt": ""
       },
       "metricas": {},
-      "estado": "listo",
+      "estado": "editado",
       "formato": "Hablando a cámara",
-      "fecha": "",
-      "hora": "",
+      "fecha": "2026-11-22",
+      "hora": "12:30",
       "textoPantalla": "5 señales 👇 · 1 No sabes cuánto vendió cada vendedor · 2 La caja no cuadra · 3 Tu equipo te pregunta todo · 4 El cliente de la noche no recibe respuesta · 5 Si no estás, no funciona · DIAGNÓSTICO",
       "edicion": "También sirve como carrusel de 7 slides (gancho, 5 señales, CTA), que es mejor para guardados. Sin pantallas técnicas.",
       "stories": "Semana 3: caja de preguntas “¿Qué tarea te quita más tiempo?”.",
       "descripcion": "5 señales de que tu negocio depende demasiado de ti (y qué automatizar primero) 📌\n\n1. No sabes cuánto vendió cada vendedor hoy hasta que lo cuentas tú.\n2. La caja no cuadra y no sabes por qué.\n3. Tu equipo te pregunta todo antes de actuar.\n4. El cliente que escribe de noche se queda sin respuesta.\n5. No te puedes ir ni un día.\n\nTu negocio creció, pero tu control no creció con él. Guárdalo y cuenta las tuyas.\n\nSi marcaste 3 o más, comenta DIAGNÓSTICO y en 30 minutos te digo cuál arreglar primero.\n\n#negocios #pymes #automatizacion #emprendimiento",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 2 · valor. Tema del banco de 03_Estrategia_de_contenido.md. Las 5 señales salen del ADN: problema de StoryBrand (no saber en tiempo real cuánto vende cada persona, descuadres), dolores del cliente ideal (descuadre, venta no reportada), resultado negativo (clientes que se van por no recibir respuesta), resultado positivo (un equipo que no pregunta todo) y la señal de compra (“si yo no estoy, esto no funciona”). Sin cifras.\nDiagnóstico gratuito de 30 minutos: confirmado en el banco de cifras (9 nov).",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 2 · valor. Tema del banco de 03_Estrategia_de_contenido.md. Las 5 señales salen del ADN: problema de StoryBrand (no saber en tiempo real cuánto vende cada persona, descuadres), dolores del cliente ideal (descuadre, venta no reportada), resultado negativo (clientes que se van por no recibir respuesta), resultado positivo (un equipo que no pregunta todo) y la señal de compra (“si yo no estoy, esto no funciona”). Sin cifras.\nDiagnóstico gratuito de 30 minutos: confirmado en el banco de cifras (9 nov).\nGrabado y editado por Juliana (18 nov 2026). Programado en el VPS para el domingo 22 nov 12:30, con DIAGNÓSTICO (BOFU).",
       "objetivo": "Valor (rueda, mes 2, semana 3): que el dueño se reconozca en el problema y guarde el video.",
       "duracion": "35–45 s",
       "id": "g46",
@@ -1439,7 +1479,9 @@
       "titulo": "5 señales de que tu negocio depende demasiado de ti",
       "pilar": "IA para negocios",
       "angulo": "Rueda · Valor",
-      "gancho": "5 señales de que tu negocio depende demasiado de ti."
+      "gancho": "5 señales de que tu negocio depende demasiado de ti.",
+      "cat": "Problema",
+      "etapa": "BOFU"
     },
     {
       "ganchos": [
@@ -1507,7 +1549,9 @@
       "titulo": "El día que decidí dejar de ejecutar el sistema de otro",
       "pilar": "Construyendo BONXAI",
       "angulo": "Rueda · Emoción",
-      "gancho": "Llevaba casi 2 años caminando 8 horas al día por el sistema de otro. Hasta que un día decidí parar."
+      "gancho": "Llevaba casi 2 años caminando 8 horas al día por el sistema de otro. Hasta que un día decidí parar.",
+      "cat": "Carencia",
+      "etapa": "MOFU"
     },
     {
       "ganchos": [
@@ -1575,7 +1619,9 @@
       "titulo": "Cuánta plata pierdes por ventas por transferencia que nadie reporta",
       "pilar": "IA para negocios",
       "angulo": "Rueda · Valor",
-      "gancho": "¿Cuánta plata se te va en ventas por transferencia que nadie reporta? Haz esta cuenta."
+      "gancho": "¿Cuánta plata se te va en ventas por transferencia que nadie reporta? Haz esta cuenta.",
+      "cat": "Problema",
+      "etapa": "TOFU"
     },
     {
       "ganchos": [
@@ -1643,7 +1689,9 @@
       "titulo": "Lo que aprendí visitando más de mil tiendas",
       "pilar": "Construyendo BONXAI",
       "angulo": "Rueda · Emoción",
-      "gancho": "Visité más de mil tiendas en Barcelona y Lyon. Esto es lo que aprendí de sus dueños."
+      "gancho": "Visité más de mil tiendas en Barcelona y Lyon. Esto es lo que aprendí de sus dueños.",
+      "cat": "Carencia",
+      "etapa": "TOFU"
     },
     {
       "ganchos": [
@@ -1711,7 +1759,9 @@
       "titulo": "3 cosas que nunca dejaría en manos de una IA",
       "pilar": "IA para negocios",
       "angulo": "Rueda · Valor",
-      "gancho": "Automatizo negocios con inteligencia artificial, y hay 3 cosas que nunca dejaría en sus manos."
+      "gancho": "Automatizo negocios con inteligencia artificial, y hay 3 cosas que nunca dejaría en sus manos.",
+      "cat": "Creencia",
+      "etapa": "TOFU"
     },
     {
       "ganchos": [
@@ -1797,7 +1847,9 @@
       "titulo": "Máster 1 · La tienda que perdía plata",
       "gancho": "Si tienes vendedores, se te está yendo plata y no sabes por dónde.",
       "reemplaza": "g39",
-      "n": 39
+      "n": 39,
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "ganchos": [
@@ -1883,7 +1935,9 @@
       "titulo": "Máster 2 · 7 apartamentos sin estar presente",
       "gancho": "Si tienes un Airbnb, vives pegado al celular. Yo tengo siete y voy dos veces por semana.",
       "reemplaza": "g44",
-      "n": 44
+      "n": 44,
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "ganchos": [
@@ -1962,7 +2016,9 @@
       "titulo": "Máster 8 · 3 cosas que puedes automatizar esta semana",
       "gancho": "3 cosas que puedes automatizar en tu negocio esta semana. Yo ya las uso.",
       "reemplaza": "g41",
-      "n": 41
+      "n": 41,
+      "cat": "Pregunta",
+      "etapa": "TOFU"
     },
     {
       "ganchos": [
@@ -2040,7 +2096,9 @@
       "id": "m4",
       "n": 51,
       "titulo": "Máster 4 · La IA te desordena más rápido",
-      "gancho": "Si le metes IA a tu negocio desordenado, lo vas a empeorar."
+      "gancho": "Si le metes IA a tu negocio desordenado, lo vas a empeorar.",
+      "cat": "Creencia",
+      "etapa": "TOFU"
     },
     {
       "ganchos": [
@@ -2125,7 +2183,9 @@
       "id": "m5",
       "n": 52,
       "titulo": "Máster 5 · “¿Cuánto se vendió hoy?” (sketch)",
-      "gancho": "Si tienes vendedores, esta escena te la sabes."
+      "gancho": "Si tienes vendedores, esta escena te la sabes.",
+      "cat": "Carencia",
+      "etapa": "TOFU"
     },
     {
       "ganchos": [
@@ -2210,7 +2270,9 @@
       "id": "m6",
       "n": 53,
       "titulo": "Máster 6 · El CRM que parece videojuego",
-      "gancho": "Tu equipo no lee tablas. Por eso le pedí a Claude un CRM que parece un videojuego."
+      "gancho": "Tu equipo no lee tablas. Por eso le pedí a Claude un CRM que parece un videojuego.",
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "ganchos": [
@@ -2295,7 +2357,9 @@
       "id": "m7",
       "n": 54,
       "titulo": "Máster 7 · Mi Instagram contesta mientras duermo",
-      "gancho": "Mientras duermes, tus clientes te escriben y nadie les contesta."
+      "gancho": "Mientras duermes, tus clientes te escriben y nadie les contesta.",
+      "cat": "Resultado",
+      "etapa": "TOFU"
     },
     {
       "ganchos": [
@@ -2318,7 +2382,7 @@
         "tt": ""
       },
       "metricas": {},
-      "estado": "editado",
+      "estado": "publicado",
       "formato": "Carrusel",
       "fecha": "2026-11-17",
       "hora": "20:00",
@@ -2334,7 +2398,9 @@
       "id": "c-tienda-17nov",
       "n": 55,
       "titulo": "Carrusel · Caso de la tienda: del cuaderno a Excel",
-      "gancho": "Esta tienda gastaba 3 horas a la semana pasando ventas de un cuaderno a Excel."
+      "gancho": "Esta tienda gastaba 3 horas a la semana pasando ventas de un cuaderno a Excel.",
+      "cat": "Resultado",
+      "etapa": "MOFU"
     },
     {
       "ganchos": [
@@ -2357,7 +2423,7 @@
         "tt": ""
       },
       "metricas": {},
-      "estado": "editado",
+      "estado": "publicado",
       "formato": "Hablando a cámara",
       "fecha": "2026-11-16",
       "hora": "12:30",
@@ -2373,7 +2439,653 @@
       "id": "r-cursos-16nov",
       "n": 56,
       "titulo": "Cursos IA: lo que pagaste hoy es gratis",
-      "gancho": "Si pagaste 500 dólares por un curso de inteligencia artificial, pagaste por algo que hoy es gratis."
+      "gancho": "Si pagaste 500 dólares por un curso de inteligencia artificial, pagaste por algo que hoy es gratis.",
+      "cat": "Creencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "b-3auto-17nov",
+      "n": 57,
+      "titulo": "B-roll · 3 automatizaciones para ganar tiempo en tu trabajo",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "B-roll · 3 automatizaciones para ganar tiempo en tu trabajo",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "publicado",
+      "fecha": "2026-11-17",
+      "hora": "12:30",
+      "notas": "Palabra clave TIEMPO. 02-Contenido/Instagram/Reels/videos b-rolls/",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Problema",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "r-gta-18nov",
+      "n": 58,
+      "titulo": "GTA: 3 automatizaciones que haría si quisiera jugar GTA 6",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "Hablando a cámara",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "GTA: 3 automatizaciones que haría si quisiera jugar GTA 6",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "editado",
+      "fecha": "2026-11-18",
+      "hora": "19:00",
+      "notas": "Segundo reel del día por el estreno de GTA 6 (19 nov). Palabra clave DIAGNÓSTICO. Video de Juliana; caption, DM y TikTok en su carpeta de 02-Contenido. Programado en el VPS.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Tendencia",
+      "etapa": "BOFU"
+    },
+    {
+      "id": "k-ia-19nov",
+      "n": 59,
+      "titulo": "Cómico · Por qué la IA no me entiende (mis prompts)",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "Cómico",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "Cómico · Por qué la IA no me entiende (mis prompts)",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "editado",
+      "fecha": "2026-11-19",
+      "hora": "12:30",
+      "notas": "Sin palabra clave. Video de Juliana; caption, DM y TikTok en su carpeta de 02-Contenido. Programado en el VPS.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Carencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "b-chatgpt-21nov",
+      "n": 60,
+      "titulo": "B-roll · Cómo aprovechar tu suscripción de ChatGPT",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "B-roll · Cómo aprovechar tu suscripción de ChatGPT",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "editado",
+      "fecha": "2026-11-21",
+      "hora": "12:30",
+      "notas": "Palabra clave CHATGPT. 02-Contenido/Instagram/Reels/videos b-rolls/",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Carencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "a-tienda-23nov",
+      "n": 61,
+      "titulo": "Animado · La tienda que vendía todos los días y no le cuadraba",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "Hablando a cámara",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "Animado · La tienda que vendía todos los días y no le cuadraba",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "editado",
+      "fecha": "2026-11-23",
+      "hora": "12:30",
+      "notas": "Video animado (kit de Juliana); cuenta como el reel hablado del día. Palabra clave DIAGNÓSTICO. Video de Juliana; caption, DM y TikTok en su carpeta de 02-Contenido. Programado en el VPS.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "b-dinero-24nov",
+      "n": 62,
+      "titulo": "B-roll · 5 formas de ganar más dinero usando la IA",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "B-roll · 5 formas de ganar más dinero usando la IA",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "editado",
+      "fecha": "2026-11-24",
+      "hora": "12:30",
+      "notas": "Palabra clave DINERO. 02-Contenido/Instagram/Reels/videos b-rolls/",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "b-claude-28nov",
+      "n": 63,
+      "titulo": "B-roll · Cómo aprovechar tu suscripción de Claude",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "B-roll · Cómo aprovechar tu suscripción de Claude",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "editado",
+      "fecha": "2026-11-28",
+      "hora": "12:30",
+      "notas": "Palabra clave CLAUDE (guía de las 24 cosas). 02-Contenido/Instagram/Reels/videos b-rolls/",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Carencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "b-tarea-1dic",
+      "n": 64,
+      "titulo": "B-roll · Si haces la misma tarea a mano todos los días",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "B-roll · Si haces la misma tarea a mano todos los días",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "editado",
+      "fecha": "2026-12-01",
+      "hora": "12:30",
+      "notas": "Palabra clave AUTOMATIZAR. 02-Contenido/Instagram/Reels/videos b-rolls/",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Problema",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "b-5dif-5dic",
+      "n": 65,
+      "titulo": "B-roll · 5 diferencias entre vender tu tiempo y construir un negocio escalable",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "B-roll · 5 diferencias entre vender tu tiempo y construir un negocio escalable",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "editado",
+      "fecha": "2026-12-05",
+      "hora": "12:30",
+      "notas": "Sin palabra clave. 02-Contenido/Instagram/Reels/videos b-rolls/",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Creencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "b-claudemas-8dic",
+      "n": 66,
+      "titulo": "B-roll · Claude puede hacer mucho más que escribir textos bonitos",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "B-roll · Claude puede hacer mucho más que escribir textos bonitos",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "editado",
+      "fecha": "2026-12-08",
+      "hora": "12:30",
+      "notas": "Palabra clave CONSTRUIR. 02-Contenido/Instagram/Reels/videos b-rolls/",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Creencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-whatsapp-11pm",
+      "n": 67,
+      "titulo": "Contestas el WhatsApp a las 11 de la noche y crees que es normal",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "Contestas el WhatsApp a las 11 de la noche y crees que es normal",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Problema",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-control-crecio",
+      "n": 68,
+      "titulo": "Tu negocio creció, pero tu control no creció con él",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "Hablando a cámara",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "Tu negocio creció, pero tu control no creció con él",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Problema",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-ia-grandes",
+      "n": 69,
+      "titulo": "Creía que la IA era para empresas grandes. Hasta que la puse en una tienda con dos vendedores",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "Hablando a cámara",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "Creía que la IA era para empresas grandes. Hasta que la puse en una tienda con dos vendedores",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Creencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-otro-empleado",
+      "n": 70,
+      "titulo": "Contratar otro empleado no va a arreglar tu desorden",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "Hablando a cámara",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "Contratar otro empleado no va a arreglar tu desorden",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Creencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-sin-programar",
+      "n": 71,
+      "titulo": "No necesitas saber programar para ver tus ventas en el celular",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "No necesitas saber programar para ver tus ventas en el celular",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Creencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-negocio-al-lado",
+      "n": 72,
+      "titulo": "La IA no te va a quitar clientes. Te los va a quitar el negocio de al lado que contesta más rápido",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "La IA no te va a quitar clientes. Te los va a quitar el negocio de al lado que contesta más rápido",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Creencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-vacaciones",
+      "n": 73,
+      "titulo": "Dime que eres dueño de negocio sin decirme que no te has tomado vacaciones",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "Cómico",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "Dime que eres dueño de negocio sin decirme que no te has tomado vacaciones",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Carencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-pov-todo",
+      "n": 74,
+      "titulo": "POV: eres el dueño, el contador, el que contesta el WhatsApp y el que abre a las 7",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "Cómico",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "POV: eres el dueño, el contador, el que contesta el WhatsApp y el que abre a las 7",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Carencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-cuanto-dejo",
+      "n": 75,
+      "titulo": "¿Sabes cuánto te dejó cada apartamento (o cada sede) el mes pasado? Si no, te falta esto",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "¿Sabes cuánto te dejó cada apartamento (o cada sede) el mes pasado? Si no, te falta esto",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Carencia",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-cuanto-cuesta",
+      "n": 76,
+      "titulo": "¿Cuánto cuesta automatizar un negocio? Te digo el número real",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "Hablando a cámara",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "¿Cuánto cuesta automatizar un negocio? Te digo el número real",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta. Cifra del banco: implementación entre 1,5 y 3 millones de pesos (el máster la incluye; confirmar con Felipe antes de mostrar el precio en un reel).",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Pregunta",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-por-donde",
+      "n": 77,
+      "titulo": "¿Por dónde empiezo a usar IA en mi negocio? Por aquí no",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "Hablando a cámara",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "¿Por dónde empiezo a usar IA en mi negocio? Por aquí no",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Pregunta",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-airbnb-sin-estar",
+      "n": 78,
+      "titulo": "¿Se puede manejar un Airbnb sin estar ahí?",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "¿Se puede manejar un Airbnb sin estar ahí?",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Pregunta",
+      "etapa": "TOFU"
+    },
+    {
+      "id": "t-duena-ventas",
+      "n": 79,
+      "titulo": "Así ve esta dueña sus ventas sin estar en la tienda",
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "formato": "B-roll con texto",
+      "objetivo": "",
+      "duracion": "",
+      "gancho": "Así ve esta dueña sus ventas sin estar en la tienda",
+      "ganchos": [],
+      "escenas": [],
+      "textoPantalla": "",
+      "edicion": "",
+      "stories": "",
+      "descripcion": "",
+      "estado": "idea",
+      "fecha": "",
+      "hora": "",
+      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "cat": "Resultado",
+      "etapa": "TOFU"
     }
   ],
   "ideas": [],

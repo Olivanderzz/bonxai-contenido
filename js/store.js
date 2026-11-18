@@ -66,6 +66,8 @@ async function loadDB(){
     // Formato del máster (16 nov): si aquí sigue el genérico "Reel + TikTok", se toma el del repo; si lo cambiaste aquí, se respeta.
     // Categoría y etapa del embudo (18 nov 2026): si aquí están vacías y el repo las trae, se toman.
     DB.guiones.forEach(g => { const b = enBase.get(g.id); if (b) ["cat", "etapa"].forEach(k => { if (!g[k] && b[k]) g[k] = b[k]; }); });
+    // Orden del día de grabación: manda el del repo (lo deja el radar).
+    DB.guiones.forEach(g => { const b = enBase.get(g.id); if (b) { if (b.jornada) g.jornada = b.jornada; else delete g.jornada; } });
     DB.guiones.forEach(g => { const b = enBase.get(g.id); if (b && g.formato === "Reel + TikTok" && b.formato && b.formato !== g.formato) g.formato = b.formato; });
     DB.actualizado = base.actualizado;
     try { localStorage.setItem(LSK, JSON.stringify(DB)); } catch (e) {}

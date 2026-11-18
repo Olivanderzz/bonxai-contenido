@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "actualizado": "2026-11-18T21:43:53.000Z",
+  "actualizado": "2026-11-18T22:48:03.000Z",
   "inicioPlan": "",
   "guiones": [
     {
@@ -1681,7 +1681,7 @@
       "edicion": "Fotos de la época: selfies en 02-Contenido/LinkedIn/fotos/originales/ y en el celular. NO usar la foto de la maleta ni las 01, 02 y 06 (son compañeros, confirmado el 9 nov 2026).",
       "stories": "Semana 2: encuesta “¿Tu negocio funciona sin ti?”.",
       "descripcion": "Lo que aprendí visitando más de mil tiendas como comercial, y por qué hoy automatizo negocios 🚶‍♂️\n\nEntre 20 y 40 tiendas al día, 8 horas caminando por Barcelona y Lyon. En cada mostrador veía lo mismo:\n\n1. El dueño no se puede ir ni una hora, porque si no está, el negocio se descuadra.\n2. Conseguir cada cliente cuesta.\n3. El sistema era de la empresa; yo solo ponía las piernas.\n\nAhí entendí que quería construir el mío. Hoy construyo sistemas para que el dueño recupere el control sin tener que estar ahí.\n\n¿Cuál de las tres te pasa a ti? 👇\n\n#emprendimiento #negocios #automatizacion",
-      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 4 · emoción. Tema del banco de 03_Estrategia_de_contenido.md (“Lo que aprendí visitando miles de tiendas”). “Más de mil” es la cifra segura del banco de cifras. Las 3 lecciones salen del ADN (acto 1: conoce el comercio desde el mostrador y sabe lo que cuesta conseguir cada cliente) y de guiones/05 (dueños que no podían irse ni una hora). Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nSin palabra clave: el CTA es conversación.",
+      "notas": "Estructura: Gancho → Lo que te llevas → Problema → Solución + regalo. Rueda de autoridad, mes 4 · emoción. Tema del banco de 03_Estrategia_de_contenido.md (“Lo que aprendí visitando miles de tiendas”). “Más de mil” es la cifra segura del banco de cifras. Las 3 lecciones salen del ADN (acto 1: conoce el comercio desde el mostrador y sabe lo que cuesta conseguir cada cliente) y de guiones/05 (dueños que no podían irse ni una hora). Cifras: solo las del banco de cifras (02_Banco_de_cifras.md).\nSin palabra clave: el CTA es conversación.\nRadar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). Fecha propuesta: domingo 29 nov.",
       "objetivo": "Emoción (rueda, mes 4, semana 2): convertir la época de comercial en autoridad: conoce el comercio desde el mostrador.",
       "duracion": "40–45 s",
       "id": "g49",
@@ -1691,7 +1691,8 @@
       "angulo": "Rueda · Emoción",
       "gancho": "Visité más de mil tiendas en Barcelona y Lyon. Esto es lo que aprendí de sus dueños.",
       "cat": "Carencia",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 4
     },
     {
       "ganchos": [
@@ -1926,7 +1927,7 @@
       "edicion": "Grabar: 2-3 versiones del gancho (A y B) y quedarse con la más natural. Arrancar hablando en el primer cuadro, de pie, mirando al lente. Cambio de plano cada 3-5 s y subtítulos grandes (reglas para Juliana).",
       "stories": "El CRM por dentro (datos ocultos).",
       "descripcion": "Si tienes un Airbnb, vives pegado al celular: así manejo 7 apartamentos yendo 2 veces por semana con automatización 🏡\n\nAntes iba todos los días: avisarle a la limpieza, contestarle al huésped a las 11 de la noche, revisar que todo estuviera listo.\n\nHoy el aviso de limpieza le llega solo al personal, los huéspedes reciben sus instrucciones solos y yo veo todo en un tablero que parece un videojuego. No contraté a nadie más: primero ordenamos cómo se trabaja y después lo automaticé.\n\nMándaselo a alguien con un Airbnb que vive pegado al celular.\n\n#airbnb #anfitrion #automatizacion",
-      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 2 (fuerte, ya en 7 bloques). Reemplaza al guion 44.\n⚠️ El máster dice 5 apartamentos, pero el 8 nov confirmaste que son 7 (“el 5 era un error”) y así está en el banco de cifras, así que aquí dice siete. Si de verdad son 5, se cambia.\nOjo: el guion 27 (7 Airbnb con bots) es casi el mismo tema; no publicar los dos. El Eje Homes aparece solo como caso: sin direcciones, códigos de chapas, datos de huéspedes ni nombre o teléfono de la persona del aseo.",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 2 (fuerte, ya en 7 bloques). Reemplaza al guion 44.\n⚠️ El máster dice 5 apartamentos, pero el 8 nov confirmaste que son 7 (“el 5 era un error”) y así está en el banco de cifras, así que aquí dice siete. Si de verdad son 5, se cambia.\nOjo: el guion 27 (7 Airbnb con bots) es casi el mismo tema; no publicar los dos. El Eje Homes aparece solo como caso: sin direcciones, códigos de chapas, datos de huéspedes ni nombre o teléfono de la persona del aseo.\nRadar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). Fecha propuesta: viernes 20 nov (Felipe lo graba con Juli ese día).",
       "objetivo": "Caso fuerte (7 bloques) con el negocio propio. Es el tipo de reel que más seguidores trajo (Airbnb: 1 cada 257 vistas).",
       "duracion": "40 s",
       "pilar": "IA para negocios",
@@ -1937,7 +1938,8 @@
       "reemplaza": "g44",
       "n": 44,
       "cat": "Resultado",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 1
     },
     {
       "ganchos": [
@@ -2007,7 +2009,7 @@
       "edicion": "B-roll: no se habla (o voz en off opcional). Primer cuadro en movimiento, gancho de 5-8 palabras, máximo 3 líneas por pantalla. Cada toma se usa en un solo reel publicado: no repetir tomas ya publicadas.",
       "stories": "",
       "descripcion": "3 cosas que puedes automatizar en tu negocio esta semana con inteligencia artificial (yo ya las uso) 📌\n\n1. Reporte de ventas en vivo: una tienda dejó de pasar 3 horas a la semana a Excel.\n2. Avisos automáticos al equipo: pasé de ir todos los días a mis apartamentos a ir 2 veces por semana.\n3. Respuesta automática a clientes: el que escribe de noche no espera.\n\nGuárdalo y comenta SISTEMAS si quieres saber por cuál empezar.\n\n#automatizacion #negocios #pymes",
-      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 8 (lista), pasado a su versión corta (sección 7: gancho → dolor en 1 frase → cada punto con su mini-resultado → acción). Reemplaza al guion 41 (mismas 3 automatizaciones).\n[PENDIENTE: configurar SISTEMAS: qué recibe concretamente quien comenta (el máster pide palabra clave solo si se entrega algo). Si no hay entregable, el cierre pasa a “mándaselo a…”.]",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 8 (lista), pasado a su versión corta (sección 7: gancho → dolor en 1 frase → cada punto con su mini-resultado → acción). Reemplaza al guion 41 (mismas 3 automatizaciones).\n[PENDIENTE: configurar SISTEMAS: qué recibe concretamente quien comenta (el máster pide palabra clave solo si se entrega algo). Si no hay entregable, el cierre pasa a “mándaselo a…”.]\nRadar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). Fecha propuesta: B-roll de la tanda siguiente (desde el 12 dic).",
       "objetivo": "Lista para guardar en formato B-roll (semana 2 del plan). El valor va en pantalla, no solo en el caption.",
       "duracion": "25–30 s",
       "pilar": "IA para negocios",
@@ -2018,7 +2020,8 @@
       "reemplaza": "g41",
       "n": 41,
       "cat": "Pregunta",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 11
     },
     {
       "ganchos": [
@@ -2088,7 +2091,7 @@
       "edicion": "Grabar: 2-3 versiones del gancho (A y B) y quedarse con la más natural. Arrancar hablando en el primer cuadro, de pie, mirando al lente. Cambio de plano cada 3-5 s y subtítulos grandes (reglas para Juliana).",
       "stories": "",
       "descripcion": "Si le metes inteligencia artificial a tu negocio desordenado, lo vas a empeorar. Opinión impopular 👇\n\nSi tus ventas están en un cuaderno, una IA solo te va a dar el mismo desorden, pero más rápido. En la tienda que ayudé no empezamos con IA: primero definimos cómo se anota una venta y después lo automatizamos.\n\nPrimero se ordena, después se automatiza.\n\nMándaselo a ese amigo que quiere meterle IA a todo.\n\n#inteligenciaartificial #negocios #emprendimiento",
-      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 4 (opinión), pasado a su versión corta (sección 7: gancho contrario → por qué todos lo creen → por qué falla, con mi prueba → qué hacer → acción). La frase “Te venden la IA como si arreglara todo sola” es nueva (el bloque “por qué todos lo creen” no estaba en el original); cámbiala si no suena a ti.",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 4 (opinión), pasado a su versión corta (sección 7: gancho contrario → por qué todos lo creen → por qué falla, con mi prueba → qué hacer → acción). La frase “Te venden la IA como si arreglara todo sola” es nueva (el bloque “por qué todos lo creen” no estaba en el original); cámbiala si no suena a ti.\nRadar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). Fecha propuesta: domingo 6 dic.",
       "objetivo": "Opinión del domingo. Genera comentarios y envíos.",
       "duracion": "25–30 s",
       "pilar": "IA para negocios",
@@ -2098,7 +2101,8 @@
       "titulo": "Máster 4 · La IA te desordena más rápido",
       "gancho": "Si le metes IA a tu negocio desordenado, lo vas a empeorar.",
       "cat": "Creencia",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 8
     },
     {
       "ganchos": [
@@ -2175,7 +2179,7 @@
       "edicion": "Tú haces todos los personajes con cambio de gorra o de plano. 15 s máximo.",
       "stories": "",
       "descripcion": "Si tienes vendedores, esta escena te la sabes 😅 ¿Cuánto se vendió hoy?\n\nMándaselo al dueño que todavía pregunta.\n\n#negocios #emprendimiento #humor",
-      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 5 (humor), ajustado a la sección 7: el máster cerraba con “Etiqueta al dueño que todavía pregunta”; la fórmula de humor pide “mándaselo a…”, así que quedó “Mándaselo al dueño que todavía pregunta” (puedes volver a “Etiqueta” si prefieres).",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 5 (humor), ajustado a la sección 7: el máster cerraba con “Etiqueta al dueño que todavía pregunta”; la fórmula de humor pide “mándaselo a…”, así que quedó “Mándaselo al dueño que todavía pregunta” (puedes volver a “Etiqueta” si prefieres).\nRadar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). Fecha propuesta: jueves 26 nov.",
       "objetivo": "Cómico del jueves: se comparte entre dueños con vendedores. Sin solución; la acción es “mándaselo a…”.",
       "duracion": "15 s",
       "pilar": "IA para negocios",
@@ -2185,7 +2189,8 @@
       "titulo": "Máster 5 · “¿Cuánto se vendió hoy?” (sketch)",
       "gancho": "Si tienes vendedores, esta escena te la sabes.",
       "cat": "Carencia",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 13
     },
     {
       "ganchos": [
@@ -2262,7 +2267,7 @@
       "edicion": "Grabar: 2-3 versiones del gancho (A y B) y quedarse con la más natural. Arrancar hablando en el primer cuadro, de pie, mirando al lente. Cambio de plano cada 3-5 s y subtítulos grandes (reglas para Juliana).",
       "stories": "",
       "descripcion": "Tu equipo no lee tablas: por eso le pedí a la inteligencia artificial un CRM que parece un videojuego 🎮\n\nLe mandas un Excel a tu personal y nadie lo abre; te terminan preguntando todo por WhatsApp. Así quedó: cada apartamento es un edificio. Si hay huésped, se ve. Si toca limpieza, se ve.\n\nUn sistema que nadie usa no sirve, y este sí lo usan.\n\nMándaselo al que todavía maneja su equipo con un Excel.\n\n#automatizacion #negocios #crm",
-      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 6 (fuerte, ya en 7 bloques).\nOjo: es el mismo CRM del video animado de Ciudad Nido (publicado el 12 nov). Aquí va material nuevo: tú a cámara y la pantalla real, nunca clips del animado. El Eje Homes aparece solo como caso: sin direcciones, códigos de chapas, datos de huéspedes ni nombre o teléfono de la persona del aseo.",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 6 (fuerte, ya en 7 bloques).\nOjo: es el mismo CRM del video animado de Ciudad Nido (publicado el 12 nov). Aquí va material nuevo: tú a cámara y la pantalla real, nunca clips del animado. El Eje Homes aparece solo como caso: sin direcciones, códigos de chapas, datos de huéspedes ni nombre o teléfono de la persona del aseo.\nRadar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). Fecha propuesta: miércoles 25 nov.",
       "objetivo": "Caso fuerte (7 bloques): sistema propio en pantalla real.",
       "duracion": "35 s",
       "pilar": "IA para negocios",
@@ -2272,7 +2277,8 @@
       "titulo": "Máster 6 · El CRM que parece videojuego",
       "gancho": "Tu equipo no lee tablas. Por eso le pedí a Claude un CRM que parece un videojuego.",
       "cat": "Resultado",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 2
     },
     {
       "ganchos": [
@@ -2349,7 +2355,7 @@
       "edicion": "Grabar: 2-3 versiones del gancho (A y B) y quedarse con la más natural. Arrancar hablando en el primer cuadro, de pie, mirando al lente. Cambio de plano cada 3-5 s y subtítulos grandes (reglas para Juliana).",
       "stories": "",
       "descripcion": "Mientras duermes, tus clientes te escriben y nadie les contesta. Así automaticé las respuestas de mi Instagram (y las 3 veces que me falló) 🌙\n\nAlguien pregunta el precio a las 10 de la noche y tú lo ves al otro día. Para entonces ya le compró a otro.\n\nEn mi Instagram comentas una palabra y te llega el regalo al DM, solo si me sigues. Pero me falló tres veces: el PC se durmió y no publicó, una palabra no coincidía y un post salió duplicado.\n\nLo mismo se le monta a un negocio en WhatsApp. Comenta AUTO y te muestro cómo.\n\n#automatizacion #instagram #negocios",
-      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 7 (fuerte, ya en 7 bloques). AUTO necesita su manychat.txt (qué se entrega) antes de publicar.\nOjo: el 15 nov salió “Automatizar Instagram desde cero” (guion 25), con el mismo flujo. Graba material nuevo (sin clips de ese video) y deja al menos una semana entre los dos (el plan lo pone en la semana 2).",
+      "notas": "Fuente: MÁSTER del 16 nov 2026 (00-Estrategia/marca-personal/06_MASTER_16nov.md), guion 7 (fuerte, ya en 7 bloques). AUTO necesita su manychat.txt (qué se entrega) antes de publicar.\nOjo: el 15 nov salió “Automatizar Instagram desde cero” (guion 25), con el mismo flujo. Graba material nuevo (sin clips de ese video) y deja al menos una semana entre los dos (el plan lo pone en la semana 2).\nRadar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). Fecha propuesta: miércoles 2 dic.",
       "objetivo": "Caso fuerte (7 bloques): tu Instagram demuestra el servicio. El giro (los 3 errores) es lo que hace que lo reenvíen.",
       "duracion": "40 s",
       "pilar": "IA para negocios",
@@ -2359,7 +2365,8 @@
       "titulo": "Máster 7 · Mi Instagram contesta mientras duermo",
       "gancho": "Mientras duermes, tus clientes te escriben y nadie les contesta.",
       "cat": "Resultado",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 6
     },
     {
       "ganchos": [
@@ -2724,60 +2731,165 @@
       "etapa": "TOFU"
     },
     {
-      "id": "t-whatsapp-11pm",
+      "id": "t-whatsapp-11pm-v2",
       "n": 67,
-      "titulo": "Contestas el WhatsApp a las 11 de la noche y crees que es normal",
+      "titulo": "B-roll · ¿Contestas el WhatsApp a las 11 de la noche?",
       "pilar": "IA para negocios",
       "angulo": "",
       "formato": "B-roll con texto",
-      "objetivo": "",
-      "duracion": "",
-      "gancho": "Contestas el WhatsApp a las 11 de la noche y crees que es normal",
-      "ganchos": [],
-      "escenas": [],
-      "textoPantalla": "",
-      "edicion": "",
+      "objetivo": "B-roll de problema. El valor va en pantalla; el detalle, en el caption.",
+      "duracion": "8–12 s",
+      "gancho": "¿Contestas el WhatsApp a las 11 p. m.?",
+      "ganchos": [
+        {
+          "tipo": "Pantalla 1",
+          "txt": "¿Contestas el WhatsApp a las 11 p. m.?"
+        },
+        {
+          "tipo": "Pantalla 2",
+          "txt": "Y crees que es normal"
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "",
+          "como": "De noche: tú en el sofá o en la cama con el celular encendido, la toma ya en movimiento.",
+          "pantalla": "¿Contestas el WhatsApp a las 11 p. m.?"
+        },
+        {
+          "t": "3–6 s",
+          "nombre": "Re-gancho",
+          "digo": "",
+          "como": "Primer plano de la pantalla con chats (datos ocultos).",
+          "pantalla": "Y crees que es normal"
+        },
+        {
+          "t": "6–10 s",
+          "nombre": "Valor",
+          "digo": "",
+          "como": "Tú cansado, frotándote los ojos.",
+          "pantalla": "Te cuesta: tu descanso · los clientes que respondió otro primero"
+        },
+        {
+          "t": "10–12 s",
+          "nombre": "Cierre",
+          "digo": "",
+          "como": "Dejas el celular y apagas la luz.",
+          "pantalla": "Lo repetido lo puede contestar un sistema · Guárdalo"
+        }
+      ],
+      "textoPantalla": "¿Contestas el WhatsApp a las 11 p. m.? · Y crees que es normal · Te cuesta: tu descanso · los clientes que respondió otro primero · Lo repetido lo puede contestar un sistema",
+      "edicion": "Gancho en el primer cuadro, máximo 3 líneas por pantalla. Audio sugerido (TikTok CO, uso comercial permitido): “Stoic Solitude”, de Sabedoria.",
       "stories": "",
       "descripcion": "",
-      "estado": "idea",
+      "estado": "listo",
       "fecha": "",
       "hora": "",
-      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "notas": "Radar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). Gancho nuevo #16 para la lista de Juliana. Tomas nuevas (nunca una toma ya publicada).",
       "links": {
         "ig": "",
         "tt": ""
       },
       "metricas": {},
       "cat": "Problema",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 9,
+      "reemplaza": "t-whatsapp-11pm"
     },
     {
-      "id": "t-control-crecio",
+      "id": "t-control-crecio-v2",
       "n": 68,
       "titulo": "Tu negocio creció, pero tu control no creció con él",
       "pilar": "IA para negocios",
       "angulo": "",
       "formato": "Hablando a cámara",
-      "objetivo": "",
-      "duracion": "",
-      "gancho": "Tu negocio creció, pero tu control no creció con él",
-      "ganchos": [],
-      "escenas": [],
-      "textoPantalla": "",
-      "edicion": "",
+      "objetivo": "Problema (lunes). Caso propio de El Eje Homes, no la tienda (la tienda ya sale en el carrusel del 17 y el animado del 23).",
+      "duracion": "35–40 s",
+      "gancho": "Tu negocio creció, pero tu control no creció con él.",
+      "ganchos": [
+        {
+          "tipo": "Situación tuya (A)",
+          "txt": "Tu negocio creció, pero tu control no creció con él."
+        },
+        {
+          "tipo": "Situación tuya (B)",
+          "txt": "Si ya tienes empleados y la cuenta del día la sigues haciendo tú, esto te va a sonar."
+        },
+        {
+          "tipo": "Pérdida (C)",
+          "txt": "Cuando tu negocio crece, lo primero que se pierde no es plata: es el control."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho",
+          "digo": "Tu negocio creció, pero tu control no creció con él.",
+          "como": "Arrancas hablando en el primer cuadro, de pie, mirando al lente.",
+          "pantalla": "Texto: Tu negocio creció. Tu control no."
+        },
+        {
+          "t": "2–7 s",
+          "nombre": "Dolor",
+          "digo": "Al principio lo hacías todo tú y sabías cuánto entraba. Ahora tienes gente, turnos, transferencias… y la cuenta la terminas haciendo tú en la noche.",
+          "como": "Plano medio, gesto de contar con los dedos.",
+          "pantalla": "Cuaderno / chats / calculadora (B-roll corto)"
+        },
+        {
+          "t": "7–12 s",
+          "nombre": "Agitar",
+          "digo": "Y lo que no ves es lo que más cuesta: lo que nadie reportó, lo que se acabó y nadie te avisó.",
+          "como": "Acercamiento a la cara.",
+          "pantalla": "Texto: lo que no ves es lo que más cuesta"
+        },
+        {
+          "t": "12–17 s",
+          "nombre": "El después",
+          "digo": "Imagínate abrir el celular y saber cómo va el día sin preguntarle a nadie.",
+          "como": "Tú tranquilo con el celular.",
+          "pantalla": "Celular con un tablero (datos ocultos)"
+        },
+        {
+          "t": "17–30 s",
+          "nombre": "Puente con prueba",
+          "digo": "A mí me pasó con mis alojamientos. Iba todos los días y coordinaba la limpieza por mensajes. Hoy son 7, la limpieza se reporta sola y voy 2 veces por semana.",
+          "como": "Corte a pantalla real: aviso de limpieza llegando + CRM (datos ocultos).",
+          "pantalla": "Texto: de ir todos los días → 2 veces por semana"
+        },
+        {
+          "t": "30–36 s",
+          "nombre": "Giro",
+          "digo": "Y no fue contratando más gente. Primero ordené cómo se trabaja; después lo automaticé.",
+          "como": "Mirada al lente, pausa corta.",
+          "pantalla": "Texto: primero ordenar, después automatizar"
+        },
+        {
+          "t": "36–40 s",
+          "nombre": "Acción",
+          "digo": "Sígueme si tu negocio creció y todavía todo pasa por ti.",
+          "como": "Mismo plano del gancho (para que el video vuelva a empezar).",
+          "pantalla": "Texto: Sígueme"
+        }
+      ],
+      "textoPantalla": "Tu negocio creció. Tu control no · lo que no ves es lo que más cuesta · de ir todos los días → 2 veces por semana · primero ordenar, después automatizar · Sígueme",
+      "edicion": "Cambio de plano cada 3-5 s. Subtítulos grandes. En el puente, la pantalla real del aviso de limpieza y el CRM con datos ocultos (nunca códigos, direcciones ni datos de huéspedes).",
       "stories": "",
       "descripcion": "",
-      "estado": "idea",
+      "estado": "listo",
       "fecha": "",
       "hora": "",
-      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "notas": "Radar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). Cifras del banco: 7 alojamientos, de ir todos los días a 2 veces por semana, limpieza que se reporta sola. Fecha propuesta: lunes 30 nov.",
       "links": {
         "ig": "",
         "tt": ""
       },
       "metricas": {},
       "cat": "Problema",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 5,
+      "reemplaza": "t-control-crecio"
     },
     {
       "id": "t-ia-grandes",
@@ -2864,60 +2976,154 @@
       "etapa": "TOFU"
     },
     {
-      "id": "t-negocio-al-lado",
+      "id": "t-negocio-al-lado-v2",
       "n": 72,
-      "titulo": "La IA no te va a quitar clientes. Te los va a quitar el negocio de al lado que contesta más rápido",
+      "titulo": "B-roll · La IA no te va a quitar clientes",
       "pilar": "IA para negocios",
       "angulo": "",
       "formato": "B-roll con texto",
-      "objetivo": "",
-      "duracion": "",
-      "gancho": "La IA no te va a quitar clientes. Te los va a quitar el negocio de al lado que contesta más rápido",
-      "ganchos": [],
-      "escenas": [],
-      "textoPantalla": "",
-      "edicion": "",
+      "objetivo": "B-roll de creencia: contradice el miedo a la IA y lo lleva a la velocidad de respuesta.",
+      "duracion": "8–12 s",
+      "gancho": "La IA no te va a quitar clientes",
+      "ganchos": [
+        {
+          "tipo": "Pantalla 1",
+          "txt": "La IA no te va a quitar clientes"
+        },
+        {
+          "tipo": "Pantalla 2",
+          "txt": "Te los quita el negocio de al lado que contesta más rápido"
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "",
+          "como": "Caminando por la calle, frente a locales, toma en movimiento.",
+          "pantalla": "La IA no te va a quitar clientes"
+        },
+        {
+          "t": "3–7 s",
+          "nombre": "Giro",
+          "digo": "",
+          "como": "Plano de un mostrador o una vitrina.",
+          "pantalla": "Te los quita el negocio de al lado que contesta más rápido"
+        },
+        {
+          "t": "7–10 s",
+          "nombre": "Valor",
+          "digo": "",
+          "como": "Tú respondiendo en el celular, rápido.",
+          "pantalla": "Responder en minutos, no al otro día"
+        },
+        {
+          "t": "10–12 s",
+          "nombre": "Cierre",
+          "digo": "",
+          "como": "Guardas el celular y sigues caminando.",
+          "pantalla": "Mándaselo al que contesta al otro día"
+        }
+      ],
+      "textoPantalla": "La IA no te va a quitar clientes · Te los quita el negocio de al lado que contesta más rápido · Responder en minutos, no al otro día · Mándaselo al que contesta al otro día",
+      "edicion": "Audio sugerido (TikTok CO, uso comercial permitido): “Dame Hombro”, de LUCKY DREAM (la más usada en el muestreo de Colombia).",
       "stories": "",
       "descripcion": "",
-      "estado": "idea",
+      "estado": "listo",
       "fecha": "",
       "hora": "",
-      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "notas": "Radar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). Gancho nuevo #17 para la lista de Juliana.",
       "links": {
         "ig": "",
         "tt": ""
       },
       "metricas": {},
       "cat": "Creencia",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 10,
+      "reemplaza": "t-negocio-al-lado"
     },
     {
-      "id": "t-vacaciones",
+      "id": "t-vacaciones-v2",
       "n": 73,
-      "titulo": "Dime que eres dueño de negocio sin decirme que no te has tomado vacaciones",
+      "titulo": "Cómico · Dime que eres dueño de negocio sin decirme que no te has tomado vacaciones",
       "pilar": "IA para negocios",
       "angulo": "",
       "formato": "Cómico",
-      "objetivo": "",
-      "duracion": "",
+      "objetivo": "Cómico de carencia (jueves). Situación que duele → remate, sin solución.",
+      "duracion": "12–15 s",
       "gancho": "Dime que eres dueño de negocio sin decirme que no te has tomado vacaciones",
-      "ganchos": [],
-      "escenas": [],
-      "textoPantalla": "",
-      "edicion": "",
+      "ganchos": [
+        {
+          "tipo": "POV (A)",
+          "txt": "Dime que eres dueño de negocio sin decirme que no te has tomado vacaciones"
+        },
+        {
+          "tipo": "POV (B)",
+          "txt": "POV: por fin te vas de vacaciones y tienes un negocio"
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0 s",
+          "nombre": "Texto de entrada",
+          "digo": "",
+          "como": "Solo texto desde el segundo 0.",
+          "pantalla": "Dime que eres dueño de negocio sin decirme que no te has tomado vacaciones"
+        },
+        {
+          "t": "1–4 s",
+          "nombre": "Escena 1",
+          "digo": "(al teléfono) ¿Cuánto se vendió hoy?",
+          "como": "Tú en modo vacaciones (gafas de sol, toalla al hombro) con el celular pegado.",
+          "pantalla": "Plano 1"
+        },
+        {
+          "t": "4–7 s",
+          "nombre": "Escena 2",
+          "digo": "No, no, la llave está donde siempre…",
+          "como": "Otro celular en la otra mano.",
+          "pantalla": "Plano 2"
+        },
+        {
+          "t": "7–10 s",
+          "nombre": "Escena 3",
+          "digo": "Ya voy, ya voy… (sin soltar el celular)",
+          "como": "Voz fuera de cámara: “¿Te vas a meter al agua o qué?”",
+          "pantalla": "Plano 3"
+        },
+        {
+          "t": "10–13 s",
+          "nombre": "Remate",
+          "digo": "(a cámara) Estoy descansando.",
+          "como": "Mirada al lente, sonrisa forzada, el celular vibrando.",
+          "pantalla": "Texto: “descansando” 🙃"
+        },
+        {
+          "t": "13–15 s",
+          "nombre": "Cierre",
+          "digo": "",
+          "como": "—",
+          "pantalla": "Mándaselo a ese amigo que tiene negocio"
+        }
+      ],
+      "textoPantalla": "Dime que eres dueño de negocio sin decirme que no te has tomado vacaciones · “descansando” 🙃 · Mándaselo a ese amigo que tiene negocio",
+      "edicion": "Cortes rápidos (cada 3 s). Audio sugerido: “La Mujer del Pelotero” o el audio cómico que esté sonando ese día (revisar uso comercial en TikTok).",
       "stories": "",
       "descripcion": "",
-      "estado": "idea",
+      "estado": "listo",
       "fecha": "",
       "hora": "",
-      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta.",
+      "notas": "Radar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). Necesita una segunda persona para la voz fuera de cámara (Juliana). Fecha propuesta: jueves 3 dic.",
       "links": {
         "ig": "",
         "tt": ""
       },
       "metricas": {},
       "cat": "Carencia",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 14,
+      "reemplaza": "t-vacaciones"
     },
     {
       "id": "t-pov-todo",
@@ -2976,32 +3182,86 @@
       "etapa": "TOFU"
     },
     {
-      "id": "t-cuanto-cuesta",
+      "id": "t-cuanto-cuesta-v2",
       "n": 76,
-      "titulo": "¿Cuánto cuesta automatizar un negocio? Te digo el número real",
+      "titulo": "¿Cuánto cuesta automatizar un negocio? El número real",
       "pilar": "IA para negocios",
       "angulo": "",
       "formato": "Hablando a cámara",
-      "objetivo": "",
-      "duracion": "",
-      "gancho": "¿Cuánto cuesta automatizar un negocio? Te digo el número real",
-      "ganchos": [],
-      "escenas": [],
-      "textoPantalla": "",
-      "edicion": "",
+      "objetivo": "Pregunta (viernes). Responde con las cifras del banco: precio, retorno y para quién sí.",
+      "duracion": "30–35 s",
+      "gancho": "¿Cuánto cuesta automatizar un negocio? Te digo el número real.",
+      "ganchos": [
+        {
+          "tipo": "Pregunta (A)",
+          "txt": "¿Cuánto cuesta automatizar un negocio? Te digo el número real."
+        },
+        {
+          "tipo": "Pregunta que te hacen (B)",
+          "txt": "Siempre me preguntan cuánto cuesta. Todos te dicen “depende”. Yo no."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho",
+          "digo": "¿Cuánto cuesta automatizar un negocio? Te digo el número real.",
+          "como": "Mirando al lente, arranca directo.",
+          "pantalla": "Texto: ¿Cuánto cuesta automatizar tu negocio?"
+        },
+        {
+          "t": "2–6 s",
+          "nombre": "Dolor",
+          "digo": "Todo el mundo te responde “depende” y te quedas igual.",
+          "como": "Gesto de encogerse de hombros.",
+          "pantalla": "Texto: “depende” 🙄"
+        },
+        {
+          "t": "6–13 s",
+          "nombre": "El número",
+          "digo": "En los negocios donde he montado sistemas, una implementación va entre 1,5 y 3 millones de pesos.",
+          "como": "Plano fijo, serio.",
+          "pantalla": "Texto grande: 1,5 – 3 millones"
+        },
+        {
+          "t": "13–24 s",
+          "nombre": "Cuándo se paga",
+          "digo": "¿Y cuándo se paga sola? En una tienda con 2 vendedores el sistema detecta unas 12 fallas de dinero al mes. Con que una sola sea una venta que antes se perdía, ya empieza a pagarse.",
+          "como": "Corte a pantalla del reporte de la tienda (datos ocultos).",
+          "pantalla": "Texto: ≈12 fallas de dinero al mes"
+        },
+        {
+          "t": "24–31 s",
+          "nombre": "Para quién sí",
+          "digo": "Tiene sentido si tu negocio factura 30 millones al mes o más: la inversión equivale a 2 o 3 días de ventas. Si vendes tú solo, todavía no.",
+          "como": "Acercamiento.",
+          "pantalla": "Texto: 30 M al mes o más = 2-3 días de ventas"
+        },
+        {
+          "t": "31–35 s",
+          "nombre": "Acción",
+          "digo": "Guárdalo para cuando lo vayas a hacer.",
+          "como": "Mismo plano del gancho.",
+          "pantalla": "Texto: Guárdalo"
+        }
+      ],
+      "textoPantalla": "¿Cuánto cuesta automatizar tu negocio? · 1,5 – 3 millones · ≈12 fallas de dinero al mes · 30 M al mes o más = 2-3 días de ventas · Guárdalo",
+      "edicion": "El número tiene que verse grande y quedarse 2 s en pantalla.",
       "stories": "",
       "descripcion": "",
-      "estado": "idea",
+      "estado": "listo",
       "fecha": "",
       "hora": "",
-      "notas": "Idea del banco TOFU del máster (18 nov 2026). Falta el guion completo con la fórmula de 7 bloques o su versión corta. Cifra del banco: implementación entre 1,5 y 3 millones de pesos (el máster la incluye; confirmar con Felipe antes de mostrar el precio en un reel).",
+      "notas": "Radar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). ⚠️ CONFIRMAR CON FELIPE ANTES DE GRABAR que quiere mostrar el precio (estaba pendiente desde el 16 nov; el máster lo incluye). Cifras del banco: implementación 1,5-3 M COP; cliente ideal 30 M COP/mes o más (2-3 días de ventas); tienda ≈12 fallas de dinero al mes. Fecha propuesta: viernes 4 dic.",
       "links": {
         "ig": "",
         "tt": ""
       },
       "metricas": {},
       "cat": "Pregunta",
-      "etapa": "TOFU"
+      "etapa": "TOFU",
+      "jornada": 7,
+      "reemplaza": "t-cuanto-cuesta"
     },
     {
       "id": "t-por-donde",
@@ -3086,6 +3346,154 @@
       "metricas": {},
       "cat": "Resultado",
       "etapa": "TOFU"
+    },
+    {
+      "id": "t-chatgpt-negocios",
+      "n": 80,
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "stories": "",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "titulo": "¿Tu negocio aparece cuando alguien le pregunta a ChatGPT?",
+      "formato": "Hablando a cámara",
+      "cat": "Pregunta",
+      "etapa": "TOFU",
+      "duracion": "30–35 s",
+      "objetivo": "Pregunta + tendencia (viernes). Business Hub de ChatGPT (OpenAI, 10 nov 2026) traducido a un negocio local.",
+      "gancho": "Cuando alguien le pregunta a ChatGPT por un negocio como el tuyo, ¿apareces?",
+      "ganchos": [
+        {
+          "tipo": "Pregunta (A)",
+          "txt": "Cuando alguien le pregunta a ChatGPT por un negocio como el tuyo, ¿apareces?"
+        },
+        {
+          "tipo": "Tendencia (B)",
+          "txt": "ChatGPT ya deja que los negocios reclamen su perfil. Esto es lo que significa para el tuyo."
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–2 s",
+          "nombre": "Gancho",
+          "digo": "Cuando alguien le pregunta a ChatGPT por un negocio como el tuyo, ¿apareces?",
+          "como": "Celular en la mano, mirando al lente.",
+          "pantalla": "Texto: ¿Tu negocio aparece en ChatGPT?"
+        },
+        {
+          "t": "2–8 s",
+          "nombre": "Por qué importa",
+          "digo": "La gente ya le pregunta a ChatGPT dónde comprar o a quién contratar, igual que antes se buscaba en Google.",
+          "como": "Plano medio.",
+          "pantalla": "Pantalla: una pregunta tipo “¿dónde compro…?” en ChatGPT"
+        },
+        {
+          "t": "8–18 s",
+          "nombre": "Qué salió",
+          "digo": "El 10 de noviembre OpenAI abrió Business Hub: un panel donde un negocio reclama su perfil en ChatGPT, actualiza su información, conecta su catálogo con precios y ve cuántas veces lo mencionan.",
+          "como": "Corte a pantalla del anuncio oficial (o de Business Hub si ya entraste).",
+          "pantalla": "Texto: Business Hub · reclamar perfil · catálogo · menciones"
+        },
+        {
+          "t": "18–26 s",
+          "nombre": "Lo que significa para ti",
+          "digo": "Es como cuando todos tuvimos que estar en Google Maps. Reclamarlo no te asegura salir primero, pero si tu información no está, ChatGPT responde con lo que encuentre.",
+          "como": "Acercamiento.",
+          "pantalla": "Texto: como Google Maps, pero en ChatGPT"
+        },
+        {
+          "t": "26–32 s",
+          "nombre": "Giro",
+          "digo": "Y el que llega primero con su información bien puesta es el que ChatGPT tiene a la mano para responder.",
+          "como": "Pausa, mirada al lente.",
+          "pantalla": "Texto: el que llega primero"
+        },
+        {
+          "t": "32–35 s",
+          "nombre": "Acción",
+          "digo": "Comenta PERFIL y te mando los pasos para revisarlo.",
+          "como": "Mismo plano del gancho.",
+          "pantalla": "Texto: Comenta PERFIL"
+        }
+      ],
+      "textoPantalla": "¿Tu negocio aparece en ChatGPT? · Business Hub (10 nov) · como Google Maps, pero en ChatGPT · Comenta PERFIL",
+      "edicion": "Mostrar la fuente en pantalla unos segundos (anuncio de OpenAI). Sin jerga.",
+      "descripcion": "",
+      "notas": "Radar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). FUENTE (confianza alta): OpenAI, 'Introducing businesses in ChatGPT' https://openai.com/index/introducing-businesses-chatgpt/ y https://openai.com/business/businesses-in-chatgpt (Business Hub en beta, 10 nov 2026). Disponible para negocios elegibles en países donde opera ChatGPT: confirmar al grabar que deja reclamar un negocio de Colombia. Palabra clave PERFIL + regalo (pasos para reclamar y revisar el perfil) = PROPUESTA. Fecha propuesta: viernes 27 nov.",
+      "jornada": 3
+    },
+    {
+      "id": "t-claude-reuniones",
+      "n": 81,
+      "pilar": "IA para negocios",
+      "angulo": "",
+      "stories": "",
+      "estado": "listo",
+      "fecha": "",
+      "hora": "",
+      "links": {
+        "ig": "",
+        "tt": ""
+      },
+      "metricas": {},
+      "titulo": "B-roll · Claude ya puede entrar a tus reuniones",
+      "formato": "B-roll con texto",
+      "cat": "Tendencia",
+      "etapa": "TOFU",
+      "duracion": "8–12 s",
+      "objetivo": "B-roll de tendencia (sábado): Claude Meetings, traducido a qué hacer hoy si no tienes ese plan.",
+      "gancho": "Claude ya puede entrar a tus reuniones",
+      "ganchos": [
+        {
+          "tipo": "Pantalla 1",
+          "txt": "Claude ya puede entrar a tus reuniones"
+        },
+        {
+          "tipo": "Pantalla 2",
+          "txt": "Toma nota y saca las tareas de cada uno"
+        }
+      ],
+      "escenas": [
+        {
+          "t": "0–3 s",
+          "nombre": "Gancho",
+          "digo": "",
+          "como": "Tú en el escritorio entrando a una videollamada, toma en movimiento.",
+          "pantalla": "Claude ya puede entrar a tus reuniones"
+        },
+        {
+          "t": "3–6 s",
+          "nombre": "Qué hace",
+          "digo": "",
+          "como": "Pantalla del portátil (sin datos de nadie).",
+          "pantalla": "Toma nota y saca las tareas de cada uno"
+        },
+        {
+          "t": "6–9 s",
+          "nombre": "Ojo",
+          "digo": "",
+          "como": "Plano de tus manos tomando el celular.",
+          "pantalla": "Por ahora en beta, en planes Team y Enterprise"
+        },
+        {
+          "t": "9–12 s",
+          "nombre": "Lo que hago yo",
+          "digo": "",
+          "como": "Tú leyendo un resumen en la pantalla.",
+          "pantalla": "Yo grabo mis llamadas con una app de notas y le pido a la IA qué quedó pendiente"
+        }
+      ],
+      "textoPantalla": "Claude ya puede entrar a tus reuniones · Toma nota y saca las tareas de cada uno · Por ahora en beta, en planes Team y Enterprise · Yo grabo mis llamadas con una app de notas y le pido a la IA qué quedó pendiente",
+      "edicion": "Máximo 3 líneas por pantalla; la pantalla 4 se puede partir en dos.",
+      "descripcion": "",
+      "notas": "Radar del 18 nov 2026 (01-Calendario/radar-semanal/2026-11-16.md). FUENTE (confianza media-alta, falta leer el anuncio oficial de Anthropic): TechCrunch, 10 nov 2026, https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/ (Claude Meetings, beta en Team y Enterprise). Verificar en anthropic.com/news antes de publicar. Lo de 'yo grabo mis llamadas' es real (Granola, desde el 12 nov). Gancho nuevo #18 para la lista de Juliana.",
+      "jornada": 12
     }
   ],
   "ideas": [],
@@ -3114,13 +3522,18 @@
     "g21",
     "g22",
     "g30",
-    "g40",
-    "g42",
-    "g40b",
-    "g43",
-    "g42b",
     "g39",
+    "g40",
+    "g40b",
+    "g41",
+    "g42",
+    "g42b",
+    "g43",
     "g44",
-    "g41"
+    "t-control-crecio",
+    "t-cuanto-cuesta",
+    "t-negocio-al-lado",
+    "t-vacaciones",
+    "t-whatsapp-11pm"
   ]
 }

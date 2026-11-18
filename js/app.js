@@ -130,8 +130,10 @@ function catsSemana(k0, k1){
 }
 function jornadaHTML(){
   // Día de grabación con Juliana: 10-15 guiones listos que cubren 2 semanas, variando categorías.
-  const usados = new Set(), elegidos = [];
-  JORNADA.forEach(({f, n}) => {
+  // Si el radar dejó un orden (campo jornada), se usa ese; si no, se arma sola con los listos.
+  const fijos = DB.guiones.filter(g => g.estado === "listo" && g.jornada).sort((a, b) => a.jornada - b.jornada);
+  const usados = new Set(), elegidos = fijos.slice();
+  if (!fijos.length) JORNADA.forEach(({f, n}) => {
     const pool = DB.guiones.filter(g => g.estado === "listo" && g.formato === f).sort((a, b) => (/^Máster/.test(b.titulo) - /^Máster/.test(a.titulo)) || byNum(a, b));
     const sel = [], vistas = new Set();
     for (const g of pool) { if (sel.length >= n) break; if (!vistas.has(g.cat || g.id)) { sel.push(g); vistas.add(g.cat || g.id); } }   // primero una de cada categoría
@@ -141,7 +143,7 @@ function jornadaHTML(){
   if (!elegidos.length) return "";
   const txt = elegidos.map((g, i) => `${i + 1}. [${g.formato}${g.cat ? " · " + g.cat : ""}] ${g.titulo}`).join("\n");
   return `<section class="card"><div class="sec"><h3>Día de grabación (${elegidos.length} videos)</h3><button class="btn sm" data-copy="${esc(txt)}">${ic("copy")} Copiar lista</button></div>
-    <p class="sm muted" style="margin-top:4px">Para grabar en una jornada con Juli y cubrir 2 semanas: hasta 8 hablando, 4 B-roll y 2 cómicos, una categoría distinta por video cuando se puede. Graba en este orden, por formato, para no mover tanto el set.</p>
+    <p class="sm muted" style="margin-top:4px">${fijos.length ? "Lista armada por el radar." : "Armada sola con los guiones listos."} Cubre 2 semanas: hasta 8 hablando, 4 B-roll y 2 cómicos. Graba en este orden, por formato, para no mover tanto el set. Lo que marques como grabado sale de la lista.</p>
     <div class="pieces" style="margin-top:10px">${elegidos.map((g, i) => `<div class="copyline"><div><b class="sm">${i + 1}. ${esc(g.titulo)}</b><p class="sm muted">${esc(g.formato)}${g.cat ? " · " + esc(g.cat) : ""}${g.etapa ? " · " + esc(g.etapa) : ""}</p></div><button class="btn sm" data-go="guiones/${g.id}">Abrir</button></div>`).join("")}</div></section>`;
 }
 function pieceRow(g){

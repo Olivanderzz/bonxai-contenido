@@ -67,7 +67,7 @@ const VIEWS = [
   {id:"guiones", n:"Guiones", ic:"clap", c:"#6B1626", k:"#fff", title:"Banco de guiones", desc:"Cada video con su gancho, escenas y estado. Léelo, edítalo o abre el modo grabar."},
   {id:"calendario", n:"Calendario", ic:"calendar", c:"#F26B55", title:"La semana, de un vistazo", desc:"Cada día tiene su tipo de pieza y objetivo. Asigna guiones a fechas con un toque."},
   {id:"metricas", n:"Métricas", ic:"chart", c:"#D8B07C", title:"Qué está funcionando", desc:"Anota los números de cada video publicado. La app calcula las tasas y te dice cuál ganó."},
-  {id:"estrategia", n:"Estrategia", ic:"compass", c:"#AEC38E", title:"La guía completa", desc:"El máster del 16 nov: tema único, la semana por formatos, la fórmula de 7 bloques, el banco de ganchos y el plan de 4 semanas."}
+  {id:"estrategia", n:"Estrategia", ic:"compass", c:"#AEC38E", title:"La guía completa", desc:"El máster del 18 nov: el embudo (TOFU, MOFU, BOFU) con sus 6 categorías, la semana por formatos, la fórmula de 7 bloques, el banco de ganchos y el plan de 4 semanas."}
 ];
 const ARTK = {hoy:"inicio", guiones:"guiones", calendario:"calendario", metricas:"metricas", estrategia:"estrategia"};
 function route(){ const [v, a] = location.hash.replace("#", "").split("/"); return {v: VIEWS.find(x => x.id === v) ? v : (v === "grabar" ? "grabar" : "hoy"), a: a ? decodeURIComponent(a) : ""}; }
@@ -351,7 +351,7 @@ V_.metricas = () => {
 };
 
 /* ================= ESTRATEGIA ================= */
-const TABS = [["resumen","Máster"],["estructura","Fórmula del guion"],["ganchos","Ganchos"],["stories","Stories"],["plataformas","Plataformas"],["checklist","Checklist"],["plan","Plan 4 semanas"],["nicho","Investigación 29 oct"]];
+const TABS = [["resumen","Máster"],["embudo","Embudo TOFU"],["estructura","Fórmula del guion"],["ganchos","Ganchos"],["stories","Stories"],["plataformas","Plataformas"],["checklist","Checklist"],["plan","Plan 4 semanas"],["nicho","Investigación 29 oct"]];
 V_.estrategia = (tab) => {
   const t = TABS.find(x => x[0] === tab) ? tab : "resumen";
   return `<div class="tabs">${TABS.map(([k, n]) => `<button class="${t === k ? "on" : ""}" data-go="estrategia/${k}">${n}</button>`).join("")}</div>${EST[t]()}`;
@@ -359,7 +359,7 @@ V_.estrategia = (tab) => {
 const lst = a => `<ul class="clean">${a.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
 const EST = {
   resumen: () => `
-    <section class="card w"><span class="lab">Máster del 16 nov 2026 · tema único</span><h2 style="margin-top:6px;font-size:1.6rem">${esc(MASTER.tema)}</h2>
+    <section class="card w"><span class="lab">Máster del 18 nov 2026 · marca clara</span><h2 style="margin-top:6px;font-size:1.6rem">${esc(MASTER.tema)}</h2>
       <p style="margin-top:8px;opacity:.9"><i>${esc(MASTER.linea)}</i></p>
       <div style="display:flex;flex-direction:column;gap:6px;margin-top:12px">${MASTER.reglas.map((r, i) => `<p><b style="color:var(--butter)">${i + 1}.</b> ${esc(r)}</p>`).join("")}</div></section>
     <section><h2 style="margin-bottom:10px">La semana: 7 reels en 3 formatos + 1-2 carruseles</h2><div class="grid g2">${SEMANA_META.map(m => `<div class="tile"><div class="bar" style="--pc:${m.col}"></div><div class="sec"><b>${esc(m.f)}</b><span class="chip">${m.meta}${m.max ? "-" + m.max : ""} por semana</span></div><span class="sm">${esc(m.que)}</span></div>`).join("")}</div>
@@ -370,6 +370,17 @@ const EST = {
       <p class="sm" style="margin-top:10px;background:#FFF3D6;border-left:4px solid var(--wine);padding:6px 8px;border-radius:6px"><b>Tu hueco:</b> ${esc(MASTER.hueco)}</p></section>
     <section class="card"><h3>Metas de cada reel (a las 48 h)</h3><div class="tw"><table class="cmp" style="margin-top:8px"><tbody>${METAS_REEL.map(m => `<tr><td>${esc(m[0])}</td><td>${esc(m[1])}</td></tr>`).join("")}</tbody></table></div>
       <p class="sm muted" style="margin-top:6px">Un reel que cumple las tres primeras se replica con otro caso. Uno que falla en omisión necesita otro gancho, no otro tema.</p></section>`,
+  embudo: () => `
+    <section class="card w"><span class="lab">Máster del 18 nov · el embudo</span><h2 style="margin-top:6px;font-size:1.5rem">Cada video tiene un lugar en el embudo</h2>
+      <p style="margin-top:8px;opacity:.9">TOFU no es “hablar de cualquier cosa para tener vistas”: son temas amplios <b>del mundo de mi avatar</b>, para que quien se identifique sea un posible cliente.</p>
+      <p class="sm" style="margin-top:8px"><b>Avatar:</b> ${esc(AVATAR)}</p></section>
+    <section class="card"><h3>Las 3 etapas</h3><div class="tw"><table class="cmp" style="margin-top:8px"><thead><tr><th>Etapa</th><th>Objetivo</th><th>Qué publico</th><th>Peso semanal</th></tr></thead><tbody>${EMBUDO.map(r => `<tr><td><b>${esc(r[0])}</b></td><td data-l="Objetivo">${esc(r[1])}</td><td data-l="Qué publico">${esc(r[2])}</td><td data-l="Peso semanal">${esc(r[3])}</td></tr>`).join("")}</tbody></table></div></section>
+    <section class="card"><h3>La semana: formato + categoría</h3><div class="tw"><table class="cmp" style="margin-top:8px"><thead><tr><th>Día</th><th>Formato</th><th>Categoría TOFU</th></tr></thead><tbody>${CAL.slice(0).sort((a, b) => ((a.gd + 6) % 7) - ((b.gd + 6) % 7)).map(c => `<tr><td>${esc(c.d)}</td><td data-l="Formato">${esc(c.fm)}</td><td data-l="Categoría"><b>${esc(c.cat || "")}</b></td></tr>`).join("")}</tbody></table></div></section>
+    <section><h2 style="margin-bottom:4px">6 categorías × curiosidad + identificación</h2><p class="sm muted" style="margin-bottom:10px">Cada reel TOFU usa los dos principios a la vez. Toca una idea para copiarla.</p>
+      <div class="grid g2">${TOFU_CAT.map(k => `<div class="tile"><div class="bar" style="--pc:${k.col}"></div><b>${esc(k.n)}</b><span class="sm muted">${esc(k.q)}</span><span class="sm"><b>Curiosidad:</b> ${esc(k.c)}</span><span class="sm"><b>Identificación:</b> ${esc(k.i)}</span><span class="sm"><b>Plantilla:</b> “${esc(k.g)}”</span>${k.ideas.map(e => `<div class="copyline" style="border:0;padding:0"><span class="sm">${esc(e)}</span><button class="btn sm ghost" data-copy="${esc(e)}">${ic("copy")}</button></div>`).join("")}</div>`).join("")}</div></section>
+    <section class="card"><h3>Prueba C + I (antes de grabar un reel TOFU)</h3>${lst(PRUEBA_CI)}
+      <div style="margin-top:10px"><span class="lab">Cierres TOFU para ganar seguidores</span>${lst(CIERRES_TOFU)}</div>
+      <p class="sm muted" style="margin-top:6px">DIAGNÓSTICO se deja para los reels de resultados y para BOFU.</p></section>`,
   estructura: () => `
     <section><h2 style="margin-bottom:4px">Fórmula de 7 bloques</h2><p class="sm muted" style="margin-bottom:10px">PAS + Antes-Después-Puente + AIDA. Regla de oro: el gancho habla de él, la prueba habla de mí.</p><div class="struct">${STRUCT.map(s => `<div style="--pc:${s.col};--pk:${s.k}"><small>${esc(s.t)}</small><b>${esc(s.n)}</b><p class="sm" style="font-style:italic;margin-top:4px">${esc(s.q)}</p><p class="sm" style="margin-top:4px">${esc(s.d)}</p></div>`).join("")}</div></section>
     <section class="card"><h3>Versión según el tipo de guion</h3><div class="tw"><table class="cmp" style="margin-top:8px"><thead><tr><th>Tipo</th><th>Duración</th><th>Bloques</th></tr></thead><tbody>${TIPOS_GUION.map(r => `<tr><td>${esc(r[0])}</td><td data-l="Duración" style="white-space:nowrap">${esc(r[1])}</td><td data-l="Bloques">${esc(r[2])}</td></tr>`).join("")}</tbody></table></div>

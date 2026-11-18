@@ -1,20 +1,20 @@
 /* Estrategia y material de consulta del Plan Maestro BONXAI (solo lectura).
    Los guiones NO están aquí: viven en data/db.json */
 const CAL = [
-  {d:"Lunes",    gd:1, pz:"Hablando a cámara · caso real",              fm:"Hablando a cámara",  ob:"Seguidores",  st:"Detrás de cámaras del caso + encuesta", col:"#D79A9A", quick:[["Reel","Instagram"],["Carrusel","Instagram"],["Stories","Instagram"]],
-    ideas:["Caso fuerte en 7 bloques (35-45 s): tu prueba en pantalla real.","Si toca carrusel esta semana, sale el mismo día que un reel, nunca en su lugar."]},
-  {d:"Martes",   gd:2, pz:"B-roll con texto · lista, POV o tip",        fm:"B-roll con texto",   ob:"Envíos",      st:"Sticker del día (encuesta o quiz)",      col:"#AEC38E", quick:[["Reel","Instagram"],["Stories","Instagram"]],
-    ideas:["Tomas tuyas (trabajando, en la calle, en los apartamentos) con el gancho y el valor en texto grande.","Cada toma se usa en un solo reel publicado: nunca repetir una toma."]},
-  {d:"Miércoles",gd:3, pz:"Hablando a cámara · caso real",              fm:"Hablando a cámara",  ob:"Seguidores",  st:"El CRM o el sistema por dentro",          col:"#D79A9A", quick:[["Reel","Instagram"],["Carrusel","Instagram"],["Stories","Instagram"]],
-    ideas:["Otro caso fuerte en 7 bloques, con otra familia de gancho que el del lunes."]},
-  {d:"Jueves",   gd:4, pz:"Cómico · sketch o POV de dueño de negocio",  fm:"Cómico",             ob:"Envíos",      st:"Caja de preguntas",                       col:"#F7D774", quick:[["Reel","Instagram"],["Stories","Instagram"]],
-    ideas:["Humor de 7-15 s: situación que duele → remate. Sin solución.","Cierre: “mándaselo a…”."]},
-  {d:"Viernes",  gd:5, pz:"Hablando a cámara · caso real",              fm:"Hablando a cámara",  ob:"Seguidores",  st:"Caso de la tienda por partes",            col:"#D79A9A", quick:[["Reel","Instagram"],["Carrusel","Instagram"],["Stories","Instagram"]],
-    ideas:["Tercer caso fuerte de la semana."]},
-  {d:"Sábado",   gd:6, pz:"B-roll con texto · lista, POV o tip",        fm:"B-roll con texto",   ob:"Envíos",      st:"Prompt del día o detrás de cámaras",      col:"#AEC38E", quick:[["Reel","Instagram"],["Stories","Instagram"]],
-    ideas:["Primer cuadro en movimiento, gancho de 5-8 palabras, máximo 3 líneas por pantalla."]},
-  {d:"Domingo",  gd:0, pz:"Hablando a cámara · opinión, emoción o lista",fm:"Hablando a cámara", ob:"Comentarios", st:"La época de Europa o una frase motivacional (van en Stories)", col:"#EBCB9D", quick:[["Reel","Instagram"],["Stories","Instagram"]],
-    ideas:["Opinión (25-35 s), historia o lista para guardar.","Las frases motivacionales salen del feed: van en Stories."]}
+  {d:"Lunes",    gd:1, pz:"Hablando a cámara · Problema", cat:"Problema",              fm:"Hablando a cámara",  ob:"Seguidores",  st:"Detrás de cámaras del caso + encuesta", col:"#D79A9A", quick:[["Reel","Instagram"],["Carrusel","Instagram"],["Stories","Instagram"]],
+    ideas:["Gancho: \"Si [situación], te está pasando esto y no lo ves\".","Caso fuerte en 7 bloques (35-45 s): tu prueba en pantalla real.","Si toca carrusel esta semana, sale el mismo día que un reel, nunca en su lugar."]},
+  {d:"Martes",   gd:2, pz:"B-roll con texto · Creencia", cat:"Creencia",        fm:"B-roll con texto",   ob:"Envíos",      st:"Sticker del día (encuesta o quiz)",      col:"#AEC38E", quick:[["Reel","Instagram"],["Stories","Instagram"]],
+    ideas:["Gancho: \"Crees que [creencia]. Yo también, hasta que [hecho]\".","Tomas tuyas (trabajando, en la calle, en los apartamentos) con el gancho y el valor en texto grande.","Cada toma se usa en un solo reel publicado: nunca repetir una toma."]},
+  {d:"Miércoles",gd:3, pz:"Hablando a cámara · Resultado (caso)", cat:"Resultado (caso)",              fm:"Hablando a cámara",  ob:"Seguidores",  st:"El CRM o el sistema por dentro",          col:"#D79A9A", quick:[["Reel","Instagram"],["Carrusel","Instagram"],["Stories","Instagram"]],
+    ideas:["Gancho: \"[Resultado concreto]. Así lo hicimos\". Aquí sí va DIAGNÓSTICO.","Otro caso fuerte en 7 bloques, con otra familia de gancho que el del lunes."]},
+  {d:"Jueves",   gd:4, pz:"Cómico · Carencia", cat:"Carencia",  fm:"Cómico",             ob:"Envíos",      st:"Caja de preguntas",                       col:"#F7D774", quick:[["Reel","Instagram"],["Stories","Instagram"]],
+    ideas:["Gancho: \"Dime que eres dueño de negocio sin decirme que…\" o un POV.","Humor de 7-15 s: situación que duele → remate. Sin solución.","Cierre: “mándaselo a…”."]},
+  {d:"Viernes",  gd:5, pz:"Hablando a cámara · Pregunta", cat:"Pregunta",              fm:"Hablando a cámara",  ob:"Seguidores",  st:"Caso de la tienda por partes",            col:"#D79A9A", quick:[["Reel","Instagram"],["Carrusel","Instagram"],["Stories","Instagram"]],
+    ideas:["Gancho: \"¿[Pregunta que me hacen]? Te doy la respuesta real\".","Tercer caso fuerte de la semana."]},
+  {d:"Sábado",   gd:6, pz:"B-roll con texto · Tendencia", cat:"Tendencia",        fm:"B-roll con texto",   ob:"Envíos",      st:"Prompt del día o detrás de cámaras",      col:"#AEC38E", quick:[["Reel","Instagram"],["Stories","Instagram"]],
+    ideas:["Gancho: \"[Novedad de IA de la semana]: lo que significa para tu negocio\". Se elige el lunes con el radar.","Primer cuadro en movimiento, gancho de 5-8 palabras, máximo 3 líneas por pantalla."]},
+  {d:"Domingo",  gd:0, pz:"Hablando a cámara · Resultado o Carencia (historia)", cat:"Resultado o Carencia (historia)",fm:"Hablando a cámara", ob:"Comentarios", st:"La época de Europa o una frase motivacional (van en Stories)", col:"#EBCB9D", quick:[["Reel","Instagram"],["Stories","Instagram"]],
+    ideas:["1 domingo de cada 2 puede ser BOFU (DIAGNÓSTICO).","Opinión (25-35 s), historia o lista para guardar.","Las frases motivacionales salen del feed: van en Stories."]}
 ];
 const FMTS = ["Reel","Video","Carrusel","Stories","Foto","Otro"];
 const PLATS = ["Instagram","TikTok","Ambas"];
@@ -361,3 +361,34 @@ const PLAN4 = [
   ["3 · 30 nov–6 dic", "3 casos del tipo que más seguidores trajo + 1 opinión", "2 del tipo con más envíos", "1 nuevo", "Una lista para guardar", "Conseguir un caso nuevo publicable"],
   ["4 · 7–13 dic", "Igual, con ganchos nuevos", "Igual, con ganchos nuevos", "1 nuevo", "Caso o lista nueva", "Revisar qué formato trajo más seguidores por cada 1.000 vistas"]
 ];
+
+
+// Embudo del máster (versión del 18 nov 2026)
+const EMBUDO = [
+  ["TOFU (arriba)", "Que un desconocido me descubra, se identifique y me siga", "Reels de las 6 categorías", "5-6 de los 7 reels"],
+  ["MOFU (medio)", "Que el seguidor confíe en mí", "Carruseles de casos paso a paso, historias de detrás de cámaras, procesos", "1-2 carruseles + historias diarias"],
+  ["BOFU (abajo)", "Que el que confía pida el diagnóstico", "CTA “Comenta DIAGNÓSTICO”, historias con cupos y testimonios", "Máx. 1 reel cada 2 semanas + historias"],
+];
+const AVATAR = "Dueño de negocio en Colombia, con empleados o vendedores (o con alojamientos), que ya vende pero siente que todo pasa por él.";
+const TOFU_CAT = [
+  {n:"Problemas", q:"Un dolor que vive hoy", c:"Le muestro una consecuencia que no ha visto", i:"Describo su escena exacta", g:"Si [situación], te está pasando esto y no lo ves", col:"#D79A9A",
+   ideas:["Si tu negocio no funciona cuando te vas una semana, no tienes un negocio: tienes un trabajo.","Si tus vendedores anotan en un cuaderno, esto te está pasando.","Contestas el WhatsApp a las 11 de la noche y crees que es normal.","Si tienes un Airbnb, el problema no son los huéspedes: es que todo pasa por tu celular.","Tu negocio creció, pero tu control no creció con él."]},
+  {n:"Creencias", q:"Algo que cree y lo frena", c:"Le contradigo lo que cree", i:"Uso su frase de siempre", g:"Crees que [creencia]. Yo también, hasta que [hecho]", col:"#AEC38E",
+   ideas:["Creía que la IA era para empresas grandes. Hasta que la puse en una tienda con dos vendedores.","Contratar otro empleado no va a arreglar tu desorden.","Si le metes IA a tu negocio desordenado, lo vas a empeorar.","No necesitas saber programar para ver tus ventas en el celular.","La IA no te va a quitar clientes. Te los va a quitar el negocio de al lado que contesta más rápido."]},
+  {n:"Carencias", q:"Lo que le falta: tiempo, control, información, libertad", c:"Le pregunto algo que no sabe responder", i:"Le hago verse en un espejo (POV, humor)", g:"¿Sabes [dato de su negocio]? Si no, te falta esto", col:"#F7D774",
+   ideas:["Dime que eres dueño de negocio sin decirme que no te has tomado vacaciones.","¿Sabes cuál es el producto que más vendes? Esta dueña no lo sabía.","Lo que nadie te dice de tener negocio propio: no tienes jefe, tienes a todos.","POV: eres el dueño, el contador, el que contesta el WhatsApp y el que abre a las 7.","¿Sabes cuánto te dejó cada apartamento (o cada sede) el mes pasado? Si no, te falta esto."]},
+  {n:"Preguntas", q:"Lo que se pregunta antes de comprar", c:"Prometo la respuesta real, con cifra", i:"Uso su pregunta tal cual", g:"¿[Pregunta que me hacen]? Te doy la respuesta real", col:"#9EC1CF",
+   ideas:["¿Cuánto cuesta automatizar un negocio? Te digo el número real.","¿Por dónde empiezo a usar IA en mi negocio? Por aquí no.","¿La IA puede atender a mis clientes sin que suene a robot?","¿Qué automatizo primero: ventas, equipo o clientes?","¿Se puede manejar un Airbnb sin estar ahí?"]},
+  {n:"Resultados", q:"Lo que logró alguien como él", c:"Muestro el resultado primero y el cómo después", i:"El caso es de un negocio como el suyo", g:"[Resultado concreto]. Así lo hicimos", col:"#EBCB9D",
+   ideas:["De ir todos los días a ir dos veces por semana a mis apartamentos.","Tres fallas de dinero por semana que nadie veía.","Mi Instagram contesta solo mientras duermo.","Le pedí a Claude un CRM y me hizo un videojuego.","Así ve esta dueña sus ventas sin estar en la tienda."]},
+  {n:"Tendencias", q:"Lo nuevo de IA, traducido a su negocio", c:"“Todo el mundo habla de X; casi nadie dice esto”", i:"“Lo que esto significa para un negocio como el tuyo”", g:"[Novedad]: lo que significa para tu negocio", col:"#C9B6E4",
+   ideas:["[Herramienta o novedad de IA de la semana]: lo que significa para un negocio como el tuyo.","Todo el mundo está hablando de [X]. Esto es lo único que le sirve a un dueño de negocio.","Probé [novedad] en mi negocio real. Esto pasó.","Trend o audio del momento con giro de dueño de negocio.","[Noticia grande de tecnología] y por qué debería importarle a tu negocio (en primera persona)."]},
+];
+const PRUEBA_CI = [
+  "Identificación: en el primer segundo, ¿mi avatar sabe que es para él? (lo nombro o describo su escena)",
+  "Curiosidad: ¿hay algo que solo se resuelve viendo hasta el final?",
+  "Categoría: ¿es problema, creencia, carencia, pregunta, resultado o tendencia?",
+  "Cercanía: ¿se me ve a mí, mi negocio o mi historia?",
+  "Siguiente paso: ¿el cierre lleva a seguirme, enviarlo o guardarlo? (en TOFU, casi nunca a vender)",
+];
+const CIERRES_TOFU = ["Sígueme si tienes un negocio y no quieres que todo dependa de ti","Mándaselo a [persona concreta]","Guárdalo para cuando lo vayas a hacer"];
